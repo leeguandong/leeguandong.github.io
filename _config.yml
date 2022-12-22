@@ -133,7 +133,7 @@ exclude:
   - Gemfile.lock
   - vendor
 keep_files:
-  - CNAME
+#  - CNAME
   - .nojekyll
   - .git
 
@@ -183,8 +183,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Wang
-  first_name: Jindong
+  last_name: Li
+  first_name: Guandong
 
   style: apa
   locale: en
