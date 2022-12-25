@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /tlbook/
-title: Book
+permalink: /project/
+title: Project
 nav: true
 ---
 

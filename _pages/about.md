@@ -32,13 +32,45 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 
 #### Preprints
 
-Multi-scale dense networks for hyperspectral remote sensing image classification
-Chunju Zhang,**<u>Guandong Li</u>**,Shizhong Du (学生一作)
-IEEE Transactions on Geoscience and Remote Sensing 57 (11), 9201-9222 [[DOI](https://ieeexplore.ieee.org/document/8784389)] 
+Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules   
+<u>**Guandong Li**</u><sup>#</sup>,Xian Yang    
+Multimedia Tools and Applications [[Doi](https://rdcu.be/c0iMt)]    
+
+Multi-scale dense networks for hyperspectral remote sensing image classification    
+Chunju Zhang,<u>**Guandong Li**</u>,Shihong Du (学生一作)    
+IEEE Transactions on Geoscience and Remote Sensing [[Doi](https://ieeexplore.ieee.org/document/8784389) [Code](https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification)]    
+
+Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification   
+Chunju Zhang,<u>**Guandong Li**</u><sup>#</sup>,Shihong Du,Wuzhou Tan(学生一作)    
+Journal of Applied Remote Sensing [[Doi](https://doi.org/10.1117/1.JRS.13.016519) [Code](https://github.com/leeguandong/3D-DenseNet-for-HSI)]     
+
+Deep feature aggregation network for hyperspectral remote sensing image classification     
+Chunju Zhang,<u>**Guandong Li**</u>,Runmin Lei, Shihong Du, Xueying Zhang, Hui Zheng, Zhaofu Wu (学生一作)     
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing [[Doi](https://ieeexplore.ieee.org/document/9184224)]     
+
+Hyperspectral remote sensing image classification using three-dimensional-squeeze-and-excitation-DenseNet (3D-SE-DenseNet)      
+<u>**Guandong Li**</u>, Chunju Zhang, Runmin Lei, Xueying Zhang, Zhourun Ye, Xiaoli Li     
+Remote sensing letters  [[Doi](https://ieeexplore.ieee.org/document/9514617)]    
+
+Faster hyperspectral image classification based on selective kernel mechanism using deep convolutional networks     
+<u>**Guandong Li**</u>, Chunju Zhang    
+[[arixv](https://arxiv.org/abs/2202.06458)]    
+
+卷积神经网络迁移的高分影像场景分类学习     
+<u>**李冠东**</u>,张春菊,王铭恺,张雪英,高飞   
+测绘科学 [[Doi](https://www.cnki.com.cn/Article/CJFDTOTAL-CHKD201904021.htm)]     
+
+双卷积池化结构的 3D-CNN 高光谱遥感影像分类方法    
+<u>**李冠东**</u>,张春菊,高飞,张雪英     
+中国图象图形学报 [[Doi](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1)]    
+
+Scene classification of high-resolution remote sensing image using transfer learning with multi-model feature extraction framework   
+<u>**Guandong Li**</u>,Chunju Zhang,Mingkai Wang,Fei Gao,Xueying Zhang     
+Chinese Conference on Image and Graphics Technologies     
 
 
-1. Yiqiang Chen, Wang Lu, <u>Jindong Wang</u>, Xin Qin, and Tao Qin. Federated Learning with Adaptive Batchnorm for Personalized Healthcare. arXiv preprint arXiv:2112.00734. [[arXiv](https://arxiv.org/abs/2112.00734)]
-2. Wenxin Hou, Han Zhu, Yidong Wang, <u>Jindong Wang</u><sup>#</sup>, Tao Qin, Renjun Xu, and Takahiro Shinozaki. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. arXiv preprint arXiv:2105.11905. [[arXiv](https://arxiv.org/abs/2105.11905)] [[code](https://github.com/jindongwang/transferlearning/tree/master/code/ASR)]
-3. <u>Jindong Wang</u>, Wenjie Feng, Chang Liu, Chaohui Yu, Mingxuan Du, Renjun Xu, Tao Qin, and Tie-Yan Liu. Learning Invariant Representations across Domains and Tasks. arXiv preprint arXiv:2103.05114. [[arXiv](https://arxiv.org/abs/2103.05114)]
-4. Chaohui Yu, <u>Jindong Wang</u><sup>#</sup>, Chang Liu, Tao Qin, Renjun Xu, Wenjie Feng, Yiqiang Chen, and Tie-Yan Liu. Learning to match distributions for domain adaptation. arXiv preprint arXiv:2007.10791. [[arXiv](http://arxiv.org/abs/https://arxiv.org/abs/2007.10791)] 
+
+ 
+
+
 
