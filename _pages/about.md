@@ -23,14 +23,6 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 
 **Research interest:** RS Image Processing,Deep Learning,OCR,Creative Generation
 
-<!-- ### Highlights
-
-1. Four of my papers are highly cited and ranked top 20 globally in recent 5 years in Google scholar metrics! See [here](https://zhuanlan.zhihu.com/p/421192644).
-2. I wrote a popular book [迁移学习导论](http://jd92.wang/tlbook) to make it easy to learn, understand, and use transfer learning.
-3. I lead the most popular transfer learning and semi-supervised learning projects on Github: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](/assets/img/transferlearning-repo-star.jpg)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](/assets/img/torchssl-star.jpg)](https://github/stars/torchssl/torchssl)
-
-#### Preprints
-
 @inproceedings{wang2022usb,
   title={USB: A Unified Semi-supervised Learning Benchmark},
   author={Wang, Yidong and Chen, Hao and Fan, Yue and Sun, Wang and Tao, Ran and Hou, Wenxin and Wang, Renjie and Yang, Linyi and Zhou, Zhi and Guo, Lan-Zhe and Qi, Heli and Wu, Zhen and Li, Yu-Feng and Nakamura, Satoshi and Ye, Wei and Savvides, Marios and Raj, Bhiksha and Shinozaki, Takahiro and Schiele, Bernt and Wang, Jindong and Xie, Xing and Zhang, Yue},
@@ -43,6 +35,16 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
   zhihu={https://zhuanlan.zhihu.com/p/566055279},
   blog={https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/pushing-the-limit-of-semi-supervised-learning-with-the-unified-semi-supervised-learning-benchmark/}
 }
+
+<!-- ### Highlights
+
+1. Four of my papers are highly cited and ranked top 20 globally in recent 5 years in Google scholar metrics! See [here](https://zhuanlan.zhihu.com/p/421192644).
+2. I wrote a popular book [迁移学习导论](http://jd92.wang/tlbook) to make it easy to learn, understand, and use transfer learning.
+3. I lead the most popular transfer learning and semi-supervised learning projects on Github: [Transfer learning repo](https://github/jindongwang/transferlearning) [![Transfer learning repo](/assets/img/transferlearning-repo-star.jpg)](https://github/jindongwang/transferlearning) and  [Semi-supervised learning repo](https://github/torchssl/torchssl) [![SSL repo](/assets/img/torchssl-star.jpg)](https://github/stars/torchssl/torchssl)
+
+#### Preprints
+
+
 1. Yiqiang Chen, Wang Lu, <u>Jindong Wang</u>, Xin Qin, and Tao Qin. Federated Learning with Adaptive Batchnorm for Personalized Healthcare. arXiv preprint arXiv:2112.00734. [[arXiv](https://arxiv.org/abs/2112.00734)]
 2. Wenxin Hou, Han Zhu, Yidong Wang, <u>Jindong Wang</u><sup>#</sup>, Tao Qin, Renjun Xu, and Takahiro Shinozaki. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. arXiv preprint arXiv:2105.11905. [[arXiv](https://arxiv.org/abs/2105.11905)] [[code](https://github.com/jindongwang/transferlearning/tree/master/code/ASR)]
 3. <u>Jindong Wang</u>, Wenjie Feng, Chang Liu, Chaohui Yu, Mingxuan Du, Renjun Xu, Tao Qin, and Tie-Yan Liu. Learning Invariant Representations across Domains and Tasks. arXiv preprint arXiv:2103.05114. [[arXiv](https://arxiv.org/abs/2103.05114)]
