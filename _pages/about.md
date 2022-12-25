@@ -23,20 +23,8 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 
 **Research interest:** RS Image Processing,Deep Learning,OCR,Creative Generation
 
-@inproceedings{wang2022usb,
-  title={USB: A Unified Semi-supervised Learning Benchmark},
-  author={Wang, Yidong and Chen, Hao and Fan, Yue and Sun, Wang and Tao, Ran and Hou, Wenxin and Wang, Renjie and Yang, Linyi and Zhou, Zhi and Guo, Lan-Zhe and Qi, Heli and Wu, Zhen and Li, Yu-Feng and Nakamura, Satoshi and Ye, Wei and Savvides, Marios and Raj, Bhiksha and Shinozaki, Takahiro and Schiele, Bernt and Wang, Jindong and Xie, Xing and Zhang, Yue},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2022},
 
-  corr={true},
-  code={https://github.com/microsoft/Semi-supervised-learning},
-  arxiv={https://arxiv.org/abs/2208.07204},
-  zhihu={https://zhuanlan.zhihu.com/p/566055279},
-  blog={https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/pushing-the-limit-of-semi-supervised-learning-with-the-unified-semi-supervised-learning-benchmark/}
-}
-
-<!-- ### Highlights
+### Highlights
 
 1. Four of my papers are highly cited and ranked top 20 globally in recent 5 years in Google scholar metrics! See [here](https://zhuanlan.zhihu.com/p/421192644).
 2. I wrote a popular book [迁移学习导论](http://jd92.wang/tlbook) to make it easy to learn, understand, and use transfer learning.
@@ -48,4 +36,4 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 1. Yiqiang Chen, Wang Lu, <u>Jindong Wang</u>, Xin Qin, and Tao Qin. Federated Learning with Adaptive Batchnorm for Personalized Healthcare. arXiv preprint arXiv:2112.00734. [[arXiv](https://arxiv.org/abs/2112.00734)]
 2. Wenxin Hou, Han Zhu, Yidong Wang, <u>Jindong Wang</u><sup>#</sup>, Tao Qin, Renjun Xu, and Takahiro Shinozaki. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. arXiv preprint arXiv:2105.11905. [[arXiv](https://arxiv.org/abs/2105.11905)] [[code](https://github.com/jindongwang/transferlearning/tree/master/code/ASR)]
 3. <u>Jindong Wang</u>, Wenjie Feng, Chang Liu, Chaohui Yu, Mingxuan Du, Renjun Xu, Tao Qin, and Tie-Yan Liu. Learning Invariant Representations across Domains and Tasks. arXiv preprint arXiv:2103.05114. [[arXiv](https://arxiv.org/abs/2103.05114)]
-4. Chaohui Yu, <u>Jindong Wang</u><sup>#</sup>, Chang Liu, Tao Qin, Renjun Xu, Wenjie Feng, Yiqiang Chen, and Tie-Yan Liu. Learning to match distributions for domain adaptation. arXiv preprint arXiv:2007.10791. [[arXiv](http://arxiv.org/abs/https://arxiv.org/abs/2007.10791)] -->
+4. Chaohui Yu, <u>Jindong Wang</u><sup>#</sup>, Chang Liu, Tao Qin, Renjun Xu, Wenjie Feng, Yiqiang Chen, and Tie-Yan Liu. Learning to match distributions for domain adaptation. arXiv preprint arXiv:2007.10791. [[arXiv](http://arxiv.org/abs/https://arxiv.org/abs/2007.10791)]
