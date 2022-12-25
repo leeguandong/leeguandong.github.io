@@ -41,7 +41,7 @@ Chunju Zhang,**<u>Guandong Li</u>**,Shihong Du (学生一作)
 IEEE Transactions on Geoscience and Remote Sensing [[DOI](https://ieeexplore.ieee.org/document/8784389) [Code](https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification)]    
 
 Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification   
-Chunju Zhang,**<u>Guandong Li**</u><sup>#</sup>,Shihong Du,Wuzhou Tan(学生一作)    
+Chunju Zhang,**<u>Guandong Li</u>**<sup>#</sup>,Shihong Du,Wuzhou Tan(学生一作)    
 Journal of Applied Remote Sensing [[DOI](https://doi.org/10.1117/1.JRS.13.016519) [Code](https://github.com/leeguandong/3D-DenseNet-for-HSI)]     
 
 Deep feature aggregation network for hyperspectral remote sensing image classification     
