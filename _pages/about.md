@@ -15,8 +15,8 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Ai Engineer, Suning Technology AI R&D Center <br>
-No. 1 Suning Avenue, Xuanwu District, Nanjing, China<br>
-leeguandon [at] gmail.com<br>
+No.1 Suning Avenue, Xuanwu, Nanjing, China<br>
+leeguandon@gmail.com<br>
 [Google scholar](https://scholar.google.com/citations?user=on_b6MMAAAAJ) | [CSDN](https://blog.csdn.net/u012193416) | [Github](https://github.com/leeguandong) | [Zhihu](https://www.zhihu.com/people/li-xin-52-81) | [Resume](https://www.jianguoyun.com/p/DagJaZEQjKnsBRjbkeAEIAA) 
 
 I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www.msra.cn/), in a group managed by [Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/). Before joining MSRA, I obtained my Ph.D. from Institute of Computing Technology, Chinese Academy of Sciences in June, 2019. My doctoral thesis was awarded the excellent Ph.D. thesis of Chinese Academy of Sciences. In 2018/04--2018/08, I was a visitor of Prof. [Qiang Yang](https://cse.hkust.edu.hk/~qyang/)'s group at Hong Kong University of Science and Technology (HKUST). My work on transfer learning won the best paper awards in ICCSE 2018 and FTL-IJCAI 2019. In 2021, I published the textbook [Introduction to Transfer Learning](http://jd92.wang/tlbook), a hands-on introduction to transfer learning. In 2022, I was selected as one of the [2022 AI 2000 Most Influential Scholars](https://www.aminer.cn/ai2000?domain_ids=5dc122672ebaa6faa962c2a4) by AMiner between 2012-2021 (ranked 49/2000). Four of my first-author papers are ranked by Google Scholar as [highly-cited papers](https://zhuanlan.zhihu.com/p/421192644). I gave tutorials at [IJCAI'22](https://dgresearch.github.io/).
@@ -31,6 +31,18 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 
 #### Preprints
 
+@inproceedings{wang2022usb,
+  title={USB: A Unified Semi-supervised Learning Benchmark},
+  author={Wang, Yidong and Chen, Hao and Fan, Yue and Sun, Wang and Tao, Ran and Hou, Wenxin and Wang, Renjie and Yang, Linyi and Zhou, Zhi and Guo, Lan-Zhe and Qi, Heli and Wu, Zhen and Li, Yu-Feng and Nakamura, Satoshi and Ye, Wei and Savvides, Marios and Raj, Bhiksha and Shinozaki, Takahiro and Schiele, Bernt and Wang, Jindong and Xie, Xing and Zhang, Yue},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+
+  corr={true},
+  code={https://github.com/microsoft/Semi-supervised-learning},
+  arxiv={https://arxiv.org/abs/2208.07204},
+  zhihu={https://zhuanlan.zhihu.com/p/566055279},
+  blog={https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/pushing-the-limit-of-semi-supervised-learning-with-the-unified-semi-supervised-learning-benchmark/}
+}
 1. Yiqiang Chen, Wang Lu, <u>Jindong Wang</u>, Xin Qin, and Tao Qin. Federated Learning with Adaptive Batchnorm for Personalized Healthcare. arXiv preprint arXiv:2112.00734. [[arXiv](https://arxiv.org/abs/2112.00734)]
 2. Wenxin Hou, Han Zhu, Yidong Wang, <u>Jindong Wang</u><sup>#</sup>, Tao Qin, Renjun Xu, and Takahiro Shinozaki. Exploiting Adapters for Cross-lingual Low-resource Speech Recognition. arXiv preprint arXiv:2105.11905. [[arXiv](https://arxiv.org/abs/2105.11905)] [[code](https://github.com/jindongwang/transferlearning/tree/master/code/ASR)]
 3. <u>Jindong Wang</u>, Wenjie Feng, Chang Liu, Chaohui Yu, Mingxuan Du, Renjun Xu, Tao Qin, and Tie-Yan Liu. Learning Invariant Representations across Domains and Tasks. arXiv preprint arXiv:2103.05114. [[arXiv](https://arxiv.org/abs/2103.05114)]
