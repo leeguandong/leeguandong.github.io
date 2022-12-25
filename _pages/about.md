@@ -33,11 +33,11 @@ I'm currently a Senior Researcher at [Microsoft Research Asia (MSRA)](http://www
 #### Preprints
 
 Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules   
-<u>**Guandong Li**</u><sup>#</sup>,Xian Yang    
+**<u>Guandong Li</u>**<sup>#</sup>,Xian Yang    
 Multimedia Tools and Applications [[Doi](https://rdcu.be/c0iMt)]    
 
 Multi-scale dense networks for hyperspectral remote sensing image classification    
-Chunju Zhang,<u>**Guandong Li**</u>,Shihong Du (学生一作)    
+Chunju Zhang,<u>Guandong Li</u>,Shihong Du (学生一作)    
 IEEE Transactions on Geoscience and Remote Sensing [[Doi](https://ieeexplore.ieee.org/document/8784389) [Code](https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification)]    
 
 Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification   
