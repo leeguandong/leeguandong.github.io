@@ -8,11 +8,19 @@ nav: true
 #### Academic service
 
 - Journal reviewer: 
-  - TPAMI, IJCV, AI Journal, TKDE, TMLR, TNNLS, TMM, TIP, TMC, ACM CSUR, ACM TIST, IEEE TBD, Knowledge-Based Systems, Neurocomputing, Pervasive and Mobile Computing.
+  - IEEE access  
+  - Agronomy journal  
+  - Journal of Selected Topics in Applied Earth Observations and Remote Sensing  
+  - Geoscience and Remote Sensing Letters
+  - IEEE Transactions on Geoscience and Remote Sensing
+  - Concurrency and Computation: Practice and Experience
+  - International Journal of Remote Sensing 
+  - Remote Sensing Letters
+  - 
 
 
 #### Awards
 
-- Innovation award. IJCAI federated learning workshop 2022.
-- Distinguished doctoral thesis award (中国科学院优秀博士学位论文奖) 2020.
+- CSDN博客专家
+- 
 

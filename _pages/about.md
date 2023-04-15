@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Ai Engineer, Suning Technology AI R&D Center <br>
+Deep Learning Algorithm Engineer, Suning Technology AI R&D Center <br>
 Xuzhuang Software Park, Nanjing, China<br>
 leeguandon@gmail.com<br>
 [Google scholar](https://scholar.google.com/citations?user=on_b6MMAAAAJ) | [CSDN](https://blog.csdn.net/u012193416) | [Github](https://github.com/leeguandong) | [Zhihu](https://www.zhihu.com/people/li-xin-52-81) | [Resume]() 
@@ -28,7 +28,7 @@ I am currently working in the Computer Vision Group of Suning Artificial Intelli
 #### Preprints
 
 Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules   
-**<u>Guandong Li</u>**<sup>#</sup>, Xian Yang    
+**<u>Guandong Li</u>**, Xian Yang    
 Multimedia Tools and Applications [[doi](https://rdcu.be/c0iMt)]    
 
 Multi-scale dense networks for hyperspectral remote sensing image classification    
@@ -36,7 +36,7 @@ Chunju Zhang, **<u>Guandong Li</u>**, Shihong Du (student first author)
 IEEE Transactions on Geoscience and Remote Sensing [[doi](https://ieeexplore.ieee.org/document/8784389)] [[code](https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification)]
 
 Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification   
-Chunju Zhang, **<u>Guandong Li</u>**<sup>#</sup>, Shihong Du, Wuzhou Tan(student first author)    
+Chunju Zhang, **<u>Guandong Li</u>**, Shihong Du, Wuzhou Tan(student first author)    
 Journal of Applied Remote Sensing [[doi](https://doi.org/10.1117/1.JRS.13.016519)] [[code](https://github.com/leeguandong/3D-DenseNet-for-HSI)]     
 
 Deep feature aggregation network for hyperspectral remote sensing image classification     
