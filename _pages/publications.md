@@ -6,10 +6,12 @@ description:
 nav: true
 ---
 
-[[Google scholar](https://scholar.google.com/citations?user=hBZ_tKsAAAAJ)] | [[DBLP](https://dblp.org/pid/19/2969-1.html)]
-
-#### Preprints
-
-- An Embarrassingly Simple Baseline for Imbalanced Semi-Supervised Learning. Hao Chen, Yue Fan, Yidong Wang, **Jindong Wang**, Bernt Schiele, Xing Xie, Marios Savvides, Bhiksha Raj. [[arxiv](https://arxiv.org/abs/2211.11086)] 
-
 #### Patent
+
+- **李冠东**，马文聘，杨现，叶进进. 一种图像的篡改识别方法、装置、计算机设备及存储介质. [授权]**CN111583180B**. 2022.12.20
+- **李冠东**，董昱青，毕明悦，马文聘，王孝阳. 一种图层的解析方法、装置、计算机设备和存储介质. [公开]**CN113239995A**. 2021.08.10
+- 马文聘，董昱青，王孝阳，毕明悦，**李冠东**. 一种模板拓展的方法及系统. [公开]**CN115422900A**. 2022.12.02
+- 王孝阳，董昱青，毕明悦，马文聘，**李冠东**. 一种文案排版布局的方法及系统. [公开]**CN113255289A**. 2021.08.13
+- 毕明悦，董昱青，**李冠东**，马文聘，王孝阳. 一种颜色搭配的方法、装置、计算机设备和存储设备. [公开]**CN113240765A**. 2021.08.10
+- 
+
