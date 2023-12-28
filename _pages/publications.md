@@ -6,7 +6,9 @@ description:
 nav: true
 ---
 
-#### Preprints
+#### Preprints    
+Two-stage dynamic creative optimization under sparse ambiguous samples for e-commerce advertising     
+**<u>Guandong Li</u>**, Xian Yang  [[arixv](https://arxiv.org/abs/2312.01295)]     
 
 Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules   
 **<u>Guandong Li</u>**, Xian Yang    
@@ -31,6 +33,12 @@ Remote sensing letters  [[doi](https://ieeexplore.ieee.org/document/9514617)]
 Faster hyperspectral image classification based on selective kernel mechanism using deep convolutional networks     
 **<u>Guandong Li</u>**, Chunju Zhang   [[arixv](https://arxiv.org/abs/2202.06458)]    
 
+Spatial-spectral hyperspectral classification based on learnable 3D group convolution      
+**<u>Guandong Li</u>**, Mengxia Ye    [[arixv](https://arxiv.org/abs/2307.07720)]      
+
+DGCNet: An Efficient 3D-Densenet based on Dynamic Group Convolution for Hyperspectral Remote Sensing Image Classification    
+**<u>Guandong Li</u>**     [[arixv](https://arxiv.org/abs/2307.06667)]     
+
 Scene classification of high-resolution remote sensing image using transfer learning with multi-model feature extraction framework   
 **<u>Guandong Li</u>**, Chunju Zhang, Mingkai Wang, Fei Gao, Xueying Zhang     
 Chinese Conference on Image and Graphics Technologies [[doi](https://link.springer.com/chapter/10.1007/978-981-13-1702-6_24)]  
@@ -48,6 +56,12 @@ Chinese Conference on Image and Graphics Technologies [[doi](https://link.spring
 **李冠东**，马文聘，杨现，叶进进. 一种图像的篡改识别方法、装置、计算机设备及存储介质. [授权]**CN111583180B**. 2022.12.20
 
 **李冠东**，董昱青，毕明悦，马文聘，王孝阳. 一种图层的解析方法、装置、计算机设备和存储介质. [公开]**CN113239995A**. 2021.08.10
+
+**李冠东**，丁一军. 一种广告图片投放方法、装置、设备及介质. [公开]**CN116777522A**. 2023.09.19
+
+**李冠东**，丁一军. 一种视频生成方法、装置、计算机设备和存储介质. [公开]**CN116866497A**. 2023.10.10
+
+**李冠东**，丁一军. 横幅广告图片生成装置、方法、计算机设备和存储介质. [公开]**CN116721177A**. 2023.09.08
 
 马文聘，董昱青，王孝阳，毕明悦，**李冠东**. 一种模板拓展的方法及系统. [公开]**CN115422900A**. 2022.12.02
 
