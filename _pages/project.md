@@ -8,40 +8,41 @@ nav: true
 ## Intelligent Creative Platform 
 iwogh is an internal creative design platform at Suning, which includes three main modules: intelligent parsing, intelligent creation, and intelligent optimization. It also encompasses a series of real-time creative tools, providing comprehensive support for Suning's creative business.
 <div align="center">
-    <img src="../assets/img/platform.png" />
+    <img src="../assets/img/platform.png" style="width: 100%;" />
 </div>
 
 ### Intelligent Parsing
 
 <div align="center">
-    <img src="../assets/img/intelligent_parsing_1.png" />
+    <img src="../assets/img/intelligent_parsing_1.png" style="width: 100%;"/>
 </div>
 
 <div align="center">
-    <img src="../assets/img/intelligent_parsing_2.png" />
+    <img src="../assets/img/intelligent_parsing_2.png" style="width: 100%;"/>
 </div>
 
-[arixv]()      
+
+[arixv](https://arxiv.org/pdf/2312.17283)      
 In the industrial e-commerce landscape, creative designs such as banners and posters are ubiquitous. Extracting structured semantic information from creative e-commerce design materials (manuscripts crafted by designers) to obtain design semantics represents a core challenge in the realm of intelligent design. In this paper, we propose a comprehensive automated framework for intelligently parsing creative materials. This framework comprises material recognition, preprocess, smartname, and label layers. The material recognition layer consolidates various detection and recognition interfaces, covering business aspects including detection of auxiliary areas within creative materials and layer-level detection, alongside label identification. Algorithmically, it encompasses a variety of coarse-to-fine methods such as Cascade RCNN, GFL, and other models. The preprocess layer involves filtering creative layers and grading creative materials. The smartname layer achieves intelligent naming for creative materials, while the label layer covers multi-level tagging for creative materials, enabling tagging at different hierarchical levels. Intelligent parsing constitutes a complete parsing framework that significantly aids downstream processes such as intelligent creation, creative optimization, and material library construction. Within the practical business applications at Suning, it markedly enhances the exposure, circulation, and click-through rates of creative materials, expediting the closed-loop production of creative materials and yielding substantial benefits.
 
 ### Smartbanner   
 
 <div align="center">
-    <img src="../assets/img/smartbanner.png" />
+    <img src="../assets/img/smartbanner.png" style="width: 100%;"/>
 </div>
 
-[arixv]()    
+[arixv](https://arxiv.org/pdf/2303.10325)    
 Companies use banners extensively to promote their products, and the intelligent automatic synthesis of banners is a challenging event. Under the premise of inputting only a small amount of information such as product, text and size, it can synthesize styles with high freedom and richness, but at the same time, it must satisfy the design specifications of advertisers for advertising and scenes. We propose an intelligent banner design framework that strikes a balance between creative freedom and design rules, called smartbanner. Smartbanner consists of planner, actuator, adjuster and generator. The banner is synthesized through the combined framework, which fully liberates the designer and reduces the threshold and cost of design. It increases the click-through rate by 30%, improves the human efficiency of designers by 500% under the condition of ensuring the quality of creation, and synthesizes hundreds of millions of pictures in batches throughout the year.
 
 
 
 ### ADCT
 <div align="center">
-    <img src="../assets/img/adct1.png" />
+    <img src="../assets/img/adct1.png" style="width: 100%;"/>
 </div>
 
 <div align="center">
-    <img src="../assets/img/adct2.png" />
+    <img src="../assets/img/adct2.png" style="width: 100%;"/>
 </div>
 
 

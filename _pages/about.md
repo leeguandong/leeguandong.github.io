@@ -19,11 +19,16 @@ Xuzhuang Software Park, Nanjing, China<br>
 leeguandon@gmail.com<br>
 [Google scholar](https://scholar.google.com/citations?user=on_b6MMAAAAJ) | [CSDN](https://blog.csdn.net/u012193416) | [Github](https://github.com/leeguandong) | [Zhihu](https://www.zhihu.com/people/li-xin-52-81) | [Resume]() 
 
-I am currently working in the Computer Vision Group of Suning Artificial Intelligence R&D Center. Before joining Suning, I obtained a master's degree in surveying and mapping engineering from Hefei University of Technology. I was an outstanding graduate of Hefei University of Technology and was nominated for an excellent graduation thesis.During my postgraduate studies, I was mainly engaged in research on hyperspectral image classification, remote sensing image detection, and place name recognition. My [paper]() was selected for ESI1%.After work, I mainly engaged in AIGC, ocr, tamper detection, multimodal and other work.I am equally interested in large models and multimodal large models.
+I currently work with the algorithm team at Suning AI R&D Center, as a key core member of the computer vision algorithm group. Before joining Suning, I received my master's degree in Surveying and Mapping Engineering from Hefei University of Technology and earned my bachelor's degree at Liaoning Technical University. I was an outstanding graduate at HFUT, where my thesis was nominated for an excellent graduation thesis. During my master's program, I primarily engaged in research on hyperspectral remote sensing image classification based on deep learning and place name recognition. My [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) was selected for the ESI top 1%. Professionally, I am focused on AIGC, which includes e-commerce large language models, multimodal large language models, video editing, lip-sync driven 2D digital humans, image synthesis based on diffusion models, OCR, and tamper detection.
 
+**Research interest:** AIGC,LLM,LVM,Video Editing,Digital Human,Deep Learning,OCR,Detection,Classification,RS Image Processing
 
+### Education
 
-**Research interest:** AIGC,LLM,LVM,Deep Learning,OCR,Multi-model,Detection,Classification,RS Image Processing
+- **Master of Surveying and Mapping Engineering (Remote Sensing Image Processing)**
+  - Hefei University of Technology
+  - 2016-2019
 
-#### News
-
+- **Bachelor of Water Supply and Drainage Engineering (Pipeline Network Optimization)**
+  - Liaoning Technical University 
+  - 2012-2016
