@@ -7,6 +7,11 @@ nav: true
 ---
 
 #### Preprints    
+A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition   
+**<u>Guandong Li</u>**, Xian Yang，Wenpin Ma  [[arixv](https://arxiv.org/abs/2402.13545)]     
+Intelligent Parsing: An Automated Parsing Framework for Extracting Design Semantics from E-commerce Creatives     
+**<u>Guandong Li</u>**, Xian Yang  [[arixv](https://arxiv.org/abs/2312.17283)]     
+
 Two-stage dynamic creative optimization under sparse ambiguous samples for e-commerce advertising     
 **<u>Guandong Li</u>**, Xian Yang  [[arixv](https://arxiv.org/abs/2312.01295)]     
 
