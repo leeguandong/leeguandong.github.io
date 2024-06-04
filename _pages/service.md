@@ -19,11 +19,15 @@ nav: true
   - IEEE Transactions on Geoscience and Remote Sensing
   - International Journal of Remote Sensing 
   - Remote Sensing Letters
-  - 
 
 
 #### Awards
 
 - CSDN博客专家
-- 
+
+#### Classes
+
+- AIGC-文生图算法
+
+
 

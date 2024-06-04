@@ -9,6 +9,7 @@ nav: true
 #### Preprints    
 A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition   
 **<u>Guandong Li</u>**, Xian Yang，Wenpin Ma  [[arixv](https://arxiv.org/abs/2402.13545)]     
+
 Intelligent Parsing: An Automated Parsing Framework for Extracting Design Semantics from E-commerce Creatives     
 **<u>Guandong Li</u>**, Xian Yang  [[arixv](https://arxiv.org/abs/2312.17283)]     
 
@@ -67,6 +68,8 @@ Chinese Conference on Image and Graphics Technologies [[doi](https://link.spring
 **李冠东**，丁一军. 一种视频生成方法、装置、计算机设备和存储介质. [公开]**CN116866497A**. 2023.10.10
 
 **李冠东**，丁一军. 横幅广告图片生成装置、方法、计算机设备和存储介质. [公开]**CN116721177A**. 2023.09.08
+
+**李冠东**，丁一军，吕锐，沈艺. 行人检测方法、装置、计算机设备和存储介质.[公开]**CN118015658A**. 2024.05.10
 
 马文聘，董昱青，王孝阳，毕明悦，**李冠东**. 一种模板拓展的方法及系统. [公开]**CN115422900A**. 2022.12.02
 
