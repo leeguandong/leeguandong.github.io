@@ -27,7 +27,7 @@ nav: true
 
 #### Classes
 
-- AIGC-文生图算法
+- [AIGC-文生图算法](https://edu.csdn.net/course/detail/39618?utm_source=course_from_topic)
 
 
 

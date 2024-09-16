@@ -7,6 +7,10 @@ nav: true
 ---
 
 #### Preprints    
+Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce      
+
+**<u>Guandong Li</u>**,  [[arixv](https://arxiv.org/abs/2409.04750)]        
+
 A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition   
 **<u>Guandong Li</u>**, Xian Yang，Wenpin Ma  [[arixv](https://arxiv.org/abs/2402.13545)]     
 

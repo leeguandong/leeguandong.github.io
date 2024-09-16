@@ -9,6 +9,8 @@ nav: true
 
 Provide AIGC services including image/video generation based on diffusion models, LLM, etc., covering model photo/product photo/poster image/anime avatar generation, control ID type generation, marketing short video generation for combination fission, lip shape-driven virtual e-commerce live streaming digital humans, face swapping, and script generation for voice-over marketing.
 
+
+
 <div align="center">
     <img src="../assets/img/sn_ai.png" style="width: 100%;" />
 </div>
@@ -49,7 +51,6 @@ In the industrial e-commerce landscape, creative designs such as banners and pos
 <div align="center">
     <img src="../assets/img/smartbanner.png" style="width: 100%;"/>
 </div>
-
 [arixv](https://arxiv.org/pdf/2303.10325)    
 Companies use banners extensively to promote their products, and the intelligent automatic synthesis of banners is a challenging event. Under the premise of inputting only a small amount of information such as product, text and size, it can synthesize styles with high freedom and richness, but at the same time, it must satisfy the design specifications of advertisers for advertising and scenes. We propose an intelligent banner design framework that strikes a balance between creative freedom and design rules, called smartbanner. Smartbanner consists of planner, actuator, adjuster and generator. The banner is synthesized through the combined framework, which fully liberates the designer and reduces the threshold and cost of design. It increases the click-through rate by 30%, improves the human efficiency of designers by 500% under the condition of ensuring the quality of creation, and synthesizes hundreds of millions of pictures in batches throughout the year.
 
