@@ -22,6 +22,24 @@ Provide AIGC services including image/video generation based on diffusion models
 <div align="center">
     <img src="../assets/img/update.png" style="width: 100%;"/>
 </div>
+### E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing  
+
+<div align="center">
+    <img src="../assets/img/ecommerceinpainting.png" style="width: 100%;"/>
+</div>
+
+[arixv](https://arxiv.org/abs/2409.09681)    
+E-commerce image generation has always been one of the core demands in the e-commerce field. The goal is to restore the missing background that matches the main product given. In the post-AIGC era, diffusion models are primarily used to generate product images, achieving impressive results. This paper systematically analyzes and addresses a core pain point in diffusion model generation: overcompletion, which refers to the difficulty in maintaining product features. We propose two solutions: 1. Using an instance mask fine-tuned inpainting model to mitigate this phenomenon; 2. Adopting a train-free mask guidance approach, which incorporates refined product masks as constraints when combining ControlNet and UNet to generate the main product, thereby avoiding overcompletion of the product. Our method has achieved promising results in practical applications and we hope it can serve as an inspiring technical report in this field.
+
+### Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce
+
+<div align="center">
+    <img src="../assets/img/train-free-mask-guidance.png" style="width: 100%;"/>
+</div>
+
+[arixv](https://arxiv.org/abs/2409.04750)    
+Generating style-consistent images is a common task in the e-commerce field, and current methods are largely based on diffusion models, which have achieved excellent results. This paper introduces the concept of the QKV (query/key/value) level, referring to modifications in the attention maps (self-attention and cross-attention) when integrating UNet with image conditions. Without disrupting the product's main composition in e-commerce images, we aim to use a train-free method guided by pre-set conditions. This involves using shared KV to enhance similarity in cross-attention and generating mask guidance from the attention map to cleverly direct the generation of style-consistent images. Our method has shown promising results in practical applications.
+
 
 
 
