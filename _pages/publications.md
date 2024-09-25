@@ -7,7 +7,7 @@ nav: true
 ---
 
 #### Preprints    
-E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing Overcompletion
+E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing Overcompletion     
 **<u>Guandong Li</u>**,  [[arixv](https://arxiv.org/abs/2409.09681)]  
 
 Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce   
