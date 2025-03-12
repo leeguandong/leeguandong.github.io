@@ -20,6 +20,7 @@ nav: true
   - International Journal of Remote Sensing 
   - Remote Sensing Letters
   - Journal of Harbin Institute of Technology
+  - Signal, Image and Video Processing
 
 
 #### Awards
