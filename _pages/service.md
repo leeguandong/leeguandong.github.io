@@ -19,6 +19,7 @@ nav: true
   - IEEE Transactions on Geoscience and Remote Sensing
   - International Journal of Remote Sensing 
   - Remote Sensing Letters
+  - Journal of Harbin Institute of Technology
 
 
 #### Awards
