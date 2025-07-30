@@ -32,7 +32,7 @@ My professional expertise spans AIGC, large language models (LLMs), large vision
 #### Work Experience  
 
 **Algorithm Engineer, iFlytek**  
-Consumer Business Group, AI Marketing Business Line
+Consumer Business Group, AI Marketing Business Line    
 *Hefei, China | 2024.11 – Present*  
 
 - Key member of the *iFlytek Typemovie* project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
