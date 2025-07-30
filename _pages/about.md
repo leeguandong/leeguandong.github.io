@@ -14,6 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+# About Me
+
 **Deep Learning Algorithm Engineer, iFlytek**  
 Consumer Business Group, AI Marketing Business Line  
 Hefei, China  
@@ -33,7 +35,7 @@ My professional expertise spans AIGC, large language models (LLMs), large vision
 ### Algorithm Engineer, iFlytek  
 
 **Consumer Business Group, AI Marketing Business Line**  
-*Hefei, China | 2024.11 – Present*  
+*Hefei, China | 2025 – Present*  
 
 - Leading algorithm development for *iFlytek Huijing*, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.  
 - Designing and optimizing multimodal AI systems to enhance user engagement and deliver data-driven marketing insights.  
@@ -42,9 +44,8 @@ My professional expertise spans AIGC, large language models (LLMs), large vision
 ### Deep Learning Algorithm Engineer, Suning  
 
 **Computer Vision Algorithm Group**  
-*Nanjing, China | 2019.7 - 2024.11*  
+*Nanjing, China | [Previous Tenure]*  
 
 - Served as a core member of the algorithm team, focusing on AI-generated content (AIGC) and computer vision applications for e-commerce.  
 - Developed and deployed solutions for e-commerce large language models, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and image synthesis using diffusion models.  
 - Contributed to OCR and tamper detection systems, enhancing the reliability and efficiency of automated processes.
-
