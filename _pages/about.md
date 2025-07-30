@@ -29,7 +29,7 @@ My professional expertise spans AIGC, large language models (LLMs), large vision
 
 **Research Interests:** AIGC, LLMs, LVMs, Video Editing, Digital Humans, Deep Learning, OCR, Detection, Classification, Remote Sensing Image Processing  
 
-##### Work Experience  
+#### Work Experience  
 
 **Algorithm Engineer, iFlytek**  
 Consumer Business Group, AI Marketing Business Line
