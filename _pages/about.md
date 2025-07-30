@@ -14,7 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-# About Me
 
 **Deep Learning Algorithm Engineer, iFlytek**  
 Consumer Business Group, AI Marketing Business Line  
@@ -30,18 +29,16 @@ My professional expertise spans AIGC, large language models (LLMs), large vision
 
 **Research Interests:** AIGC, LLMs, LVMs, Video Editing, Digital Humans, Deep Learning, OCR, Detection, Classification, Remote Sensing Image Processing  
 
-## Work Experience  
+##### Work Experience  
 
-### Algorithm Engineer, iFlytek  
-
-**Consumer Business Group, AI Marketing Business Line**  
+**Algorithm Engineer, iFlytek**  
+Consumer Business Group, AI Marketing Business Line
 *Hefei, China | 2024.11 – Present*  
 
 - Key member of the *iFlytek Typemovie* project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
 
-### Deep Learning Algorithm Engineer, Suning  
-
-**Computer Vision Algorithm Group**  
+**Deep Learning Algorithm Engineer, Suning**  
+Computer Vision Algorithm Group  
 *Nanjing, China | 2019.7 - 2024.11*  
 
 - Served as a core member of the algorithm team, focusing on AI-generated content (AIGC) and computer vision applications for e-commerce.  
