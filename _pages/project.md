@@ -10,24 +10,24 @@ nav: true
 Provide AIGC services including image/video generation based on diffusion models, LLM, etc., covering model photo/product photo/poster image/anime avatar generation, control ID type generation, marketing short video generation for combination fission, lip shape-driven virtual e-commerce live streaming digital humans, face swapping, and script generation for voice-over marketing.
 
 <div align="center">
-    <img src="../assets/img/sn_ai.png" style="width: 80%;" />
+    <img src="../assets/img/sn_ai.png" style="width: 60%;" />
 </div>
 
 
 <div align="center">
-    <img src="../assets/img/sd_eval.png" style="width: 80%;"/>
+    <img src="../assets/img/sd_eval.png" style="width: 60%;"/>
 </div>
 
 
 <div align="center">
-    <img src="../assets/img/update.png" style="width: 80%;"/>
+    <img src="../assets/img/update.png" style="width: 60%;"/>
 </div>
 
 
 ### E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing  
 
 <div align="center">
-    <img src="../assets/img/ecommerceinpainting.png" style="width: 80%;"/>
+    <img src="../assets/img/ecommerceinpainting.png" style="width: 60%;"/>
 </div>
 
 
@@ -37,7 +37,7 @@ E-commerce image generation has always been one of the core demands in the e-com
 ### Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce
 
 <div align="center">
-    <img src="../assets/img/train-free-mask-guidance.png" style="width: 80%;"/>
+    <img src="../assets/img/train-free-mask-guidance.png" style="width: 60%;"/>
 </div>
 
 
@@ -49,19 +49,19 @@ Generating style-consistent images is a common task in the e-commerce field, and
 Iwogh is an internal creative design platform at Suning, which includes three main modules: intelligent parsing, intelligent creation, and intelligent optimization. It also encompasses a series of real-time creative tools, providing comprehensive support for Suning's creative business.
 
 <div align="center">
-    <img src="../assets/img/platform.png" style="width: 80%;" />
+    <img src="../assets/img/platform.png" style="width: 60%;" />
 </div>
 
 
 ### Intelligent Parsing
 
 <div align="center">
-    <img src="../assets/img/intelligent_parsing_1.png" style="width: 80%;"/>
+    <img src="../assets/img/intelligent_parsing_1.png" style="width: 60%;"/>
 </div>
 
 
 <div align="center">
-    <img src="../assets/img/intelligent_parsing_2.png" style="width: 80%;"/>
+    <img src="../assets/img/intelligent_parsing_2.png" style="width: 60%;"/>
 </div>
 
 
@@ -71,7 +71,7 @@ In the industrial e-commerce landscape, creative designs such as banners and pos
 ### Smartbanner  
 
 <div align="center">
-    <img src="../assets/img/smartbanner.png" style="width: 80%;"/>
+    <img src="../assets/img/smartbanner.png" style="width: 60%;"/>
 </div>
 
 
@@ -81,12 +81,12 @@ Companies use banners extensively to promote their products, and the intelligent
 ### ADCT
 
 <div align="center">
-    <img src="../assets/img/adct1.png" style="width: 80%;"/>
+    <img src="../assets/img/adct1.png" style="width: 60%;"/>
 </div>
 
 
 <div align="center">
-    <img src="../assets/img/adct2.png" style="width: 80%;"/>
+    <img src="../assets/img/adct2.png" style="width: 60%;"/>
 </div>
 
 
@@ -98,14 +98,14 @@ Ad creative is one of the main mediums for e-commerce advertising. Ad creative w
 ### Tampler detection
 
 <div align="center">
-    <img src="../assets/img/tamper1.png" style="width: 80%;"/>
+    <img src="../assets/img/tamper1.png" style="width: 60%;"/>
 </div>
 
 
 <div align="center">
-    <img src="../assets/img/tamper2.png" style="width: 80%;"/>
+    <img src="../assets/img/tamper2.png" style="width: 60%;"/>
 </div>
 
 
 [arixv](https://arxiv.org/abs/2312.01295)  
-Document tamper detection has always been an important aspect of tamper detection. Before the advent of deep learning, document tamper detection was difficult. We have made some explorations in the field of text tamper detection based on deep learning. Our Ps tamper detection method includes three steps: feature assistance, audit point positioning, and tamper recognition. It involves hierarchical filtering and graded output (tampered/suspected tampered/untampered). By combining artificial tamper data features, we simulate and augment data samples in various scenarios (cropping with noise addition/replacement, single character/space replacement, smearing/splicing, brightness/contrast adjustment, etc.). The auxiliary features include exif/binary stream keyword retrieval/noise, which are used for branch detection based on the results. Audit point positioning uses detection frameworks and controls thresholds for high and low density detection. Tamper recognition employs a dual-path dual-stream recognition network, with RGB and ELA stream feature extraction. After dimensionality reduction through self-correlation percentile pooling, the fused output is processed through vlad, yielding an accuracy of 0.804, recall of 0.659, and precision of 0.913.
+Document tamper detection has always been an important aspect of tamper detection. Before the advent of deep learning, document tamper detection was difficult. We have made some explorations in the field of text tamper detection based on deep learning. Our Ps tamper detection method includes three steps: feature assistance, audit point positioning, and tamper recognition. It involves hierarchical filtering and graded output (tampered/suspected tampered/untampered). By combining artificial tamper data features, we simulate and augment data samples in various scenarios (cropping with noise addition/replacement, single character/space replacement, smearing/splicing, brightness/contrast adjustment, etc.). The auxiliary features include exif/binary stream keyword retrieval/noise, which are used for branch detection based on the results. Audit point positioning uses detection frameworks and controls thresholds for high and low density detection. Tamper recognition employs a dual-path dual-stream recognition network, with RGB and ELA stream feature extraction. After dimensionality reduction through self-correlation percentile pooling, the fused output is processed through vlad, yielding an accuracy of 0.604, recall of 0.659, and precision of 0.913.
