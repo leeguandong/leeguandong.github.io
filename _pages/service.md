@@ -21,6 +21,9 @@ nav: true
   - Remote Sensing Letters
   - Journal of Harbin Institute of Technology
   - Signal, Image and Video Processing
+  - Scientific Reports
+  - npj Heritage Science  npj 
+  - Indoor and Built Environment Editorial Office
 
 
 #### Awards
