@@ -607,13 +607,13 @@ footer.sticky-bottom {
 
 .proj-images {
   flex-shrink: 0;
-  width: 280px;
+  width: 180px;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   img {
     width: 100%;
-    max-height: 200px;
+    max-height: 120px;
     border-radius: 6px;
     object-fit: contain;
   }
