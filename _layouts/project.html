@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="proj-page">
+  <h1 class="proj-page-title">{{ page.title }}</h1>
+
+  {% for section in page.sections %}
+  <div class="proj-section">
+    <h2 class="proj-section-title">{{ section.title }}</h2>
+
+    {% for project in section.projects %}
+    <div class="proj-card">
+      {% if project.img %}
+      <div class="proj-img">
+        <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" loading="lazy" />
+      </div>
+      {% endif %}
+      <div class="proj-info">
+        <h3 class="proj-name">{{ project.title }}</h3>
+        <p class="proj-desc">{{ project.desc }}</p>
+        {% if project.links %}
+        <div class="proj-links">
+          {% for link in project.links %}
+          <a href="{{ link.url }}" class="proj-link" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
