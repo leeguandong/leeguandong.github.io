@@ -616,12 +616,13 @@ footer.sticky-bottom {
     max-height: 120px;
     border-radius: 6px;
     object-fit: contain;
-    &.medium-zoom-image--opened {
-      background: #fff;
-      padding: 8px;
-      border-radius: 8px;
-    }
   }
+}
+
+img.medium-zoom-image--opened {
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .proj-info {
