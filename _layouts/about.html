@@ -2,44 +2,99 @@
 layout: default
 ---
 
-<div class="post">
+<div class="about-page">
 
-  <header class="post-header">
-    {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+  <!-- Profile Card -->
+  <div class="about-card">
+    <div class="about-header">
       {% if page.profile.image %}
-      <img class="img-fluid z-depth-1 rounded-circle" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+      <div class="about-avatar">
+        <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Profile photo">
+      </div>
       {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
+      <div class="about-info">
+        <h1 class="about-name">
+          {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+        </h1>
+        <p class="about-title">Deep Learning Algorithm Engineer</p>
+        <p class="about-affiliation">iFlytek &middot; Hefei, China</p>
+        {% if page.social_links %}
+        <div class="about-social">
+          {% for link in page.social_links %}
+          <a href="{{ link.url }}" title="{{ link.name }}" target="_blank" rel="noopener noreferrer">
+            <i class="{{ link.icon }}"></i>
+          </a>
+          {% endfor %}
         </div>
-      {% endif %}
+        {% endif %}
+      </div>
     </div>
-    {% endif %}
-    <h1 class="post-title" style="font-size:28px">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-    </h1>
-     <p class="desc">{{ page.description }}</p>
-  
-
-  <article>
-    
-  </header>
-
-    <div class="clearfix">
+    <div class="about-bio">
       {{ content }}
     </div>
+  </div>
 
-
- {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
+  <!-- Research Interests -->
+  {% if page.research_interests %}
+  <div class="about-card">
+    <h2 class="about-section-title">Research Interests</h2>
+    <div class="research-tags">
+      {% for interest in page.research_interests %}
+      <span class="research-tag">{{ interest }}</span>
+      {% endfor %}
     </div>
-    {% endif %} 
-  </article> 
+  </div>
+  {% endif %}
+
+  <!-- Work Experience & Education -->
+  {% if page.experience or page.education %}
+  <div class="about-card">
+    <h2 class="about-section-title">Experience</h2>
+    <div class="timeline">
+      {% if page.experience %}
+      {% for exp in page.experience %}
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-period">{{ exp.period }}</div>
+          <div class="timeline-role">{{ exp.title }}, {{ exp.company }}</div>
+          <div class="timeline-dept">{{ exp.department }} &middot; {{ exp.location }}</div>
+          {% if exp.description %}
+          <ul class="timeline-desc">
+            {% for desc in exp.description %}
+            <li>{{ desc }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+      {% if page.education %}
+      {% for edu in page.education %}
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-period">{{ edu.period }}</div>
+          <div class="timeline-role">{{ edu.degree }}</div>
+          <div class="timeline-dept">{{ edu.school }}</div>
+          {% if edu.description %}
+          <p class="timeline-desc-text">{{ edu.description }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Selected Publications -->
+  {% if page.selected_papers %}
+  <div class="about-card">
+    <h2 class="about-section-title">Selected Publications</h2>
+    {% include selected_papers.html %}
+  </div>
+  {% endif %}
 
 </div>
