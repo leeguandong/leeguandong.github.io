@@ -49,18 +49,6 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- Research Interests -->
-  {% if page.research_interests %}
-  <div class="about-card">
-    <h2 class="about-section-title">Research Interests</h2>
-    <div class="research-tags">
-      {% for interest in page.research_interests %}
-      <span class="research-tag">{{ interest }}</span>
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
-
   <!-- Work Experience & Education -->
   {% if page.experience or page.education %}
   <div class="about-card">
@@ -100,6 +88,18 @@ layout: default
       </div>
       {% endfor %}
       {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Research Interests -->
+  {% if page.research_interests %}
+  <div class="about-card">
+    <h2 class="about-section-title">Research Interests</h2>
+    <div class="research-tags">
+      {% for interest in page.research_interests %}
+      <span class="research-tag">{{ interest }}</span>
+      {% endfor %}
     </div>
   </div>
   {% endif %}

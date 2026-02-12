@@ -10,7 +10,7 @@ profile:
 
 news:
   - date: "2026.2.4"
-    content: "获年度CBG先进个人"
+    content: "Awarded CBG Outstanding Individual of the Year."
 
 research_interests:
   - AIGC
@@ -31,7 +31,8 @@ experience:
     location: Hefei, China
     period: 2024.11 - Present
     description:
-      - 负责 <a href="https://typemovie.art" target="_blank">Typemovie</a>、AI相框、超级制图等项目的核心算法研究。
+      - Key member of the iFlytek Typemovie project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
+      - Responsible for core algorithm research on <a href="https://typemovie.art" target="_blank">Typemovie</a>, AI Photo Frame, and Super Drawing.
 
   - title: Algorithm Engineer
     company: Suning
@@ -47,7 +48,7 @@ education:
   - degree: M.S. in Surveying and Mapping Engineering
     school: Hefei University of Technology
     period: 2016.9 - 2019.6
-    description: 研究方向为深度学习处理遥感影像。学院第三党支部书记。优秀毕业生，毕业论文获优秀毕业论文提名，ESI top 1% 论文。
+    description: Research focused on deep learning for remote sensing image processing. Secretary of the 3rd Party Branch of the College. Outstanding graduate with thesis nominated for excellent graduation thesis. ESI top 1% paper.
 
   - degree: B.S.
     school: Liaoning Technical University
