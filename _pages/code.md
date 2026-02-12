@@ -1,129 +1,430 @@
 ---
-layout: page
+layout: code
 permalink: /code/
 title: Code
 nav: true
 
+sections:
+  - title: "AIGC - Large Language Models"
+    repos:
+      - name: EcommerceLLMQwen3
+        url: https://github.com/leeguandong/EcommerceLLMQwen3
+        desc: Qwen3 series e-commerce LLM fine-tuned with e-commerce data.
+        stars: 10
+      - name: EcommerceLLMQwen2.5
+        url: https://github.com/leeguandong/EcommerceLLMQwen2.5
+        desc: Qwen2.5 series e-commerce LLM fine-tuned with e-commerce data.
+        stars: 13
+      - name: EcommerceLLM
+        url: https://github.com/leeguandong/EcommerceLLM
+        desc: E-commerce LLM fine-tuned based on Qwen1.5 and LLaMA3.
+        stars: 22
+      - name: MiniLLaMA3
+        url: https://github.com/leeguandong/MiniLLaMA3
+        desc: Mini LLaMA3 covering full pipeline from data, tokenizer, PT, SFT to RLHF.
+        stars: 2
+      - name: Medical_R1
+        url: https://github.com/leeguandong/Medical_R1
+        desc: Fine-tune DeepSeek-R1 on medical data.
+        stars: 1
+      - name: ECOMCPM
+        url: https://github.com/leeguandong/ECOMCPM
+        desc: Chinese GPT2-like pretrained model trained on e-commerce data.
+        stars: 1
+      - name: UniFlow
+        url: https://github.com/leeguandong/UniFlow
+        desc: Unified LLM, multimodal, FLUX generation interface with FastAPI deployment.
+        stars: 0
+      - name: MediaAgent
+        url: https://github.com/leeguandong/MediaAgent
+        desc: Auto-monitoring, LLM rewriting, and auto-publishing agent application.
+        stars: 3
+
+  - title: "AIGC - Multimodal Models"
+    repos:
+      - name: XrayLLaVA
+        url: https://github.com/leeguandong/XrayLLaVA
+        desc: X-ray multimodal model fine-tuned on LLaVA 1.6 with 4 V100 GPUs.
+        stars: 10
+      - name: XrayQwenVL
+        url: https://github.com/leeguandong/XrayQwenVL
+        desc: X-ray multimodal model fine-tuned on QwenVL-Chat.
+        stars: 21
+      - name: XrayQwen2VL
+        url: https://github.com/leeguandong/XrayQwen2VL
+        desc: X-ray multimodal model fine-tuned on Qwen2-VL-7B-Instruct.
+        stars: 7
+      - name: XrayLLama3.2Vision
+        url: https://github.com/leeguandong/XrayLLama3.2Vision
+        desc: X-ray multimodal model fine-tuned on LLaMA3.2-Vision on 4 A800 GPUs.
+        stars: 1
+      - name: OCRDetInternVL2
+        url: https://github.com/leeguandong/OCRDetInternVL2
+        desc: OCR detection multimodal model fine-tuned on InternVL2-8B.
+        stars: 5
+      - name: OCRInternVL2
+        url: https://github.com/leeguandong/OCRInternVL2
+        desc: OCR VQA multimodal model fine-tuned on InternVL2-8B.
+        stars: 2
+      - name: OCRDetPaliGemma
+        url: https://github.com/leeguandong/OCRDetPaliGemma
+        desc: OCR text detection multimodal model based on PaliGemma.
+        stars: 1
+      - name: EcommerceOCRBench
+        url: https://github.com/leeguandong/EcommerceOCRBench
+        desc: Large-scale OCR benchmark for multimodal LLMs in e-commerce.
+        stars: 6
+
+  - title: "AIGC - Image Generation"
+    repos:
+      - name: Awesome-Chinese-Stable-Diffusion
+        url: https://github.com/leeguandong/Awesome-Chinese-Stable-Diffusion
+        desc: Collection of Chinese stable diffusion base models.
+        stars: 403
+      - name: Awesome-ID-Customization
+        url: https://github.com/leeguandong/Awesome-ID-Customization
+        desc: ID-Customization for character consistency generation on Flux and SD.
+        stars: 5
+      - name: RealtimeFlux
+        url: https://github.com/leeguandong/RealtimeFlux
+        desc: First real-time Flux-based sketch-to-image generation model.
+        stars: 2
+      - name: MaskControlnet
+        url: https://github.com/leeguandong/MaskControlnet
+        desc: ControlNet conditioned on masks, trained on e-commerce cutout data.
+        stars: 7
+      - name: ChatAce
+        url: https://github.com/leeguandong/ChatAce
+        desc: Image editing based on Flux ACP++ for character consistency editing.
+        stars: 0
+      - name: ChatFlux
+        url: https://github.com/leeguandong/ChatFlux
+        desc: WebUI-based ChatDiT, supports generating images through conversations.
+        stars: 1
+      - name: DVI
+        url: https://github.com/leeguandong/DVI
+        desc: "DVI: Training-free personalized generation via disentangling semantic and visual identity."
+        stars: 1
+      - name: FlexID
+        url: https://github.com/leeguandong/FlexID
+        desc: Training-free flexible identity injection for text-to-image generation.
+        stars: 0
+      - name: EcommerceSD
+        url: https://github.com/leeguandong/EcommerceSD
+        desc: Stable diffusion models for e-commerce image generation and inpainting.
+        stars: 1
+      - name: HOME-CLIP
+        url: https://github.com/leeguandong/HOME-CLIP
+        desc: ChineseCLIP fine-tuned on home decoration and furniture data.
+        stars: 5
+      - name: HOME-DALLE1
+        url: https://github.com/leeguandong/HOME-DALLE1
+        desc: DALL-E 1 model for Chinese home decoration scenes.
+        stars: 1
+      - name: controlnet_aux_add
+        url: https://github.com/leeguandong/controlnet_aux_add
+        desc: Additional preprocessors for ControlNet auxiliary library.
+        stars: 1
+      - name: Smartbanner
+        url: https://github.com/leeguandong/Smartbanner
+        desc: Intelligent banner design framework balancing creative freedom and design rules.
+        stars: 1
+
+  - title: "AIGC - Video & Digital Human"
+    repos:
+      - name: Wav2lipAll
+        url: https://github.com/leeguandong/Wav2lipAll
+        desc: Wav2lip-based digital human training with lip-sync driving (96-288px).
+        stars: 22
+      - name: TalkingFace
+        url: https://github.com/leeguandong/TalkingFace
+        desc: Training set for 2D talking face projects (wav2lip, geneface++).
+        stars: 3
+      - name: Xiaobao
+        url: https://github.com/leeguandong/Xiaobao
+        desc: VideoClip, a video editing application.
+        stars: 4
+      - name: EcommerceVideoDataset
+        url: https://github.com/leeguandong/EcommerceVideoDataset
+        desc: Dataset for creating e-commerce animations.
+        stars: 0
+      - name: Awesome-Chinese-Video-Generation
+        url: https://github.com/leeguandong/Awesome-Chinese-Video-Generation
+        desc: Collection of Chinese video generation models.
+        stars: 0
+      - name: Musubi-Studio
+        url: https://github.com/leeguandong/Musubi-Studio
+        desc: Unified training framework for image and video generation models.
+        stars: 1
+
+  - title: "Typemovie"
+    repos:
+      - name: EditIDv2
+        url: https://github.com/typemovie/EditIDv2
+        desc: Character identity consistency in text-to-image with minimal data.
+        stars: 5
+      - name: IBench
+        url: https://github.com/typemovie/IBench
+        desc: Image evaluation system for EditID.
+        stars: 1
+      - name: Typemovie-ParaAttention
+        url: https://github.com/typemovie/Typemovie-ParaAttention
+        desc: Enhanced ParaAttention for DiT inference with context parallelism.
+        stars: 5
+      - name: TypemovieInfer
+        url: https://github.com/typemovie/TypemovieInfer
+        desc: Unified consumer-GPU multi-GPU inference framework for image and video generation.
+        stars: 2
+      - name: FastUSP
+        url: https://github.com/leeguandong/FastUSP
+        desc: Multi-level collaborative acceleration framework for distributed diffusion inference.
+        stars: 0
+
+  - title: "ComfyUI Extensions"
+    collapsible: true
+    repos:
+      - name: ComfyUI_FluxLayerDiffuse
+        url: https://github.com/leeguandong/ComfyUI_FluxLayerDiffuse
+      - name: ComfyUI_InternVL2
+        url: https://github.com/leeguandong/ComfyUI_InternVL2
+      - name: ComfyUI_M3Net
+        url: https://github.com/leeguandong/ComfyUI_M3Net
+      - name: ComfyUI_Gemma3
+        url: https://github.com/leeguandong/ComfyUI_Gemma3
+      - name: ComfyUI_VisualAttentionMap
+        url: https://github.com/leeguandong/ComfyUI_VisualAttentionMap
+      - name: ComfyUI_FluxCustomId
+        url: https://github.com/leeguandong/ComfyUI_FluxCustomId
+      - name: ComfyUI_1Prompt1Story
+        url: https://github.com/leeguandong/ComfyUI_1Prompt1Story
+      - name: ComfyUI_LLaSM
+        url: https://github.com/leeguandong/ComfyUI_LLaSM
+      - name: ComfyUI_Style_Aligned
+        url: https://github.com/leeguandong/ComfyUI_Style_Aligned
+      - name: ComfyUI_VideoEditing
+        url: https://github.com/leeguandong/ComfyUI_VideoEditing
+      - name: ComfyUI_FluxAttentionMask
+        url: https://github.com/leeguandong/ComfyUI_FluxAttentionMask
+      - name: ComfyUI_FluxClipWeight
+        url: https://github.com/leeguandong/ComfyUI_FluxClipWeight
+      - name: ComfyUI_CrossImageAttention
+        url: https://github.com/leeguandong/ComfyUI_CrossImageAttention
+      - name: ComfyUI_AliControlnetInpainting
+        url: https://github.com/leeguandong/ComfyUI_AliControlnetInpainting
+      - name: ComfyUI_CompareModelWeights
+        url: https://github.com/leeguandong/ComfyUI_CompareModelWeights
+      - name: ComfyUI_MasaCtrl
+        url: https://github.com/leeguandong/ComfyUI_MasaCtrl
+      - name: ComfyUI_Cogview4
+        url: https://github.com/leeguandong/ComfyUI_Cogview4
+      - name: ComfyUI_Diffusers
+        url: https://github.com/leeguandong/ComfyUI_Diffusers
+      - name: ComfyUI_BatchPrompt
+        url: https://github.com/leeguandong/ComfyUI_BatchPrompt
+      - name: ComfyUI_ChatGen
+        url: https://github.com/leeguandong/ComfyUI_ChatGen
+      - name: ComfyUI_QWQ32B
+        url: https://github.com/leeguandong/ComfyUI_QWQ32B
+      - name: ComfyUI_SelfGuidance
+        url: https://github.com/leeguandong/ComfyUI_SelfGuidance
+      - name: ComfyUI_Qwen3Omni
+        url: https://github.com/leeguandong/ComfyUI_Qwen3Omni
+      - name: ComfyUI_KimiVL
+        url: https://github.com/leeguandong/ComfyUI_KimiVL
+      - name: ComfyUI_Moonlight
+        url: https://github.com/leeguandong/ComfyUI_Moonlight
+      - name: ComfyUI_DeepSeekVL2
+        url: https://github.com/leeguandong/ComfyUI_DeepSeekVL2
+      - name: ComfyUI_NanoBanana
+        url: https://github.com/leeguandong/ComfyUI_NanoBanana
+      - name: ComfyUI_OneReward
+        url: https://github.com/leeguandong/ComfyUI_OneReward
+
+  - title: "SD WebUI Extensions"
+    collapsible: true
+    repos:
+      - name: sd_webui_ootdiffusion
+        url: https://github.com/leeguandong/sd_webui_ootdiffusion
+      - name: sd_webui_beautifulprompt
+        url: https://github.com/leeguandong/sd_webui_beautifulprompt
+      - name: sd_webui_outpainting
+        url: https://github.com/leeguandong/sd_webui_outpainting
+      - name: sd_webui_musetalk
+        url: https://github.com/leeguandong/sd_webui_musetalk
+      - name: sd_webui_realtime_lcm_canvas
+        url: https://github.com/leeguandong/sd_webui_realtime_lcm_canvas
+      - name: sd_webui_instantid
+        url: https://github.com/leeguandong/sd_webui_instantid
+      - name: sd_webui_lama
+        url: https://github.com/leeguandong/sd_webui_lama
+      - name: sd_webui_sghm
+        url: https://github.com/leeguandong/sd_webui_sghm
+      - name: sd_webui_animate_anything
+        url: https://github.com/leeguandong/sd_webui_animate_anything
+      - name: sd_webui_powerpaint
+        url: https://github.com/leeguandong/sd_webui_powerpaint
+      - name: sd_webui_matting
+        url: https://github.com/leeguandong/sd_webui_matting
+      - name: sd_webui_ZeST
+        url: https://github.com/leeguandong/sd_webui_ZeST
+      - name: sd_webui_tokenize_anything
+        url: https://github.com/leeguandong/sd_webui_tokenize_anything
+      - name: sd_webui_prompt_translator_architecture
+        url: https://github.com/leeguandong/sd_webui_prompt_translator_architecture
+
+  - title: "Computer Vision"
+    repos:
+      - name: TextErasing
+        url: https://github.com/leeguandong/TextErasing
+        desc: Self-supervised text erasing with controllable image synthesis.
+        stars: 2
+      - name: AllRank
+        url: https://github.com/leeguandong/AllRank
+        desc: Learn-to-rank framework for dynamic creative optimization.
+        stars: 3
+      - name: mmdetection_add
+        url: https://github.com/leeguandong/mmdetection_add
+        desc: Additional detection algorithms (EfficientDet, YOLOv4/v5) for mmdetection.
+        stars: 5
+      - name: mmclassification_add
+        url: https://github.com/leeguandong/mmclassification_add
+        desc: Additional classification algorithms (GhostNet, etc.) for mmcls.
+        stars: 3
+      - name: mmocr_add
+        url: https://github.com/leeguandong/mmocr_add
+        desc: OCR algorithms organized in mm framework.
+        stars: 1
+      - name: mmgeneration_add
+        url: https://github.com/leeguandong/mmgeneration_add
+        desc: GAN and traditional image generation algorithms.
+        stars: 1
+      - name: mmsynth
+        url: https://github.com/leeguandong/mmsynth
+        desc: Text rendering reorganized in mm format.
+        stars: 1
+      - name: Camera_blur_detection
+        url: https://github.com/leeguandong/Camera_blur_detection
+        desc: Camera photo blur detection with FastDeploy multi-platform deployment.
+        stars: 5
+      - name: Answer_card_identification
+        url: https://github.com/leeguandong/Answer_card_identification
+        desc: Answer sheet intelligent grading system.
+        stars: 21
+      - name: Dataaug
+        url: https://github.com/leeguandong/Dataaug
+        desc: Data augmentation for object detection and segmentation.
+        stars: 1
+      - name: FormatConversion
+        url: https://github.com/leeguandong/FormatConversion
+        desc: RGB to CMYK conversion for offline print materials.
+        stars: 1
+      - name: Qianbian
+        url: https://github.com/leeguandong/Qianbian
+        desc: Curated visual AI projects on HuggingFace, ModelScope, and PaddleHub.
+        stars: 4
+
+  - title: "Deployment & Acceleration"
+    repos:
+      - name: KuaiZai
+        url: https://github.com/leeguandong/KuaiZai
+        desc: Multi-platform deployment project codes.
+        stars: 1
+      - name: PlateRec
+        url: https://github.com/leeguandong/PlateRec
+        desc: License plate recognition based on PaddleOCR, ONNX Runtime, C++.
+        stars: 4
+      - name: Yolov5_rknnlite2
+        url: https://github.com/leeguandong/Yolov5_rknnlite2
+        desc: YOLOv5 pedestrian detection deployed on RK3588 with RKNNLite2.
+        stars: 12
+
+  - title: "Hyperspectral Classification"
+    repos:
+      - name: How-to-make-high-resolution-remote-sensing-image-dataset
+        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
+        desc: Guide for creating high-resolution remote sensing image datasets.
+        stars: 55
+      - name: 3D-DenseNet-for-HSI
+        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
+        desc: 3D densely connected convolutional network for HSI classification.
+        stars: 47
+      - name: FSKNet-for-HSI
+        url: https://github.com/leeguandong/FSKNet-for-HSI
+        desc: Faster HSI classification based on selective kernel mechanism.
+        stars: 33
+      - name: Multi-Scale-Dense-Networks-for-HSI
+        url: https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification
+        desc: Multi-scale dense networks for hyperspectral image classification.
+        stars: 32
+      - name: DGCNet-for-HSI
+        url: https://github.com/leeguandong/DGCNet-for-HSI
+        desc: Dynamic group convolution network for HSI classification.
+        stars: 7
+      - name: MVNet-for-HSI
+        url: https://github.com/leeguandong/MVNet-for-HSI
+        desc: Hybrid Mamba-Transformer vision backbone for HSI classification.
+        stars: 4
+      - name: mmhyperspectral
+        url: https://github.com/leeguandong/mmhyperspectral
+        desc: Hyperspectral classification models in mm framework.
+        stars: 2
+      - name: SGDSCNet-for-HSI
+        url: https://github.com/leeguandong/SGDSCNet-for-HSI
+        desc: Spatial-geometry enhanced 3D dynamic snake CNN for HSI classification.
+        stars: 2
+      - name: DACNet-for-HSI
+        url: https://github.com/leeguandong/DACNet-for-HSI
+        desc: Efficient dynamic attention 3D convolution for HSI classification.
+        stars: 2
+      - name: WCNet-for-HSI
+        url: https://github.com/leeguandong/WCNet-for-HSI
+        desc: 3D wavelet convolutions with extended receptive fields for HSI.
+        stars: 2
+      - name: KANet-for-HSI
+        url: https://github.com/leeguandong/KANet-for-HSI
+        desc: Dynamic 3D KAN convolution with adaptive grid for HSI classification.
+        stars: 1
+      - name: EKGNet-for-HSI
+        url: https://github.com/leeguandong/EKGNet-for-HSI
+        desc: Expert kernel generation network for HSI classification.
+        stars: 1
+      - name: STNet-for-HSI
+        url: https://github.com/leeguandong/STNet-for-HSI
+        desc: Transformer-based spectral-spatial attention decoupling for HSI.
+        stars: 1
+
+  - title: "Learning & Tools"
+    repos:
+      - name: Interview-code-practice-python
+        url: https://github.com/leeguandong/Interview-code-practice-python
+        desc: Python coding interview practice problems.
+        stars: 1577
+      - name: learn_python
+        url: https://github.com/leeguandong/learn_python
+        desc: Python learning notes.
+        stars: 297
+      - name: Leetcode-hot100-python
+        url: https://github.com/leeguandong/Leetcode-hot100-python
+        desc: LeetCode Hot 100 problems in Python.
+        stars: 35
+      - name: DL-data-processing-methods
+        url: https://github.com/leeguandong/DL-data-processing-methods
+        desc: Common data processing methods for deep learning.
+        stars: 34
+      - name: Paper-Learning
+        url: https://github.com/leeguandong/Paper-Learning
+        desc: Paper reading notes on deep learning, remote sensing, OCR, and generation.
+        stars: 27
+      - name: SimilarWork
+        url: https://github.com/leeguandong/SimilarWork
+        desc: Deep learning framework implemented with NumPy (TF static graph + PyTorch dynamic).
+        stars: 7
+      - name: TPCV
+        url: https://github.com/leeguandong/TPCV
+        desc: Simple example to understand mmcv internals.
+        stars: 1
+      - name: Parking
+        url: https://github.com/leeguandong/Parking
+        desc: Parking spot finder mobile application.
+        stars: 23
 ---
-
-### AIGC
-
-- **Summary**
-  - [Awesome-Chinese-Stable-Diffusion](https://github.com/leeguandong/Awesome-Chinese-Stable-Diffusion) :Focus on some basic models of Chinese stable diffusion.    
-- **LLM**
-  - [EcommerceLLM](https://github.com/leeguandong/EcommerceLLM) :E-commerce scene LLM fine-tuned based on qwen1.5 and llama3.     
-  - [EcommerceLLMQwen2.5](https://github.com/leeguandong/EcommerceLLMQwen2.5) :A Qwen2.5 series e-commerce large language model fine-tuned on e-commerce data.
-  - [MiniLLaMA3](https://github.com/leeguandong/MiniLLaMA3) :A mini version of Llama 3, covering the entire pipeline from data construction (0-1), tokenizer training, pre-training (PT), supervised fine-tuning (SFT), and reinforcement learning from human feedback (RLHF).
-  - [ECOMCPM](https://github.com/leeguandong/ECOMCPM) :Language model trained on e-commerce data from 'What's Worth Buying' website, a Chinese pretrained model similar to GPT2.    
-  - [UniFlow](https://github.com/leeguandong/UniFlow) :Unified large language model, multimodal, FLUX generation interface, FastAPI deployment, configurable deployment services.
-  - [Medical_R1](https://github.com/leeguandong/Medical_R1) :Fine-tune deepseek-r1 on medical data.
-  - [EcommerceLLMQwen3](https://github.com/leeguandong/EcommerceLLMQwen3) :Qwen3 Series E-commerce Large Model Fine-tuned with E-commerce Data E-commerce Large Model after E-commerce Data SFT.
-- **LMM**
-  - [XrayLLaVA](https://github.com/leeguandong/XrayLLaVA) :Xray Large Multi-modal Model, fine-tuned on LLaVA for the Xray's multi-modal large model, using 4 V100 GPUs based on the llava1d6-mistral-7b-instruct model. LLaVA is among the most popular model methodologies and architectures in large multi-modal language models. Fine-tuning LLaVA helps us evaluate and compare the potential of training large multi-modal language models in vertical scenarios. 
-  - [XrayQwenVL](https://github.com/leeguandong/XrayQwenVL) : Xray Large Multi-modal Model, fine-tuned on QwenVL for Xray's multi-modal large model, using 4 V100 GPUs based on the qwenvl-chat model for fine-tuning.    
-  - [XrayQwen2VL](https://github.com/leeguandong/XrayQwen2VL) :Fine-tuned on Qwen2vl using the Xray open-source dataset. The training LORA weights have been released for academic research. For inference, the original qwen2-vl-7b-instruct weights need to be loaded separately, and the LORA weights can be merged using llamafactory's merge LORA function. Llamafactory 0.9.0 was used for fine-tuning in this experiment.
-  - [EcommerceOCRBench](https://github.com/leeguandong/EcommerceOCRBench) :A larger-scale OCR benchmark dataset for multimodal large language models in e-commerce, modeled after OCRBench.
-  - [OCRPaliGemma](https://github.com/leeguandong/OCRPaliGemma) :A multimodal large language model with a focus on OCR text detection.
-  - [XrayLLama3.2Vision](https://github.com/leeguandong/XrayLLama3.2Vision) :Xray Large Multi-model Model, based on llama3.2-vision fine-tuning Xray's multi-modal large model, fine-tuned on 4 A800 based on llama3_2-11b-vision-instruct model.
-- **SD**
-  - [HOME-CLIP](https://github.com/leeguandong/HOME-CLIP) :ChineseCLIP model was fine-tuned on home decoration and furniture data crawled from Visual China.      
-  - [HOME-DALLE1](https://github.com/leeguandong/HOME-DALLE1) :DALL-E 1 model for Chinese home decoration and furniture scenes.   
-  - [controlnet_aux_add](https://github.com/leeguandong/controlnet_aux_add) :Auxiliary functions of ControlNet, an additional library of huggingface's ControlNet aux, adding preprocessors not present in aux.   
-  - [EcommerceSD](https://github.com/leeguandong/EcommerceSD) :A focus on image generation in e-commerce scenarios, including model generation and inpainting.
-  - [MaskControlnet](https://github.com/leeguandong/MaskControlnet) :A ControlNet-based generative model conditioned on masks, trained on a massive dataset of e-commerce cutout images (saliency map detection data).
-  - [ChatAce](https://github.com/leeguandong/ChatAce) :Picture editing based on flux acp++, mainly character consistency editing.
-  - [ChatFlux]([ChatFlux](https://github.com/leeguandong/ChatFlux)) :webui based chatdit, supports generating pictures through conversations.
-  - [Typemovie-ParaAttention](https://github.com/typemovie/Typemovie-ParaAttention) :TypeMovie-ParaAttention is an enhanced version of ParaAttention, designed to accelerate Diffusion Transformer (DiT) model inference with context parallelism, dynamic caching, and a new high-performance SageAttention backend.
-  - [EditIDv2](https://github.com/typemovie/EditIDv2) :Typemovie's EditIDv2 ensures character identity consistency in complex text-to-image generation, using minimal data for enhanced semantic editing, as shown in IBench tests.
-  - [IBench](https://github.com/typemovie/IBench) :Image evaluation system in Editid.
-  - [RealtimeFlux](https://github.com/leeguandong/RealtimeFlux) :This is the first model enabling real-time flux-based sketch-to-image generation, akin to Ji Meng's Smart Canvas and Krea.ai's real-time rendering, built on the Nunchaku and Flux framework.
-- **Video generation**  
-  -  [EcommerceVideoDataset](https://github.com/leeguandong/EcommerceVideoDataset) :A dataset primarily used for creating e-commerce animations.     
-
-- **Digital Human**
-  - [Wav2lipAll](https://github.com/leeguandong/Wav2lipAll) :Training a virtual digital human based on wav2lip, with lip shape driving, including data processing procedures, etc. The model includes sizes 96x96, 192x192, 192x288, 288x288.   
-  - [TalkingFace](https://github.com/leeguandong/TalkingFace) :Training set for 2D virtual digital human projects similar to wav2lip, geneface++.    
-
-
-### Comfyui-extension and Stable-diffusion-webui-extension 
-
-- [ComfyUI_AliControlnetInpainting](https://github.com/leeguandong/ComfyUI_AliControlnetInpainting)
-- [ComfyUI_CompareModelWeights](https://github.com/leeguandong/ComfyUI_CompareModelWeights)
-- [ComfyUI_Diffusers](https://github.com/leeguandong/ComfyUI_Diffusers)
-- [ComfyUI_MasaCtrl](https://github.com/leeguandong/ComfyUI_MasaCtrl)
-- [ComfyUI_VisualAttentionMap](https://github.com/leeguandong/ComfyUI_VisualAttentionMap)
-- [ComfyUI_SelfGuidance](https://github.com/leeguandong/ComfyUI_SelfGuidance)
-- [ComfyUI_CrossImageAttention](https://github.com/leeguandong/ComfyUI_CrossImageAttention)
-- [ComfyUI_Style_Aligned](https://github.com/leeguandong/ComfyUI_Style_Aligned)
-- [ComfyUI_M3Net](https://github.com/leeguandong/ComfyUI_M3Net)
-- [ComfyUI_VideoEditing](https://github.com/leeguandong/ComfyUI_VideoEditing)
-- [ComfyUI_InternVL2](https://github.com/leeguandong/ComfyUI_InternVL2)
-- [ComfyUI_LLaSM](https://github.com/leeguandong/ComfyUI_LLaSM)
-- [ComfyUI_Qwen3Omni](https://github.com/leeguandong/ComfyUI_Qwen3Omni)
-- [ComfyUI_Gemma3](https://github.com/leeguandong/ComfyUI_Gemma3)
-- [ComfyUI_BatchPrompt](https://github.com/leeguandong/ComfyUI_BatchPrompt)
-- [ComfyUI_KimiVL](https://github.com/leeguandong/ComfyUI_KimiVL)
-- [ComfyUI_FluxLayerDiffuse](https://github.com/leeguandong/ComfyUI_FluxLayerDiffuse)
-- [ComfyUI_QWQ32B](https://github.com/leeguandong/ComfyUI_QWQ32B)
-- [ComfyUI_FluxAttentionMask](https://github.com/leeguandong/ComfyUI_FluxAttentionMask)
-- [ComfyUI_Moonlight](https://github.com/leeguandong/ComfyUI_Moonlight)
-- [ComfyUI_DeepSeekVL2](https://github.com/leeguandong/ComfyUI_DeepSeekVL2)
-- [ComfyUI_ChatGen](https://github.com/leeguandong/ComfyUI_ChatGen)
-- [ComfyUI_1Prompt1Story](https://github.com/leeguandong/ComfyUI_1Prompt1Story)
-- [ComfyUI_Cogview4](https://github.com/leeguandong/ComfyUI_Cogview4)
-- [ComfyUI_FluxClipWeight](https://github.com/leeguandong/ComfyUI_FluxClipWeight)
-- [ComfyUI_CompareModelWeights](https://github.com/leeguandong/ComfyUI_CompareModelWeights)
-- [ComfyUI_FluxCustomId](https://github.com/leeguandong/ComfyUI_FluxCustomId)
-- [sd_webui_ZeST](https://github.com/leeguandong/sd_webui_ZeST)
-- [sd_webui_instantid](https://github.com/leeguandong/sd_webui_instantid)
-- [sd_webui_prompt_translator_architecture](https://github.com/leeguandong/sd_webui_prompt_translator_architecture)
-- [sd_webui_musetalk](https://github.com/leeguandong/sd_webui_musetalk)    
-- [sd_webui_tokenize_anything](https://github.com/leeguandong/sd_webui_tokenize_anything)    
-- [sd_webui_ootdiffusion](https://github.com/leeguandong/sd_webui_ootdiffusion)     
-- [sd_webui_animate_anything](https://github.com/leeguandong/sd_webui_animate_anything)    
-- [sd_webui_powerpaint](https://github.com/leeguandong/sd_webui_powerpaint)    
-- [sd_webui_outpainting](https://github.com/leeguandong/sd_webui_outpainting)     
-- [sd_webui_matting](https://github.com/leeguandong/sd_webui_matting)    
-- [sd_webui_reatime_lcm_canvas](https://github.com/leeguandong/sd_webui_realtime_lcm_canvas)    
-- [sd_webui_beautifulprompt](https://github.com/leeguandong/sd_webui_beautifulprompt)    
-- [sd_webui_lama](https://github.com/leeguandong/sd_webui_lama)    
-- [sd_webui_sghm](https://github.com/leeguandong/sd_webui_sghm)    
-
-### CV and Creatives
-
-- **CV**
-  - [Camera_blur_detection](https://github.com/leeguandong/Camera_blur_detection) :Perform region detection on photos captured by the camera and provide a blur determination, C++ code, using FastDeploy for multi-platform deployment, VS2019.
-  - [mmdetection_add](https://github.com/leeguandong/mmdetection_add) :Add the implemented object detection algorithms, including EfficientDet, YOLOv4/v5, etc.
-  - [mmclassification_add](https://github.com/leeguandong/mmclassification_add) :Add the implemented classification algorithms to mmcls, including GhostNet, etc.
-  - [Answer_card_identification](https://github.com/leeguandong/Answer_card_identification) :Answer Sheet Project, intelligent grading.
-  - [mmsynth](https://github.com/leeguandong/mmsynth) :Reorganized text_render in mm format.
-- **Creatives**
-  - [TextErasing](https://github.com/leeguandong/TextErasing) :Text erasing algorithm, Alibaba's self-supervised text erasing with controllable image synthesis algorithm, will provide two versions.  
-  - [AllRank](https://github.com/leeguandong/AllRank) :Learn-to-rank framework, the re-ranking module in recall/coarse ranking/fine ranking/re-ranking, previously mainly used for dynamic creative optimization to re-rank features including images.   
-  - [mmgeneration_add](https://github.com/leeguandong/mmgeneration_add) :GAN and other traditional image generation algorithms.   
-  - [Xiaobao](https://github.com/leeguandong/Xiaobao) :VideoClip, a video editing application. 
-
-### Deployment Acceleration
-
-- [KuaiZai](https://github.com/leeguandong/KuaiZai) :Mainly some project codes for multi-platform deployment.
-- [PlateRec](https://github.com/leeguandong/PlateRec) :License plate recognition, based on PaddleOCR, ONNX Runtime, C++.
-- [Yolov5_rknnlite2](https://github.com/leeguandong/Yolov5_rknnlite2) :YOLOv5 pedestrian detection, deployed on RK3588, RKNLite2. 
-
-### Hyperspectral classification     
-
-- [DGCNet-for-HSI](https://github.com/leeguandong/DGCNet-for-HSI)     
-- [FSKNet-for-HSI](https://github.com/leeguandong/FSKNet-for-HSI)   
-- [STNet-for-HSI](https://github.com/leeguandong/STNet-for-HSI)
-- [WCNet-for-HSI](https://github.com/leeguandong/WCNet-for-HSI)
-- [SGDSCNet-for-HSI](https://github.com/leeguandong/SGDSCNet-for-HSI)
-- [MVNet-for-HSI](https://github.com/leeguandong/MVNet-for-HSI)
-- [KANet-for-HSI](https://github.com/leeguandong/KANet-for-HSI)
-- [EKGNet-for-HSI](https://github.com/leeguandong/EKGNet-for-HSI)
-- [DACNet-for-HSI](https://github.com/leeguandong/DACNet-for-HSI)
-- [mmhyperspectral](https://github.com/leeguandong/mmhyperspectral)
-
-###  Leraning
-
-- [Interview-code-practice-python](https://github.com/leeguandong/Interview-code-practice-python) 
-- [Paper-Learning](https://github.com/leeguandong/Paper-Learning)  
-

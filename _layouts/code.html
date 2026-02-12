@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="code-page">
+  <h1 class="code-page-title">{{ page.title }}</h1>
+
+  {% for section in page.sections %}
+  <div class="code-section">
+    <h2 class="code-section-title">{{ section.title }}</h2>
+
+    {% if section.collapsible %}
+    <div class="code-collapse">
+      <button class="code-collapse-btn" onclick="this.parentElement.classList.toggle('open')">
+        <span class="collapse-icon">+</span> Show {{ section.repos | size }} projects
+      </button>
+      <div class="code-collapse-content">
+        <div class="code-compact-list">
+          {% for repo in section.repos %}
+          <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">
+            {{ repo.name }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% else %}
+    <div class="code-grid">
+      {% for repo in section.repos %}
+      <a href="{{ repo.url }}" class="code-card" target="_blank" rel="noopener noreferrer">
+        <div class="code-card-header">
+          <span class="code-card-name">{{ repo.name }}</span>
+          {% if repo.stars and repo.stars > 0 %}
+          <span class="code-card-stars">{{ repo.stars }}</span>
+          {% endif %}
+        </div>
+        {% if repo.desc %}
+        <p class="code-card-desc">{{ repo.desc }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</div>
