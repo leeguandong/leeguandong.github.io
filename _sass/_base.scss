@@ -666,38 +666,15 @@ footer.sticky-bottom {
 .pub-card-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.4rem;
-}
-
-.pub-badge {
-  font-size: 0.7rem;
-  padding: 0.15rem 0.6rem;
-  border-radius: 3px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.pub-badge-journal {
-  background: var(--global-theme-color);
-  color: white;
-}
-
-.pub-badge-conference {
-  background: #28a745;
-  color: white;
-}
-
-.pub-badge-preprint {
-  background: #6c757d;
-  color: white;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .pub-year {
   font-size: 0.85rem;
   color: #888;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .pub-title {

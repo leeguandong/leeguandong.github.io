@@ -5,20 +5,18 @@ layout: default
 <div class="pub-page">
   <h1 class="pub-page-title">{{ page.title }}</h1>
 
-  {% for section in page.sections %}
   <div class="pub-section">
     <h2 class="pub-section-title">
-      {{ section.title }}
-      <span class="pub-section-count">{{ section.papers | size }}</span>
+      Papers
+      <span class="pub-section-count">{{ page.papers | size }}</span>
     </h2>
 
-    {% for paper in section.papers %}
+    {% for paper in page.papers %}
     <div class="pub-card">
       <div class="pub-card-top">
-        <span class="pub-badge pub-badge-{{ paper.type }}">{{ paper.type | capitalize }}</span>
+        <div class="pub-title">{{ paper.title }}</div>
         <span class="pub-year">{{ paper.year }}</span>
       </div>
-      <div class="pub-title">{{ paper.title }}</div>
       <div class="pub-authors">{{ paper.authors }}</div>
       <div class="pub-venue">{{ paper.venue }}</div>
       <div class="pub-links">
@@ -35,7 +33,6 @@ layout: default
     </div>
     {% endfor %}
   </div>
-  {% endfor %}
 
   {% if page.patents %}
   <div class="pub-section">
