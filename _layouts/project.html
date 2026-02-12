@@ -13,7 +13,7 @@ layout: default
     <div class="proj-card">
       <div class="proj-images">
         {% for img in project.images %}
-        <img src="{{ img | relative_url }}" alt="{{ project.title }}" loading="lazy" />
+        <img src="{{ img | relative_url }}" alt="{{ project.title }}" loading="lazy" data-zoomable />
         {% endfor %}
       </div>
       <div class="proj-info">
