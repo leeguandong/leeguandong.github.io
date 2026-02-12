@@ -1,180 +1,244 @@
 ---
-layout: page
+layout: publications
 permalink: /publications/
 title: Publications
 description:
 nav: true
+
+sections:
+  - title: "Hyperspectral Remote Sensing"
+    papers:
+      - title: "MVNet: Hyperspectral Remote Sensing Image Classification Based on Hybrid Mamba-Transformer Vision Backbone Architecture"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2507.04409"
+        code: "https://github.com/leeguandong/MVNet-for-HSI"
+      - title: "Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2506.08324"
+        code: "https://github.com/leeguandong/STNet-for-HSI"
+      - title: "Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2504.15155"
+        code: "https://github.com/leeguandong/KANet-for-HSI"
+      - title: "3D Wavelet Convolutions with Extended Receptive Fields for Hyperspectral Image Classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2504.10795"
+        code: "https://github.com/leeguandong/WCNet-for-HSI"
+      - title: "Expert Kernel Generation Network Driven by Contextual Mapping for Hyperspectral Image Classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2504.13045"
+        code: "https://github.com/leeguandong/EKGNet-for-HSI"
+      - title: "Spatial-Geometry Enhanced 3D Dynamic Snake Convolutional Neural Network for Hyperspectral Image Classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2504.04463"
+        code: "https://github.com/leeguandong/SGDSCNet-for-HSI"
+      - title: "Efficient Dynamic Attention 3D Convolution for Hyperspectral Image Classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2503.23472"
+        code: "https://github.com/leeguandong/DACNet-for-HSI"
+      - title: "Dgcnet: An efficient 3d-densenet based on dynamic group convolution for hyperspectral remote sensing image classification"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "Spectroscopy Letters"
+        year: 2025
+        type: journal
+        doi: "https://doi.org/10.1080/00387010.2025.2520290"
+        code: "https://github.com/leeguandong/DGCNet-for-HSI"
+      - title: "Spatial-spectral hyperspectral classification based on learnable 3D group convolution"
+        authors: "<u>Guandong Li</u>, Mengxia Ye"
+        venue: "Spectroscopy Letters"
+        year: 2025
+        type: journal
+        doi: "https://doi.org/10.1080/00387010.2025.2459256"
+      - title: "Faster Hyperspectral Image Classification Based on Selective Kernel Mechanism Using Deep Convolutional Networks"
+        authors: "<u>Guandong Li</u>, Chunju Zhang"
+        venue: "arXiv preprint"
+        year: 2022
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2202.06458"
+        code: "https://github.com/leeguandong/FSKNet-for-HSI"
+      - title: "Deep feature aggregation network for hyperspectral remote sensing image classification"
+        authors: "Chunju Zhang, <u>Guandong Li</u>, Runmin Lei, Shihong Du, Xueying Zhang, Hui Zheng, Zhaofu Wu"
+        venue: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+        year: 2020
+        type: journal
+        doi: "https://ieeexplore.ieee.org/document/9184224"
+      - title: "Hyperspectral remote sensing image classification using 3D-SE-DenseNet"
+        authors: "<u>Guandong Li</u>, Chunju Zhang, Runmin Lei, Xueying Zhang, Zhourun Ye, Xiaoli Li"
+        venue: "Remote Sensing Letters"
+        year: 2020
+        type: journal
+        doi: "https://ieeexplore.ieee.org/document/9514617"
+      - title: "Multi-scale dense networks for hyperspectral remote sensing image classification"
+        authors: "Chunju Zhang, <u>Guandong Li</u>, Shihong Du"
+        venue: "IEEE Transactions on Geoscience and Remote Sensing"
+        year: 2019
+        type: journal
+        doi: "https://ieeexplore.ieee.org/document/8784389"
+        code: "https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification"
+      - title: "Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification"
+        authors: "Chunju Zhang, <u>Guandong Li</u>, Shihong Du, Wuzhou Tan"
+        venue: "Journal of Applied Remote Sensing"
+        year: 2019
+        type: journal
+        doi: "https://doi.org/10.1117/1.JRS.13.016519"
+        code: "https://github.com/leeguandong/3D-DenseNet-for-HSI"
+      - title: "Doubleconvpool-structured 3D-CNN for hyperspectral remote sensing image classification"
+        authors: "<u>Guandong Li</u>, Chunju Zhang, Fei Gao, Xueying Zhang"
+        venue: "Journal of Image and Graphics"
+        year: 2019
+        type: journal
+        doi: "http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1"
+      - title: "双卷积池化结构的 3D-CNN 高光谱遥感影像分类方法"
+        authors: "<u>李冠东</u>, 张春菊, 高飞, 张雪英"
+        venue: "中国图象图形学报"
+        year: 2019
+        type: journal
+        doi: "http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1"
+      - title: "卷积神经网络迁移的高分影像场景分类学习"
+        authors: "<u>李冠东</u>, 张春菊, 王铭恺, 张雪英, 高飞"
+        venue: "测绘科学"
+        year: 2019
+        type: journal
+        doi: "https://www.cnki.com.cn/Article/CJFDTOTAL-CHKD201904021.htm"
+      - title: "Scene classification of high-resolution remote sensing image using transfer learning with multi-model feature extraction framework"
+        authors: "<u>Guandong Li</u>, Chunju Zhang, Mingkai Wang, Fei Gao, Xueying Zhang"
+        venue: "Chinese Conference on Image and Graphics Technologies (IGTA)"
+        year: 2018
+        type: conference
+        doi: "https://link.springer.com/chapter/10.1007/978-981-13-1702-6_24"
+
+  - title: "AIGC & Image Generation"
+    papers:
+      - title: "EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation"
+        authors: "<u>Guandong Li</u>, Zhaobin Chu"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2509.05659"
+      - title: "EditID: Training-Free Editable ID Customization for Text-to-Image Generation"
+        authors: "<u>Guandong Li</u>, Ziming Chu"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2503.12526"
+      - title: "DVI: Disentangling Semantic and Visual Identity for Training-Free Personalized Generation"
+        authors: "<u>Guandong Li</u>, Yijun Ding"
+        venue: "arXiv preprint"
+        year: 2025
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2512.18964"
+      - title: "Layout Control and Semantic Guidance with Attention Loss Backward for T2I Diffusion Model"
+        authors: "<u>Guandong Li</u>"
+        venue: "arXiv preprint"
+        year: 2024
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2411.06692"
+      - title: "Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce"
+        authors: "<u>Guandong Li</u>"
+        venue: "arXiv preprint"
+        year: 2024
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2409.04750"
+      - title: "E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing Overcompletion"
+        authors: "<u>Guandong Li</u>"
+        venue: "arXiv preprint"
+        year: 2024
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2409.09681"
+
+  - title: "E-commerce & Intelligent Design"
+    papers:
+      - title: "Two-stage dynamic creative optimization under sparse ambiguous samples for e-commerce advertising"
+        authors: "<u>Guandong Li</u>, Xian Yang"
+        venue: "SN Computer Science"
+        year: 2024
+        type: journal
+        doi: "https://doi.org/10.1007/s42979-024-02426-0"
+      - title: "A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition"
+        authors: "<u>Guandong Li</u>, Xian Yang, Wenpin Ma"
+        venue: "arXiv preprint"
+        year: 2024
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2402.13545"
+      - title: "Intelligent Parsing: An Automated Parsing Framework for Extracting Design Semantics from E-commerce Creatives"
+        authors: "<u>Guandong Li</u>, Xian Yang"
+        venue: "arXiv preprint"
+        year: 2023
+        type: preprint
+        arxiv: "https://arxiv.org/abs/2312.17283"
+      - title: "Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules"
+        authors: "<u>Guandong Li</u>, Xian Yang"
+        venue: "Multimedia Tools and Applications"
+        year: 2023
+        type: journal
+        doi: "https://rdcu.be/c0iMt"
+      - title: "The Study of a City Smart Parking Mode Based on Internet Plus"
+        authors: "Chunju Zhang, <u>Guandong Li</u>, Fei Gao, Chao Shi, Shaonan Zhu"
+        venue: "Bulletin of Surveying and Mapping"
+        year: 2017
+        type: journal
+        doi: "https://www.cnki.com.cn/Article/CJFDTotal-CHTB201709013.htm"
+
+patents:
+  - inventors: "李冠东，马文聘，杨现，叶进进"
+    title: "一种图像的篡改识别方法、装置、计算机设备及存储介质"
+    id: "CN111583180B"
+    date: "2022.12.20 [授权]"
+  - inventors: "李冠东，董昱青，毕明悦，马文聘，王孝阳"
+    title: "一种图层的解析方法、装置、计算机设备和存储介质"
+    id: "CN113239995A"
+    date: "2021.08.10"
+  - inventors: "李冠东，丁一军"
+    title: "一种广告图片投放方法、装置、设备及介质"
+    id: "CN116777522A"
+    date: "2023.09.19"
+  - inventors: "李冠东，丁一军"
+    title: "一种视频生成方法、装置、计算机设备和存储介质"
+    id: "CN116866497A"
+    date: "2023.10.10"
+  - inventors: "李冠东，丁一军"
+    title: "横幅广告图片生成装置、方法、计算机设备和存储介质"
+    id: "CN116721177A"
+    date: "2023.09.08"
+  - inventors: "李冠东，丁一军，吕锐，沈艺"
+    title: "行人检测方法、装置、计算机设备和存储介质"
+    id: "CN118015658A"
+    date: "2024.05.10"
+  - inventors: "李冠东，丁一军，吕锐，沈艺"
+    title: "食品识别方法、装置、计算机设备和存储介质"
+    id: "CN118351529A"
+    date: "2024.07.16"
+  - inventors: "马文聘，董昱青，王孝阳，毕明悦，李冠东"
+    title: "一种模板拓展的方法及系统"
+    id: "CN115422900A"
+    date: "2022.12.02"
+  - inventors: "王孝阳，董昱青，毕明悦，马文聘，李冠东"
+    title: "一种文案排版布局的方法及系统"
+    id: "CN113255289A"
+    date: "2021.08.13"
+  - inventors: "毕明悦，董昱青，李冠东，马文聘，王孝阳"
+    title: "一种颜色搭配的方法、装置、计算机设备和存储设备"
+    id: "CN113240765A"
+    date: "2021.08.10"
 ---
-
-## Journal Papers
-
-**Multi-scale dense networks for hyperspectral remote sensing image classification**
-Chunju Zhang, **<u>Guandong Li</u>**, Shihong Du (student first author)
-*IEEE Transactions on Geoscience and Remote Sensing*, 2019
-[[doi](https://ieeexplore.ieee.org/document/8784389)] [[code](https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification)]
-
-**Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification**
-Chunju Zhang, **<u>Guandong Li</u>**, Shihong Du, Wuzhou Tan (student first author)
-*Journal of Applied Remote Sensing*, 2019
-[[doi](https://doi.org/10.1117/1.JRS.13.016519)] [[code](https://github.com/leeguandong/3D-DenseNet-for-HSI)]
-
-**Deep feature aggregation network for hyperspectral remote sensing image classification**
-Chunju Zhang, **<u>Guandong Li</u>**, Runmin Lei, Shihong Du, Xueying Zhang, Hui Zheng, Zhaofu Wu (student first author)
-*IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 2020
-[[doi](https://ieeexplore.ieee.org/document/9184224)]
-
-**Hyperspectral remote sensing image classification using three-dimensional-squeeze-and-excitation-DenseNet (3D-SE-DenseNet)**
-**<u>Guandong Li</u>**, Chunju Zhang, Runmin Lei, Xueying Zhang, Zhourun Ye, Xiaoli Li
-*Remote Sensing Letters*, 2020
-[[doi](https://ieeexplore.ieee.org/document/9514617)]
-
-**Dgcnet: An efficient 3d-densenet based on dynamic group convolution for hyperspectral remote sensing image classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*Spectroscopy Letters*, 2025
-[[doi](https://doi.org/10.1080/00387010.2025.2520290)] [[code](https://github.com/leeguandong/DGCNet-for-HSI)]
-
-**Spatial-spectral hyperspectral classification based on learnable 3D group convolution**
-**<u>Guandong Li</u>**, Mengxia Ye
-*Spectroscopy Letters*, 2025
-[[doi](https://doi.org/10.1080/00387010.2025.2459256)]
-
-**Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules**
-**<u>Guandong Li</u>**, Xian Yang
-*Multimedia Tools and Applications*, 2023
-[[doi](https://rdcu.be/c0iMt)]
-
-**Two-stage dynamic creative optimization under sparse ambiguous samples for e-commerce advertising**
-**<u>Guandong Li</u>**, Xian Yang
-*SN Computer Science*, 2024
-[[doi](https://doi.org/10.1007/s42979-024-02426-0)]
-
-**Doubleconvpool-structured 3D-CNN for hyperspectral remote sensing image classification**
-**<u>Guandong Li</u>**, Chunju Zhang, Fei Gao, Xueying Zhang
-*Journal of Image and Graphics*, 2019
-[[doi](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1)]
-
-**双卷积池化结构的 3D-CNN 高光谱遥感影像分类方法**
-**<u>李冠东</u>**, 张春菊, 高飞, 张雪英
-*中国图象图形学报*, 2019
-[[doi](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1)]
-
-**卷积神经网络迁移的高分影像场景分类学习**
-**<u>李冠东</u>**, 张春菊, 王铭恺, 张雪英, 高飞
-*测绘科学*, 2019
-[[doi](https://www.cnki.com.cn/Article/CJFDTOTAL-CHKD201904021.htm)]
-
-**The Study of a City Smart Parking Mode Based on "Internet Plus"**
-Chunju Zhang, **<u>Guandong Li</u>**, Fei Gao, Chao Shi, Shaonan Zhu
-*Bulletin of Surveying and Mapping*, 2017
-[[doi](https://www.cnki.com.cn/Article/CJFDTotal-CHTB201709013.htm)]
-
-## Conference Papers
-
-**Scene classification of high-resolution remote sensing image using transfer learning with multi-model feature extraction framework**
-**<u>Guandong Li</u>**, Chunju Zhang, Mingkai Wang, Fei Gao, Xueying Zhang
-*Chinese Conference on Image and Graphics Technologies (IGTA)*, 2018
-[[doi](https://link.springer.com/chapter/10.1007/978-981-13-1702-6_24)]
-
-## Preprints
-
-**EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation**
-**<u>Guandong Li</u>**, Zhaobin Chu
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2509.05659)]
-
-**EditID: Training-Free Editable ID Customization for Text-to-Image Generation**
-**<u>Guandong Li</u>**, Ziming Chu
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2503.12526)]
-
-**DVI: Disentangling Semantic and Visual Identity for Training-Free Personalized Generation**
-**<u>Guandong Li</u>**, Yijun Ding
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2512.18964)]
-
-**MVNet: Hyperspectral Remote Sensing Image Classification Based on Hybrid Mamba-Transformer Vision Backbone Architecture**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2507.04409)] [[code](https://github.com/leeguandong/MVNet-for-HSI)]
-
-**Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2506.08324)] [[code](https://github.com/leeguandong/STNet-for-HSI)]
-
-**Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2504.15155)] [[code](https://github.com/leeguandong/KANet-for-HSI)]
-
-**Expert Kernel Generation Network Driven by Contextual Mapping for Hyperspectral Image Classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2504.13045)] [[code](https://github.com/leeguandong/EKGNet-for-HSI)]
-
-**3D Wavelet Convolutions with Extended Receptive Fields for Hyperspectral Image Classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2504.10795)] [[code](https://github.com/leeguandong/WCNet-for-HSI)]
-
-**Spatial-Geometry Enhanced 3D Dynamic Snake Convolutional Neural Network for Hyperspectral Image Classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2504.04463)] [[code](https://github.com/leeguandong/SGDSCNet-for-HSI)]
-
-**Efficient Dynamic Attention 3D Convolution for Hyperspectral Image Classification**
-**<u>Guandong Li</u>**, Mengxia Ye
-*arXiv preprint*, 2025
-[[arXiv](https://arxiv.org/abs/2503.23472)] [[code](https://github.com/leeguandong/DACNet-for-HSI)]
-
-**Layout Control and Semantic Guidance with Attention Loss Backward for T2I Diffusion Model**
-**<u>Guandong Li</u>**
-*arXiv preprint*, 2024
-[[arXiv](https://arxiv.org/abs/2411.06692)]
-
-**Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce**
-**<u>Guandong Li</u>**
-*arXiv preprint*, 2024
-[[arXiv](https://arxiv.org/abs/2409.04750)]
-
-**E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing Overcompletion**
-**<u>Guandong Li</u>**
-*arXiv preprint*, 2024
-[[arXiv](https://arxiv.org/abs/2409.09681)]
-
-**A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition**
-**<u>Guandong Li</u>**, Xian Yang, Wenpin Ma
-*arXiv preprint*, 2024
-[[arXiv](https://arxiv.org/abs/2402.13545)]
-
-**Intelligent Parsing: An Automated Parsing Framework for Extracting Design Semantics from E-commerce Creatives**
-**<u>Guandong Li</u>**, Xian Yang
-*arXiv preprint*, 2023
-[[arXiv](https://arxiv.org/abs/2312.17283)]
-
-**Faster Hyperspectral Image Classification Based on Selective Kernel Mechanism Using Deep Convolutional Networks**
-**<u>Guandong Li</u>**, Chunju Zhang
-*arXiv preprint*, 2022
-[[arXiv](https://arxiv.org/abs/2202.06458)] [[code](https://github.com/leeguandong/FSKNet-for-HSI)]
-
-## Patents
-
-**李冠东**，马文聘，杨现，叶进进. 一种图像的篡改识别方法、装置、计算机设备及存储介质. [授权]**CN111583180B**. 2022.12.20
-
-**李冠东**，董昱青，毕明悦，马文聘，王孝阳. 一种图层的解析方法、装置、计算机设备和存储介质. [公开]**CN113239995A**. 2021.08.10
-
-**李冠东**，丁一军. 一种广告图片投放方法、装置、设备及介质. [公开]**CN116777522A**. 2023.09.19
-
-**李冠东**，丁一军. 一种视频生成方法、装置、计算机设备和存储介质. [公开]**CN116866497A**. 2023.10.10
-
-**李冠东**，丁一军. 横幅广告图片生成装置、方法、计算机设备和存储介质. [公开]**CN116721177A**. 2023.09.08
-
-**李冠东**，丁一军，吕锐，沈艺. 行人检测方法、装置、计算机设备和存储介质. [公开]**CN118015658A**. 2024.05.10
-
-**李冠东**，丁一军，吕锐，沈艺. 食品识别方法、装置、计算机设备和存储介质. [公开]**CN118351529A**. 2024.07.16
-
-马文聘，董昱青，王孝阳，毕明悦，**李冠东**. 一种模板拓展的方法及系统. [公开]**CN115422900A**. 2022.12.02
-
-王孝阳，董昱青，毕明悦，马文聘，**李冠东**. 一种文案排版布局的方法及系统. [公开]**CN113255289A**. 2021.08.13
-
-毕明悦，董昱青，**李冠东**，马文聘，王孝阳. 一种颜色搭配的方法、装置、计算机设备和存储设备. [公开]**CN113240765A**. 2021.08.10

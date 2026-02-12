@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="pub-page">
+  <h1 class="pub-page-title">{{ page.title }}</h1>
+
+  {% for section in page.sections %}
+  <div class="pub-section">
+    <h2 class="pub-section-title">
+      {{ section.title }}
+      <span class="pub-section-count">{{ section.papers | size }}</span>
+    </h2>
+
+    {% for paper in section.papers %}
+    <div class="pub-card">
+      <div class="pub-card-top">
+        <span class="pub-badge pub-badge-{{ paper.type }}">{{ paper.type | capitalize }}</span>
+        <span class="pub-year">{{ paper.year }}</span>
+      </div>
+      <div class="pub-title">{{ paper.title }}</div>
+      <div class="pub-authors">{{ paper.authors }}</div>
+      <div class="pub-venue">{{ paper.venue }}</div>
+      <div class="pub-links">
+        {% if paper.doi %}
+        <a href="{{ paper.doi }}" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
+        {% endif %}
+        {% if paper.arxiv %}
+        <a href="{{ paper.arxiv }}" class="pub-link" target="_blank" rel="noopener noreferrer">arXiv</a>
+        {% endif %}
+        {% if paper.code %}
+        <a href="{{ paper.code }}" class="pub-link" target="_blank" rel="noopener noreferrer">Code</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  {% if page.patents %}
+  <div class="pub-section">
+    <h2 class="pub-section-title">
+      Patents
+      <span class="pub-section-count">{{ page.patents | size }}</span>
+    </h2>
+    <div class="patent-list">
+      {% for patent in page.patents %}
+      <div class="patent-item">
+        <span class="patent-id">{{ patent.id }}</span>
+        <span class="patent-text">{{ patent.inventors }}. {{ patent.title }}. {{ patent.date }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
