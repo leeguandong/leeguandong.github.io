@@ -605,13 +605,17 @@ footer.sticky-bottom {
   }
 }
 
-.proj-img {
+.proj-images {
   flex-shrink: 0;
-  width: 220px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   img {
     width: 100%;
+    max-height: 200px;
     border-radius: 6px;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -659,7 +663,7 @@ footer.sticky-bottom {
   .proj-card {
     flex-direction: column;
   }
-  .proj-img {
+  .proj-images {
     width: 100%;
   }
 }
