@@ -8,7 +8,9 @@ profile:
   align: right
   image: li.jpg
 
-selected_papers: true
+news:
+  - date: "2026.2.4"
+    content: "获年度CBG先进个人"
 
 research_interests:
   - AIGC
@@ -29,7 +31,7 @@ experience:
     location: Hefei, China
     period: 2024.11 - Present
     description:
-      - Key member of the iFlytek Typemovie project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
+      - 负责 <a href="https://typemovie.art" target="_blank">Typemovie</a>、AI相框、超级制图等项目的核心算法研究。
 
   - title: Algorithm Engineer
     company: Suning
@@ -45,7 +47,7 @@ education:
   - degree: M.S. in Surveying and Mapping Engineering
     school: Hefei University of Technology
     period: 2016.9 - 2019.6
-    description: Outstanding graduate. Thesis nominated for excellent graduation thesis. ESI top 1% paper.
+    description: 研究方向为深度学习处理遥感影像。学院第三党支部书记。优秀毕业生，毕业论文获优秀毕业论文提名，ESI top 1% 论文。
 
   - degree: B.S.
     school: Liaoning Technical University
@@ -69,6 +71,6 @@ social_links:
     icon: fas fa-envelope
 ---
 
-I am currently an Algorithm Engineer at iFlytek, working on developing native applications for large-scale models, particularly the innovative *iFlytek Typemovie* project. Prior to iFlytek, I was a key member of the computer vision algorithm group at Suning, contributing to cutting-edge projects in AIGC and computer vision.
+I am currently an Algorithm Engineer at iFlytek, responsible for core algorithm research on projects including [Typemovie](https://typemovie.art), AI Photo Frame, and Super Drawing. Prior to iFlytek, I was a key member of the computer vision algorithm group at Suning, contributing to cutting-edge projects in AIGC and computer vision.
 
-I hold a Master's degree from Hefei University of Technology, where my research on hyperspectral remote sensing image classification was selected for the ESI top 1%. My professional expertise spans AIGC, large language models, diffusion models, video editing, digital humans, OCR, and tamper detection.
+I hold a Master's degree in Surveying and Mapping Engineering from Hefei University of Technology, where my research focused on deep learning for remote sensing image processing, with my [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. My professional expertise spans AIGC, large language models, diffusion models, video editing, digital humans, OCR, and tamper detection.

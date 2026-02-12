@@ -34,6 +34,21 @@ layout: default
     </div>
   </div>
 
+  <!-- News -->
+  {% if page.news %}
+  <div class="about-card">
+    <h2 class="about-section-title">News</h2>
+    <ul class="news-list">
+      {% for item in page.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-content">{{ item.content }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <!-- Research Interests -->
   {% if page.research_interests %}
   <div class="about-card">
@@ -86,14 +101,6 @@ layout: default
       {% endfor %}
       {% endif %}
     </div>
-  </div>
-  {% endif %}
-
-  <!-- Selected Publications -->
-  {% if page.selected_papers %}
-  <div class="about-card">
-    <h2 class="about-section-title">Selected Publications</h2>
-    {% include selected_papers.html %}
   </div>
   {% endif %}
 

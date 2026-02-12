@@ -143,6 +143,28 @@ blockquote {
   }
 }
 
+// News
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    &:last-child { border-bottom: none; }
+  }
+}
+.news-date {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-right: 1rem;
+  font-size: 0.875rem;
+}
+.news-content {
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+}
+
 // Research Tags
 .research-tags {
   display: flex;
