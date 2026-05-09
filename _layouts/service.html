@@ -4,7 +4,6 @@ layout: default
 
 <div class="svc-page">
   <h1 class="svc-page-title">{{ page.title }}</h1>
-  <p class="proj-page-sub">Reviewing, awards, and a few classes I have given</p>
 
   {% for section in page.sections %}
   <div class="svc-card">
@@ -22,7 +21,9 @@ layout: default
       {% for item in section.items %}
       <a href="{{ item.url }}" class="svc-link-item" target="_blank" rel="noopener noreferrer">
         <span class="svc-link-label">{{ item.label }}</span>
-        {% if item.desc %}<span class="svc-link-desc">{{ item.desc }}</span>{% endif %}
+        {% if item.desc %}
+        <span class="svc-link-desc">{{ item.desc }}</span>
+        {% endif %}
       </a>
       {% endfor %}
     </div>

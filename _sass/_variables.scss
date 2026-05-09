@@ -1,41 +1,62 @@
 /*******************************************************************************
- * Design tokens — manuscript / preprint aesthetic.
+ * Design tokens.
  ******************************************************************************/
 
-// Palette
-$paper:       #F5F1E8;   // bone, slightly warm
-$paper-shade: #EDE7D7;   // slightly deeper paper for plates
-$ink:         #1A1814;   // near-black, warm
-$ink-soft:    #3D3830;
-$ink-mute:    #7A7468;
-$ink-faint:   #A39D8E;
-$hairline:    #D4CFC0;
-$rule:        #BDB6A2;
+// Neutrals (warm)
+$ink:                 #0F172A;
+$ink-soft:            #1E293B;
+$muted:               #475569;
+$subtle:              #94A3B8;
+$line:                #E7E5E0;
+$line-strong:         #D6D3CC;
+$surface:             #FFFFFF;
+$bg:                  #FAFAF7;
+$bg-soft:             #F4F2EC;
 
-$cinnabar:        #B23E2D;   // primary accent (Chinese vermillion / scholar's seal)
-$cinnabar-deep:   #8C2E20;
-$cinnabar-soft:   #E8C9C2;
-$cinnabar-tint:   #F0D5CE;
+// Accent
+$accent:              #4F46E5;
+$accent-deep:         #3730A3;
+$accent-soft:         #EEF2FF;
+$accent-ink:          #1E1B4B;
+
+// Dark mode
+$ink-dark:            #E7E5E0;
+$ink-soft-dark:       #CBD5E1;
+$muted-dark:          #94A3B8;
+$line-dark:           #1F2937;
+$line-strong-dark:    #334155;
+$bg-dark:             #0B1020;
+$surface-dark:        #11172B;
+$accent-dark:         #818CF8;
+
+// Legacy palette (kept for any third-party reference)
+$red-color:           #FF3636 !default;
+$red-color-dark:      #B71C1C !default;
+$orange-color:        #F29105 !default;
+$blue-color:          #0076df !default;
+$blue-color-dark:     #00369f !default;
+$cyan-color:          #2698BA !default;
+$light-cyan-color:    lighten($cyan-color, 25%);
+$green-color:         #00ab37 !default;
+$green-color-lime:    #B7D12A !default;
+$green-color-dark:    #009f06 !default;
+$green-color-light:   #ddffdd !default;
+$green-color-bright:  #11D68B !default;
+$purple-color:        #B509AC !default;
+$light-purple-color:  lighten($purple-color, 25%);
+$pink-color:          #f92080 !default;
+$pink-color-light:    #ffdddd !default;
+$yellow-color:        #efcc00 !default;
+$grey-color:          #828282 !default;
+$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-dark:     #1C1C1D;
+$white-color:         #ffffff !default;
+$black-color:         #000000 !default;
+
+$code-bg-color-light: rgba($accent, 0.05);
+$code-bg-color-dark:  #1A2238 !default;
 
 // Typography
-$font-display: "Instrument Serif", "GFS Didot", "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
-$font-serif:   "Fraunces", "Source Serif Pro", "Iowan Old Style", "Hoefler Text", Georgia, serif;
+$font-sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$font-serif:   "Newsreader", "Source Serif Pro", "Iowan Old Style", Georgia, serif;
 $font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
-$font-cjk:     "Songti SC", "STSong", "Source Han Serif SC", "Noto Serif CJK SC", serif;
-
-// Spacing scale
-$s-1:  0.25rem;
-$s-2:  0.5rem;
-$s-3:  0.75rem;
-$s-4:  1rem;
-$s-5:  1.5rem;
-$s-6:  2rem;
-$s-7:  3rem;
-$s-8:  4.5rem;
-$s-9:  6rem;
-$s-10: 9rem;
-
-// Max widths
-$measure:     38rem;   // ~608px ideal reading column
-$measure-mid: 48rem;
-$measure-wide: 64rem;

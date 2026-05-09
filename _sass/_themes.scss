@@ -1,31 +1,56 @@
 /*******************************************************************************
- * Theme — single light theme bound to design tokens.
+ * Themes — CSS custom properties bound to design tokens.
  ******************************************************************************/
 
 :root {
-  --paper:        #{$paper};
-  --paper-shade:  #{$paper-shade};
-  --ink:          #{$ink};
-  --ink-soft:     #{$ink-soft};
-  --ink-mute:     #{$ink-mute};
-  --ink-faint:    #{$ink-faint};
-  --hairline:     #{$hairline};
-  --rule:         #{$rule};
-  --cinnabar:     #{$cinnabar};
-  --cinnabar-deep: #{$cinnabar-deep};
-  --cinnabar-soft: #{$cinnabar-soft};
-  --cinnabar-tint: #{$cinnabar-tint};
+  --bg:              #{$bg};
+  --bg-soft:         #{$bg-soft};
+  --surface:         #{$surface};
+  --ink:             #{$ink};
+  --ink-soft:        #{$ink-soft};
+  --muted:           #{$muted};
+  --subtle:          #{$subtle};
+  --line:            #{$line};
+  --line-strong:     #{$line-strong};
+  --accent:          #{$accent};
+  --accent-deep:     #{$accent-deep};
+  --accent-soft:     #{$accent-soft};
+  --accent-ink:      #{$accent-ink};
 
-  // Legacy aliases for any leftover al-folio refs
-  --global-bg-color:           var(--paper);
+  // Legacy aliases (some templates / al-folio bits still reference these)
+  --global-bg-color:           var(--bg);
+  --global-code-bg-color:      #{$code-bg-color-light};
   --global-text-color:         var(--ink);
-  --global-text-color-light:   var(--ink-mute);
-  --global-theme-color:        var(--cinnabar);
-  --global-hover-color:        var(--cinnabar-deep);
-  --global-divider-color:      var(--hairline);
-  --global-code-bg-color:      rgba(178, 62, 45, 0.06);
-  --global-distill-app-color:  var(--ink-mute);
-  --global-footer-bg-color:    transparent;
-  --global-footer-text-color:  var(--ink-mute);
+  --global-text-color-light:   var(--muted);
+  --global-theme-color:        var(--accent);
+  --global-hover-color:        var(--accent-deep);
+  --global-footer-bg-color:    var(--surface);
+  --global-footer-text-color:  var(--muted);
   --global-footer-link-color:  var(--ink);
+  --global-distill-app-color:  var(--muted);
+  --global-divider-color:      var(--line);
+
+  .fa-sun  { display: none; }
+  .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
+}
+
+html[data-theme='dark'] {
+  --bg:              #{$bg-dark};
+  --bg-soft:         #0F1530;
+  --surface:         #{$surface-dark};
+  --ink:             #{$ink-dark};
+  --ink-soft:        #{$ink-soft-dark};
+  --muted:           #{$muted-dark};
+  --subtle:          #64748B;
+  --line:            #{$line-dark};
+  --line-strong:     #{$line-strong-dark};
+  --accent:          #{$accent-dark};
+  --accent-deep:     #A5B4FC;
+  --accent-soft:     rgba(129,140,248,0.12);
+  --accent-ink:      #E0E7FF;
+
+  --global-code-bg-color:      #{$code-bg-color-dark};
+
+  .fa-sun  { padding-left: 10px; padding-top: 12px; display: block; }
+  .fa-moon { display: none; }
 }

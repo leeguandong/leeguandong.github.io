@@ -12,31 +12,6 @@ news:
   - date: "2026.2.4"
     content: "Awarded CBG Outstanding Individual of the Year."
 
-selected:
-  - title: "Suning AI Platform"
-    tag: "AIGC platform · 2022—2024"
-    image: "assets/img/sn_ai.png"
-    figcaption: "Model photo · poster · digital human"
-    desc: "A multimodal AIGC platform built around diffusion and large language models — spanning model and product photography, poster generation, anime avatars, identity-controlled generation, marketing video synthesis, lip-sync-driven 2D digital humans for live commerce, face swapping, and text-to-speech-driven voiceover."
-
-  - title: "Smartbanner"
-    tag: "Shipped · paper · system"
-    image: "assets/img/smartbanner.png"
-    figcaption: "Planner · actuator · adjuster · generator"
-    desc: "An intelligent banner design framework that strikes a balance between creative freedom and ad-design rules. From small inputs (product, copy, size) it composes layouts that respect brand specifications. Lifted CTR by 30% and designer throughput by 500×, synthesising hundreds of millions of banners across a single year."
-    links:
-      - label: "arXiv"
-        url: "https://arxiv.org/abs/2303.10325"
-
-  - title: "E-Commerce Inpainting · Mask-Guided ControlNet"
-    tag: "Diffusion · paper"
-    image: "assets/img/ecommerceinpainting.png"
-    figcaption: "Mask guidance reduces overcompletion"
-    desc: "E-commerce image generation has long centred on restoring backgrounds around an intact product. Diffusion models tend toward overcompletion — quietly redrawing the product itself. We address this from two sides: an instance-mask-fine-tuned inpainting model, and a training-free mask-guidance scheme that uses refined product masks as constraints when combining ControlNet with the U-Net backbone."
-    links:
-      - label: "arXiv"
-        url: "https://arxiv.org/abs/2409.09681"
-
 research_interests:
   - AIGC
   - LLMs
