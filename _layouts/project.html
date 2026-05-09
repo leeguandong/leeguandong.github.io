@@ -4,16 +4,17 @@ layout: default
 
 <div class="proj-page">
   <h1 class="proj-page-title">{{ page.title }}</h1>
+  <p class="proj-page-sub">Plates from systems shipped, prototyped, and published</p>
 
   {% for section in page.sections %}
   <div class="proj-section">
     <h2 class="proj-section-title">{{ section.title }}</h2>
 
     {% for project in section.projects %}
-    <div class="proj-card">
+    <article class="proj-card">
       <div class="proj-images">
         {% for img in project.images %}
-        <img src="{{ img | relative_url }}" alt="{{ project.title }}" loading="lazy" data-zoomable />
+        <img src="{{ img | relative_url }}" alt="{{ project.title }}" loading="lazy" data-zoomable>
         {% endfor %}
       </div>
       <div class="proj-info">
@@ -27,7 +28,7 @@ layout: default
         </div>
         {% endif %}
       </div>
-    </div>
+    </article>
     {% endfor %}
   </div>
   {% endfor %}

@@ -2,106 +2,159 @@
 layout: default
 ---
 
-<div class="about-page">
+<article class="frontispiece">
+  <div class="fp-eyebrow">A scholar's notebook · 学者手稿</div>
 
-  <!-- Profile Card -->
-  <div class="about-card">
-    <div class="about-header">
-      {% if page.profile.image %}
-      <div class="about-avatar">
-        <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Profile photo">
+  <h1 class="fp-name">
+    <span class="fp-name-given">{{ site.first_name }}</span>
+    <span class="fp-name-family">{{ site.last_name }}</span>
+  </h1>
+
+  <div class="fp-meta">
+    <div class="fp-meta-roles">
+      <div class="role-line">
+        Algorithm Engineer at <em>iFlytek</em> · CBG, AI Marketing
       </div>
-      {% endif %}
-      <div class="about-info">
-        <h1 class="about-name">
-          {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-        </h1>
-        <p class="about-title">Deep Learning Algorithm Engineer</p>
-        <p class="about-affiliation">iFlytek &middot; Hefei, China</p>
-        {% if page.social_links %}
-        <div class="about-social">
-          {% for link in page.social_links %}
-          <a href="{{ link.url }}" title="{{ link.name }}" target="_blank" rel="noopener noreferrer">
-            <i class="{{ link.icon }}"></i>
-          </a>
+      <div class="role-line" style="color: var(--ink-mute); font-size: 0.95rem;">
+        Working on diffusion models, video generation, and digital humans
+      </div>
+      <div class="role-affil">Hefei · 合肥</div>
+    </div>
+
+    {% if page.social_links %}
+    <div class="fp-social">
+      {% for link in page.social_links %}
+      <a href="{{ link.url }}" title="{{ link.name }}" target="_blank" rel="noopener noreferrer">
+        <i class="{{ link.icon }}" aria-hidden="true"></i>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="fp-statement">
+    {{ content }}
+  </div>
+</article>
+
+<!-- § I — Recent Dispatches -->
+{% if page.news %}
+<section class="section">
+  <header class="section-header">
+    <div class="section-num"><span class="num-sign">§</span> I</div>
+    <h2 class="section-title">Recent <span class="title-italic">dispatches</span></h2>
+    <p class="section-lede">News from the desk — releases, awards, and notes worth keeping.</p>
+  </header>
+
+  <ul class="marg-list">
+    {% for item in page.news %}
+    <li>
+      <span class="marg-date">{{ item.date }}</span>
+      <span class="marg-text">{{ item.content }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- § II — Selected Work -->
+{% if page.selected %}
+<section class="section">
+  <header class="section-header">
+    <div class="section-num"><span class="num-sign">§</span> II</div>
+    <h2 class="section-title">Selected <span class="title-italic">work</span></h2>
+    <p class="section-lede">A few plates from ongoing and recent projects. Full catalogue under <a href="{{ '/project/' | relative_url }}">/work</a>.</p>
+  </header>
+
+  <div class="plates">
+    {% for item in page.selected %}
+    <div class="plate">
+      <div class="plate-figure">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy" data-zoomable>
+        {% if item.figcaption %}<div class="plate-figcaption">Fig. {{ forloop.index }} · {{ item.figcaption }}</div>{% endif %}
+      </div>
+      <div class="plate-text">
+        <div class="plate-eyebrow">
+          <span class="plate-num">Plate {{ forloop.index }}</span>
+          <span class="plate-tag">{{ item.tag }}</span>
+        </div>
+        <h3 class="plate-title">{{ item.title }}</h3>
+        <p class="plate-desc">{{ item.desc }}</p>
+        {% if item.links %}
+        <div class="plate-links">
+          {% for link in item.links %}
+          <a href="{{ link.url }}" class="plate-link" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
           {% endfor %}
         </div>
         {% endif %}
       </div>
     </div>
-    <div class="about-bio">
-      {{ content }}
-    </div>
+    {% endfor %}
   </div>
+</section>
+{% endif %}
 
-  <!-- News -->
-  {% if page.news %}
-  <div class="about-card">
-    <h2 class="about-section-title">News</h2>
-    <ul class="news-list">
-      {% for item in page.news %}
-      <li>
-        <span class="news-date">{{ item.date }}</span>
-        <span class="news-content">{{ item.content }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+<!-- § III — Ledger -->
+{% if page.experience or page.education %}
+<section class="section">
+  <header class="section-header">
+    <div class="section-num"><span class="num-sign">§</span> III</div>
+    <h2 class="section-title">The <span class="title-italic">ledger</span></h2>
+    <p class="section-lede">Where I have worked, and where I was taught.</p>
+  </header>
 
-  <!-- Work Experience & Education -->
-  {% if page.experience or page.education %}
-  <div class="about-card">
-    <h2 class="about-section-title">Experience</h2>
-    <div class="timeline">
-      {% if page.experience %}
+  <div class="ledger">
+    {% if page.experience %}
+    <div class="ledger-col">
+      <h3>Posts</h3>
       {% for exp in page.experience %}
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-period">{{ exp.period }}</div>
-          <div class="timeline-role">{{ exp.title }}, {{ exp.company }}</div>
-          <div class="timeline-dept">{{ exp.department }} &middot; {{ exp.location }}</div>
-          {% if exp.description %}
-          <ul class="timeline-desc">
-            {% for desc in exp.description %}
-            <li>{{ desc }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
+      <div class="ledger-entry">
+        <div class="ledger-period">{{ exp.period }}</div>
+        <div class="ledger-role">{{ exp.title }}</div>
+        <div class="ledger-affil">{{ exp.company }}{% if exp.department %} · {{ exp.department }}{% endif %}</div>
+        {% if exp.location %}<div class="ledger-loc">{{ exp.location }}</div>{% endif %}
+        {% if exp.description %}
+        <ul class="ledger-notes">
+          {% for desc in exp.description %}
+          <li>{{ desc }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </div>
       {% endfor %}
-      {% endif %}
-      {% if page.education %}
+    </div>
+    {% endif %}
+
+    {% if page.education %}
+    <div class="ledger-col">
+      <h3>Studies</h3>
       {% for edu in page.education %}
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-period">{{ edu.period }}</div>
-          <div class="timeline-role">{{ edu.degree }}</div>
-          <div class="timeline-dept">{{ edu.school }}</div>
-          {% if edu.description %}
-          <p class="timeline-desc-text">{{ edu.description }}</p>
-          {% endif %}
-        </div>
+      <div class="ledger-entry">
+        <div class="ledger-period">{{ edu.period }}</div>
+        <div class="ledger-role">{{ edu.degree }}</div>
+        <div class="ledger-affil">{{ edu.school }}</div>
+        {% if edu.description %}<p class="ledger-notes-text">{{ edu.description }}</p>{% endif %}
       </div>
       {% endfor %}
-      {% endif %}
     </div>
+    {% endif %}
   </div>
-  {% endif %}
+</section>
+{% endif %}
 
-  <!-- Research Interests -->
-  {% if page.research_interests %}
-  <div class="about-card">
-    <h2 class="about-section-title">Research Interests</h2>
-    <div class="research-tags">
-      {% for interest in page.research_interests %}
-      <span class="research-tag">{{ interest }}</span>
-      {% endfor %}
-    </div>
+<!-- § IV — Research Lexicon -->
+{% if page.research_interests %}
+<section class="section">
+  <header class="section-header">
+    <div class="section-num"><span class="num-sign">§</span> IV</div>
+    <h2 class="section-title">Research <span class="title-italic">lexicon</span></h2>
+    <p class="section-lede">A loose vocabulary of the things I think about.</p>
+  </header>
+
+  <div class="lexicon">
+    {% for interest in page.research_interests %}
+    <span class="lexicon-item">{{ interest }}</span>
+    {% endfor %}
   </div>
-  {% endif %}
-
-</div>
+</section>
+{% endif %}
