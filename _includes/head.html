@@ -9,12 +9,11 @@
   {{ site.title }}
 {% endif %}
 {% if page.title != "blank" and page.url != "/" %}
-  | {{ page.title }}
+  · {{ page.title }}
 {% endif %}
 </title>
 <meta name="description" content="{{ site.description }}">
 
-<!-- Open Graph -->
 {% if site.serve_og_meta %}
 <meta property="og:site_name" content="{{ site.description }}" />
 <meta property="og:type" content="object" />
@@ -24,29 +23,23 @@
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
 {% endif %}
 
-<!-- Bootstrap & MDB -->
-<link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
-<link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url }}">
-
-<!-- Fonts & Icons -->
+<!-- Icons (FontAwesome + Academicons) -->
 <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
+
+<!-- Typography -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@400;500;600&display=swap">
 
-<!-- Code Syntax Highlighting -->
-<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css" /> -->
-
-<!-- Styles -->
 {% if site.icon != empty %}
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
 {% endif %}
+
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 {% if site.enable_darkmode %}
-<!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
