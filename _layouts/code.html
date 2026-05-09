@@ -4,7 +4,6 @@ layout: default
 
 <div class="code-page">
   <h1 class="code-page-title">{{ page.title }}</h1>
-  <p class="proj-page-sub">An index of repositories — open-sourced experiments, models, and tooling</p>
 
   {% for section in page.sections %}
   <div class="code-section">
@@ -13,13 +12,14 @@ layout: default
     {% if section.collapsible %}
     <div class="code-collapse">
       <button class="code-collapse-btn" onclick="this.parentElement.classList.toggle('open')">
-        <span class="collapse-icon">+</span>
-        <span>Reveal {{ section.repos | size }} entries</span>
+        <span class="collapse-icon">+</span> Show {{ section.repos | size }} projects
       </button>
       <div class="code-collapse-content">
         <div class="code-compact-list">
           {% for repo in section.repos %}
-          <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a>
+          <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">
+            {{ repo.name }}
+          </a>
           {% endfor %}
         </div>
       </div>
@@ -42,6 +42,7 @@ layout: default
       {% endfor %}
     </div>
     {% endif %}
+
   </div>
   {% endfor %}
 </div>
