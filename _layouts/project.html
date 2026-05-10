@@ -2,33 +2,31 @@
 layout: default
 ---
 
-<div class="proj-page">
-  <h1 class="proj-page-title">{{ page.title }}</h1>
+<h1 class="proj-page-title">{{ page.title }}</h1>
 
-  {% for section in page.sections %}
-  <div class="proj-section">
-    <h2 class="proj-section-title">{{ section.title }}</h2>
+{% for section in page.sections %}
+<div class="proj-section">
+  <h2 class="proj-section-title">{{ section.title }}</h2>
 
-    {% for project in section.projects %}
-    <div class="proj-card">
-      <div class="proj-images">
-        {% for img in project.images %}
-        <img src="{{ img | relative_url }}" alt="{{ project.title }}" loading="lazy" data-zoomable />
+  {% for project in section.projects %}
+  <div class="proj-entry">
+    {% if project.images %}
+    <div class="proj-thumb">
+      <img src="{{ project.images[0] | relative_url }}" alt="{{ project.title }}" loading="lazy" data-zoomable>
+    </div>
+    {% endif %}
+    <div class="proj-body">
+      <div class="proj-name">{{ project.title }}</div>
+      <p class="proj-desc">{{ project.desc }}</p>
+      {% if project.links %}
+      <div class="proj-links">
+        {% for link in project.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
         {% endfor %}
       </div>
-      <div class="proj-info">
-        <h3 class="proj-name">{{ project.title }}</h3>
-        <p class="proj-desc">{{ project.desc }}</p>
-        {% if project.links %}
-        <div class="proj-links">
-          {% for link in project.links %}
-          <a href="{{ link.url }}" class="proj-link" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
+      {% endif %}
     </div>
-    {% endfor %}
   </div>
   {% endfor %}
 </div>
+{% endfor %}
