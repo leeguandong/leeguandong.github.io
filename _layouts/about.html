@@ -20,30 +20,26 @@ layout: default
     <h1 class="post-title" style="font-size:28px">
      {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
     </h1>
-    <p class="desc">{{ page.description }}</p>
-  </header>
+     <p class="desc">{{ page.description }}</p>
+  
 
   <article>
+    
+  </header>
+
     <div class="clearfix">
       {{ content }}
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
 
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">
-          {% include social.html %}
-        </div>
-        <div class="contact-note">{{ site.contact_note }}</div>
+ {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
       </div>
-    {% endif %}
-  </article>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %} 
+  </article> 
 
 </div>

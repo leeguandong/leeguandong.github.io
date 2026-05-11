@@ -32,7 +32,7 @@ nav: true
   - [EcommerceSD](https://github.com/leeguandong/EcommerceSD) :A focus on image generation in e-commerce scenarios, including model generation and inpainting.
   - [MaskControlnet](https://github.com/leeguandong/MaskControlnet) :A ControlNet-based generative model conditioned on masks, trained on a massive dataset of e-commerce cutout images (saliency map detection data).
   - [ChatAce](https://github.com/leeguandong/ChatAce) :Picture editing based on flux acp++, mainly character consistency editing.
-  - [ChatFlux](https://github.com/leeguandong/ChatFlux) :webui based chatdit, supports generating pictures through conversations.
+  - [ChatFlux]([ChatFlux](https://github.com/leeguandong/ChatFlux)) :webui based chatdit, supports generating pictures through conversations.
   - [Typemovie-ParaAttention](https://github.com/typemovie/Typemovie-ParaAttention) :TypeMovie-ParaAttention is an enhanced version of ParaAttention, designed to accelerate Diffusion Transformer (DiT) model inference with context parallelism, dynamic caching, and a new high-performance SageAttention backend.
   - [EditIDv2](https://github.com/typemovie/EditIDv2) :Typemovie's EditIDv2 ensures character identity consistency in complex text-to-image generation, using minimal data for enhanced semantic editing, as shown in IBench tests.
   - [IBench](https://github.com/typemovie/IBench) :Image evaluation system in Editid.
