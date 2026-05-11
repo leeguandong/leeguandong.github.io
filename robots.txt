@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://leeguandong.github.io/pages/leeguandong/sitemap.xml
