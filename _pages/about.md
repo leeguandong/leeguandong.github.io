@@ -2,76 +2,43 @@
 layout: about
 title: About
 permalink: /
-description:
+description: 
 
 profile:
   align: right
   image: li.jpg
+  address: 
 
-news:
-  - date: "2026.2.4"
-    content: "Awarded CBG Outstanding Individual of the Year."
-
-research_interests:
-  - AIGC
-  - LLMs
-  - LVMs
-  - Diffusion Models
-  - Video Editing
-  - Digital Humans
-  - Deep Learning
-  - OCR
-  - Detection
-  - Remote Sensing
-
-experience:
-  - title: Algorithm Engineer
-    company: iFlytek
-    department: Consumer Business Group, AI Marketing Business Line
-    location: Hefei, China
-    period: 2024.11 - Present
-    description:
-      - Key member of the iFlytek Typemovie project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
-      - Responsible for core algorithm research on <a href="https://typemovie.art" target="_blank">Typemovie</a>, AI Photo Frame, and Super Drawing.
-
-  - title: Algorithm Engineer
-    company: Suning
-    department: Computer Vision Algorithm Group
-    location: Nanjing, China
-    period: 2019.7 - 2024.11
-    description:
-      - Core member of the algorithm team, focusing on AIGC and computer vision applications for e-commerce.
-      - Developed solutions for e-commerce LLMs, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and image synthesis using diffusion models.
-      - Contributed to OCR and tamper detection systems.
-
-education:
-  - degree: M.S. in Surveying and Mapping Engineering
-    school: Hefei University of Technology
-    period: 2016.9 - 2019.6
-    description: Research focused on deep learning for remote sensing image processing. Secretary of the 3rd Party Branch of the College. Outstanding graduate with thesis nominated for excellent graduation thesis. ESI top 1% paper.
-
-  - degree: B.S.
-    school: Liaoning Technical University
-    period: 2012.9 - 2016.6
-
-social_links:
-  - name: Google Scholar
-    url: https://scholar.google.com/citations?user=on_b6MMAAAAJ
-    icon: ai ai-google-scholar
-  - name: GitHub
-    url: https://github.com/leeguandong
-    icon: fab fa-github
-  - name: CSDN
-    url: https://blog.csdn.net/u012193416
-    icon: fas fa-blog
-  - name: Zhihu
-    url: https://www.zhihu.com/people/li-xin-52-81
-    icon: fab fa-zhihu
-  - name: Email
-    url: mailto:leeguandon@gmail.com
-    icon: fas fa-envelope
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently an Algorithm Engineer at iFlytek, responsible for core algorithm research on projects including [Typemovie](https://typemovie.art), AI Photo Frame, and Super Drawing. Prior to iFlytek, I was a key member of the computer vision algorithm group at Suning, contributing to cutting-edge projects in AIGC and computer vision.
 
-I hold a Master's degree in Surveying and Mapping Engineering from Hefei University of Technology, where my research focused on deep learning for remote sensing image processing, with my [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. My professional expertise spans AIGC, large language models, diffusion models, video editing, digital humans, OCR, and tamper detection.
+**Deep Learning Algorithm Engineer, iFlytek**  
+Consumer Business Group, AI Marketing Business Line  
+Hefei, China  
+leeguandon@gmail.com  
+[Google Scholar](https://scholar.google.com/citations?user=on_b6MMAAAAJ) | [CSDN](https://blog.csdn.net/u012193416) | [Github](https://github.com/leeguandong) | [Zhihu](https://www.zhihu.com/people/li-xin-52-81) | [Openart](https://openart.ai/workflows/profile/leeguandong)  
+
+I am currently an Algorithm Engineer at iFlytek, working in the Consumer Business Group's AI Marketing Business Line, where I focus on developing native applications for large-scale models, particularly the innovative *iFlytek Typemovie* project. My work centers on leveraging advanced AI technologies to create impactful solutions for intelligent marketing. Prior to iFlytek, I was a key member of the computer vision algorithm group at Suning, contributing to cutting-edge projects in AI-generated content (AIGC) and computer vision.  
+
+I hold a Master's degree in Surveying and Mapping Engineering from Hefei University of Technology, where I was recognized as an outstanding graduate and my thesis was nominated for an excellent graduation thesis. My academic research focused on hyperspectral remote sensing image classification using deep learning and place name recognition, with my [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. I also earned a Bachelor's degree from Liaoning Technical University.  
+
+My professional expertise spans AIGC, large language models (LLMs), large vision models (LVMs), video editing, lip-sync-driven 2D digital humans, image synthesis via diffusion models, OCR, and tamper detection. I am passionate about pushing the boundaries of AI to solve real-world challenges.  
+
+**Research Interests:** AIGC, LLMs, LVMs, Video Editing, Digital Humans, Deep Learning, OCR, Detection, Classification, Remote Sensing Image Processing  
+
+**Work Experience**  
+
+Algorithm Engineer, iFlytek, Consumer Business Group, AI Marketing Business Line    
+*Hefei, China | 2024.11 – Present*  
+
+- Key member of the *iFlytek Typemovie* project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
+
+Algorithm Engineer, Suning, Computer Vision Algorithm Group  
+*Nanjing, China | 2019.7 - 2024.11*  
+
+- Served as a core member of the algorithm team, focusing on AI-generated content (AIGC) and computer vision applications for e-commerce.  
+- Developed and deployed solutions for e-commerce large language models, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and image synthesis using diffusion models.  
+- Contributed to OCR and tamper detection systems, enhancing the reliability and efficiency of automated processes.
