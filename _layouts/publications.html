@@ -2,34 +2,52 @@
 layout: default
 ---
 
-<h1 class="pub-page-title">{{ page.title }}</h1>
+<div class="pub-page">
+  <h1 class="pub-page-title">{{ page.title }}</h1>
 
-<div class="pub-section">
-  <h2 class="pub-section-title">Papers <span class="pub-count">({{ page.papers | size }})</span></h2>
-  {% for paper in page.papers %}
-  <div class="pub-entry">
-    <div class="pub-title-text">{{ paper.title }}</div>
-    <div class="pub-authors">{{ paper.authors }}</div>
-    <div class="pub-venue">{{ paper.venue }}, {{ paper.year }}</div>
-    {% if paper.doi or paper.arxiv or paper.code %}
-    <div class="pub-links">
-      {% if paper.doi   %}<a href="{{ paper.doi }}"   target="_blank">Paper</a>{% endif %}
-      {% if paper.arxiv %}<a href="{{ paper.arxiv }}" target="_blank">arXiv</a>{% endif %}
-      {% if paper.code  %}<a href="{{ paper.code }}"  target="_blank">Code</a>{% endif %}
+  <div class="pub-section">
+    <h2 class="pub-section-title">
+      Papers
+      <span class="pub-section-count">{{ page.papers | size }}</span>
+    </h2>
+
+    {% for paper in page.papers %}
+    <div class="pub-card">
+      <div class="pub-card-top">
+        <div class="pub-title">{{ paper.title }}</div>
+        <span class="pub-year">{{ paper.year }}</span>
+      </div>
+      <div class="pub-authors">{{ paper.authors }}</div>
+      <div class="pub-venue">{{ paper.venue }}</div>
+      <div class="pub-links">
+        {% if paper.doi %}
+        <a href="{{ paper.doi }}" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
+        {% endif %}
+        {% if paper.arxiv %}
+        <a href="{{ paper.arxiv }}" class="pub-link" target="_blank" rel="noopener noreferrer">arXiv</a>
+        {% endif %}
+        {% if paper.code %}
+        <a href="{{ paper.code }}" class="pub-link" target="_blank" rel="noopener noreferrer">Code</a>
+        {% endif %}
+      </div>
     </div>
-    {% endif %}
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
-{% if page.patents %}
-<div class="pub-section">
-  <h2 class="pub-section-title">Patents <span class="pub-count">({{ page.patents | size }})</span></h2>
-  {% for patent in page.patents %}
-  <div class="patent-entry">
-    <span class="patent-id">{{ patent.id }}</span> —
-    {{ patent.inventors }}. {{ patent.title }}. {{ patent.date }}
+  {% if page.patents %}
+  <div class="pub-section">
+    <h2 class="pub-section-title">
+      Patents
+      <span class="pub-section-count">{{ page.patents | size }}</span>
+    </h2>
+    <div class="patent-list">
+      {% for patent in page.patents %}
+      <div class="patent-item">
+        <span class="patent-id">{{ patent.id }}</span>
+        <span class="patent-text">{{ patent.inventors }}. {{ patent.title }}. {{ patent.date }}</span>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
+  {% endif %}
 </div>
-{% endif %}

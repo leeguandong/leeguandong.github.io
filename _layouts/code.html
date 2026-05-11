@@ -2,34 +2,47 @@
 layout: default
 ---
 
-<h1 class="code-page-title">{{ page.title }}</h1>
+<div class="code-page">
+  <h1 class="code-page-title">{{ page.title }}</h1>
 
-{% for section in page.sections %}
-<div class="code-section">
-  <h2 class="code-section-title">{{ section.title }}</h2>
+  {% for section in page.sections %}
+  <div class="code-section">
+    <h2 class="code-section-title">{{ section.title }}</h2>
 
-  {% if section.collapsible %}
-  <button class="code-toggle" onclick="var el=this.nextElementSibling;el.classList.toggle('show');this.textContent=el.classList.contains('show')?'Hide {{ section.repos | size }} projects':'Show {{ section.repos | size }} projects';">
-    Show {{ section.repos | size }} projects
-  </button>
-  <div class="code-hidden">
-    <ul class="compact-repo-list">
+    {% if section.collapsible %}
+    <div class="code-collapse">
+      <button class="code-collapse-btn" onclick="this.parentElement.classList.toggle('open')">
+        <span class="collapse-icon">+</span> Show {{ section.repos | size }} projects
+      </button>
+      <div class="code-collapse-content">
+        <div class="code-compact-list">
+          {% for repo in section.repos %}
+          <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">
+            {{ repo.name }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% else %}
+    <div class="code-grid">
       {% for repo in section.repos %}
-      <li><a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a></li>
+      <a href="{{ repo.url }}" class="code-card" target="_blank" rel="noopener noreferrer">
+        <div class="code-card-header">
+          <span class="code-card-name">{{ repo.name }}</span>
+          {% if repo.stars and repo.stars > 0 %}
+          <span class="code-card-stars">{{ repo.stars }}</span>
+          {% endif %}
+        </div>
+        {% if repo.desc %}
+        <p class="code-card-desc">{{ repo.desc }}</p>
+        {% endif %}
+      </a>
       {% endfor %}
-    </ul>
-  </div>
+    </div>
+    {% endif %}
 
-  {% else %}
-  <ul class="repo-list">
-    {% for repo in section.repos %}
-    <li class="repo-item">
-      <span class="repo-name"><a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a></span>
-      {% if repo.desc %}<span class="repo-desc">{{ repo.desc }}</span>{% endif %}
-      {% if repo.stars and repo.stars > 0 %}<span class="repo-stars">{{ repo.stars }}</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
