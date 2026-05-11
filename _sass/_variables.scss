@@ -1,62 +1,35 @@
 /*******************************************************************************
- * Design tokens.
+ * Variables — clean academic style.
  ******************************************************************************/
 
-// Neutrals (warm)
-$ink:                 #0F172A;
-$ink-soft:            #1E293B;
-$muted:               #475569;
-$subtle:              #94A3B8;
-$line:                #E7E5E0;
-$line-strong:         #D6D3CC;
-$surface:             #FFFFFF;
-$bg:                  #FAFAF7;
-$bg-soft:             #F4F2EC;
+$text-color:       #333;
+$heading-color:    #000;
+$link-color:       #0066cc;
+$link-hover:       #004499;
+$border-color:     #ddd;
+$bg-color:         #fff;
+$muted-color:      #666;
+$light-bg:         #f9f9f9;
 
-// Accent
-$accent:              #4F46E5;
-$accent-deep:         #3730A3;
-$accent-soft:         #EEF2FF;
-$accent-ink:          #1E1B4B;
+$font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$font-mono: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+$content-width: 800px;
 
-// Dark mode
-$ink-dark:            #E7E5E0;
-$ink-soft-dark:       #CBD5E1;
-$muted-dark:          #94A3B8;
-$line-dark:           #1F2937;
-$line-strong-dark:    #334155;
-$bg-dark:             #0B1020;
-$surface-dark:        #11172B;
-$accent-dark:         #818CF8;
-
-// Legacy palette (kept for any third-party reference)
+// Legacy (kept for any al-folio ref)
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
 $green-color:         #00ab37 !default;
-$green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
-$green-color-light:   #ddffdd !default;
-$green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
-$light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
-$pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    #ccc;
 $grey-color-dark:     #1C1C1D;
 $white-color:         #ffffff !default;
 $black-color:         #000000 !default;
-
-$code-bg-color-light: rgba($accent, 0.05);
-$code-bg-color-dark:  #1A2238 !default;
-
-// Typography
-$font-sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-$font-serif:   "Newsreader", "Source Serif Pro", "Iowan Old Style", Georgia, serif;
-$font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+$code-bg-color-light: #f5f5f5;
+$code-bg-color-dark:  #2c3237 !default;

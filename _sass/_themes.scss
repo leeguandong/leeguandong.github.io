@@ -1,56 +1,17 @@
 /*******************************************************************************
- * Themes — CSS custom properties bound to design tokens.
+ * Theme — single light theme for academic site.
  ******************************************************************************/
 
 :root {
-  --bg:              #{$bg};
-  --bg-soft:         #{$bg-soft};
-  --surface:         #{$surface};
-  --ink:             #{$ink};
-  --ink-soft:        #{$ink-soft};
-  --muted:           #{$muted};
-  --subtle:          #{$subtle};
-  --line:            #{$line};
-  --line-strong:     #{$line-strong};
-  --accent:          #{$accent};
-  --accent-deep:     #{$accent-deep};
-  --accent-soft:     #{$accent-soft};
-  --accent-ink:      #{$accent-ink};
-
-  // Legacy aliases (some templates / al-folio bits still reference these)
-  --global-bg-color:           var(--bg);
+  --global-bg-color:           #{$bg-color};
   --global-code-bg-color:      #{$code-bg-color-light};
-  --global-text-color:         var(--ink);
-  --global-text-color-light:   var(--muted);
-  --global-theme-color:        var(--accent);
-  --global-hover-color:        var(--accent-deep);
-  --global-footer-bg-color:    var(--surface);
-  --global-footer-text-color:  var(--muted);
-  --global-footer-link-color:  var(--ink);
-  --global-distill-app-color:  var(--muted);
-  --global-divider-color:      var(--line);
-
-  .fa-sun  { display: none; }
-  .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
-}
-
-html[data-theme='dark'] {
-  --bg:              #{$bg-dark};
-  --bg-soft:         #0F1530;
-  --surface:         #{$surface-dark};
-  --ink:             #{$ink-dark};
-  --ink-soft:        #{$ink-soft-dark};
-  --muted:           #{$muted-dark};
-  --subtle:          #64748B;
-  --line:            #{$line-dark};
-  --line-strong:     #{$line-strong-dark};
-  --accent:          #{$accent-dark};
-  --accent-deep:     #A5B4FC;
-  --accent-soft:     rgba(129,140,248,0.12);
-  --accent-ink:      #E0E7FF;
-
-  --global-code-bg-color:      #{$code-bg-color-dark};
-
-  .fa-sun  { padding-left: 10px; padding-top: 12px; display: block; }
-  .fa-moon { display: none; }
+  --global-text-color:         #{$text-color};
+  --global-text-color-light:   #{$muted-color};
+  --global-theme-color:        #{$link-color};
+  --global-hover-color:        #{$link-hover};
+  --global-footer-bg-color:    #{$bg-color};
+  --global-footer-text-color:  #{$muted-color};
+  --global-footer-link-color:  #{$text-color};
+  --global-distill-app-color:  #{$muted-color};
+  --global-divider-color:      #{$border-color};
 }
