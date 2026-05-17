@@ -766,6 +766,13 @@ img.medium-zoom-image--opened {
   margin-bottom: 0.4rem;
 }
 
+.pub-cites {
+  font-style: normal;
+  color: var(--global-theme-color);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
 .pub-links {
   display: flex;
   gap: 0.4rem;
