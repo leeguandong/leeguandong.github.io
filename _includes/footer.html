@@ -16,12 +16,14 @@
         Page views <strong id="busuanzi_value_page_pv"></strong>
       </span>
     </div>
+    {% if site.footer_text or site.impressum_path %}
     <div class="footer-meta">
       {{ site.footer_text }}
       {% if site.impressum_path %}
       <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
     </div>
+    {% endif %}
   </div>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </footer>
@@ -43,12 +45,14 @@
         Page views <strong id="busuanzi_value_page_pv"></strong>
       </span>
     </div>
+    {% if site.footer_text or site.impressum_path %}
     <div class="footer-meta">
       {{ site.footer_text }}
       {% if site.impressum_path %}
       <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
     </div>
+    {% endif %}
   </div>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </footer>
