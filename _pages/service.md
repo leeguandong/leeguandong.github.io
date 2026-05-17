@@ -43,7 +43,7 @@ sections:
       - year: 2020
         name: "Suning Outstanding Employee"
         org: "Suning Holdings"
-      - year: 2018
+      - year: 2019
         name: "Outstanding Graduate"
         org: "Hefei University of Technology"
 
