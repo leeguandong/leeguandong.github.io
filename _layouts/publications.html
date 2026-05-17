@@ -18,7 +18,9 @@ layout: default
         <span class="pub-year">{{ paper.year }}</span>
       </div>
       <div class="pub-authors">{{ paper.authors }}</div>
-      <div class="pub-venue">{{ paper.venue }}</div>
+      <div class="pub-venue">
+        {{ paper.venue }}{% if paper.citations and paper.citations > 0 %} <span class="pub-cites">&middot; {{ paper.citations }} citation{% if paper.citations != 1 %}s{% endif %}</span>{% endif %}
+      </div>
       <div class="pub-links">
         {% if paper.doi %}
         <a href="{{ paper.doi }}" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
