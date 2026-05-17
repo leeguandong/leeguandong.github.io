@@ -6,6 +6,51 @@ description:
 nav: true
 
 papers:
+  - title: "Edit Fidelity Field: Semantics-Aware Region Isolation for Training-Free Scene Text Editing"
+    authors: "<u>Guandong Li</u>, Mengxia Ye"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2604.17500"
+  - title: "LayerCache: Exploiting Layer-wise Velocity Heterogeneity for Efficient Flow Matching Inference"
+    authors: "<u>Guandong Li</u>"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2604.16492"
+  - title: "AdaEdit: Adaptive Temporal and Channel Modulation for Flow-Based Image Editing"
+    authors: "<u>Guandong Li</u>, Ziming Chu"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2603.21615"
+  - title: "Edit Spillover as a Probe: Do Image Editing Models Implicitly Understand World Relations?"
+    authors: "<u>Guandong Li</u>, Ziming Chu"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2603.17876"
+  - title: "Frequency-Aware Error-Bounded Caching for Accelerating Diffusion Transformers"
+    authors: "<u>Guandong Li</u>"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2603.05315"
+  - title: "Dual-Channel Attention Guidance for Training-Free Image Editing Control in Diffusion Transformers"
+    authors: "<u>Guandong Li</u>"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2602.18022"
+  - title: "Inject Where It Matters: Training-Free Spatially-Adaptive Identity Preservation for Text-to-Image Personalization"
+    authors: "<u>Guandong Li</u>, Mengxia Ye"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2602.13994"
+  - title: "FastUSP: A Multi-Level Collaborative Acceleration Framework for Distributed Diffusion Model Inference"
+    authors: "<u>Guandong Li</u>"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2602.10940"
+  - title: "FlexID: Training-Free Flexible Identity Injection via Intent-Aware Modulation for Text-to-Image Generation"
+    authors: "<u>Guandong Li</u>, Yijun Ding"
+    venue: "arXiv preprint"
+    year: 2026
+    arxiv: "https://arxiv.org/abs/2602.07554"
   - title: "MVNet: Hyperspectral Remote Sensing Image Classification Based on Hybrid Mamba-Transformer Vision Backbone Architecture"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "arXiv preprint"
@@ -14,18 +59,18 @@ papers:
     code: "https://github.com/leeguandong/MVNet-for-HSI"
   - title: "Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "arXiv preprint"
-    year: 2025
+    venue: "International Journal of Image and Data Fusion"
+    year: 2026
     arxiv: "https://arxiv.org/abs/2506.08324"
     code: "https://github.com/leeguandong/STNet-for-HSI"
   - title: "EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation"
     authors: "<u>Guandong Li</u>, Zhaobin Chu"
-    venue: "arXiv preprint"
-    year: 2025
+    venue: "Multimedia Systems"
+    year: 2026
     arxiv: "https://arxiv.org/abs/2509.05659"
   - title: "Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "arXiv preprint"
+    venue: "Arabian Journal for Science and Engineering"
     year: 2025
     arxiv: "https://arxiv.org/abs/2504.15155"
     code: "https://github.com/leeguandong/KANet-for-HSI"
@@ -55,7 +100,7 @@ papers:
     code: "https://github.com/leeguandong/DACNet-for-HSI"
   - title: "EditID: Training-Free Editable ID Customization for Text-to-Image Generation"
     authors: "<u>Guandong Li</u>, Ziming Chu"
-    venue: "arXiv preprint"
+    venue: "Findings of EMNLP 2025"
     year: 2025
     arxiv: "https://arxiv.org/abs/2503.12526"
   - title: "DVI: Disentangling Semantic and Visual Identity for Training-Free Personalized Generation"
@@ -66,7 +111,7 @@ papers:
   - title: "Dgcnet: An efficient 3d-densenet based on dynamic group convolution for hyperspectral remote sensing image classification"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "Spectroscopy Letters"
-    year: 2025
+    year: 2026
     doi: "https://doi.org/10.1080/00387010.2025.2520290"
     code: "https://github.com/leeguandong/DGCNet-for-HSI"
   - title: "Spatial-spectral hyperspectral classification based on learnable 3D group convolution"
@@ -137,11 +182,6 @@ papers:
     year: 2019
     doi: "https://doi.org/10.1117/1.JRS.13.016519"
     code: "https://github.com/leeguandong/3D-DenseNet-for-HSI"
-  - title: "Doubleconvpool-structured 3D-CNN for hyperspectral remote sensing image classification"
-    authors: "<u>Guandong Li</u>, Chunju Zhang, Fei Gao, Xueying Zhang"
-    venue: "Journal of Image and Graphics"
-    year: 2019
-    doi: "http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=20190414&flag=1"
   - title: "双卷积池化结构的 3D-CNN 高光谱遥感影像分类方法"
     authors: "<u>李冠东</u>, 张春菊, 高飞, 张雪英"
     venue: "中国图象图形学报"
@@ -162,6 +202,10 @@ papers:
     venue: "Bulletin of Surveying and Mapping"
     year: 2017
     doi: "https://www.cnki.com.cn/Article/CJFDTotal-CHTB201709013.htm"
+  - title: "基于深度学习的高光谱遥感影像分类技术研究"
+    authors: "<u>李冠东</u>"
+    venue: "合肥工业大学（硕士学位论文）"
+    year: 2019
 
 patents:
   - inventors: "李冠东，马文聘，杨现，叶进进"
