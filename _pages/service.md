@@ -29,6 +29,12 @@ sections:
     type: timeline
     items:
       - year: 2025
+        name: "CBG Outstanding Individual of the Year"
+        org: "iFlytek CBG"
+      - year: 2025
+        name: "CBG Technology Pioneer"
+        org: "iFlytek CBG"
+      - year: 2025
         name: "Outstanding Personal Award for Large Model Efficiency"
         org: "iFlytek Group"
       - year: 2023
@@ -37,15 +43,6 @@ sections:
       - year: 2020
         name: "Suning Outstanding Employee"
         org: "Suning Holdings"
-      - year: 2018
-        name: "Outstanding Graduate"
-        org: "Hefei University of Technology"
-      - year: 2018
-        name: "Excellent Academic Paper Award, 3rd Prize"
-        org: "Anhui Surveying and Mapping Society"
-      - year: 2017
-        name: "Silver Award, 3rd Anhui Internet+ Innovation and Entrepreneurship Contest"
-        org: "Anhui Provincial Dept. of Education"
 
   - title: "Open Source & Community"
     type: stats
