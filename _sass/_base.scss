@@ -79,62 +79,97 @@ blockquote {
 
 .about-header {
   display: flex;
-  align-items: flex-start;
-  gap: 2rem;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .about-avatar {
   flex-shrink: 0;
+  position: relative;
   img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.10);
+    border: 3px solid var(--global-bg-color);
+    outline: 1px solid var(--global-divider-color);
   }
 }
 
 .about-info {
   flex: 1;
+  min-width: 0;
 }
 
 .about-name {
-  font-size: 1.8rem;
-  margin-bottom: 0.3rem;
+  font-size: 2.15rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
   color: var(--global-text-color);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
-.about-title {
-  font-size: 1.05rem;
+.about-tagline {
+  font-size: 1.02rem;
   color: var(--global-text-color);
-  margin-bottom: 0.15rem;
+  opacity: 0.78;
+  margin: 0 0 0.85rem;
   font-weight: 500;
 }
 
-.about-affiliation {
-  font-size: 0.95rem;
-  color: var(--global-text-color-light);
-  margin-bottom: 0.8rem;
+.about-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.32rem 0.78rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-divider-color);
+  background: rgba(128, 128, 128, 0.05);
+  color: var(--global-text-color);
+  i {
+    font-size: 0.78rem;
+    color: var(--global-theme-color);
+    opacity: 0.85;
+  }
+}
+
+.about-chip--role {
+  background: rgba(0, 118, 223, 0.06);
+  border-color: rgba(0, 118, 223, 0.18);
 }
 
 .about-social {
   display: flex;
-  gap: 1rem;
+  gap: 1.05rem;
   flex-wrap: wrap;
   a {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     color: var(--global-text-color);
-    transition: color 0.2s;
+    opacity: 0.7;
+    transition: color 0.2s, opacity 0.2s, transform 0.2s;
     &:hover {
       color: var(--global-theme-color);
+      opacity: 1;
       text-decoration: none;
+      transform: translateY(-2px);
     }
   }
 }
 
 .about-bio {
-  margin-top: 1.5rem;
-  padding-top: 1.2rem;
+  margin-top: 1.75rem;
+  padding-top: 1.4rem;
   border-top: 1px solid var(--global-divider-color);
   line-height: 1.7;
   color: var(--global-text-color);
@@ -269,14 +304,15 @@ blockquote {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 1.4rem;
   }
   .about-avatar img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
-  .about-social {
-    justify-content: center;
-  }
+  .about-name { font-size: 1.75rem; }
+  .about-chips { justify-content: center; }
+  .about-social { justify-content: center; }
   .about-card {
     padding: 1.5rem;
   }

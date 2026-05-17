@@ -9,8 +9,16 @@ profile:
   image: li.jpg
 
 news:
-  - date: "2026.2.4"
-    content: "Awarded CBG Outstanding Individual of the Year."
+  - date: "2026"
+    content: "Paper <em>EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation</em> accepted to <b>Multimedia Systems</b>."
+  - date: "2026"
+    content: "Paper <em>Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating</em> accepted to <b>International Journal of Image and Data Fusion</b>."
+  - date: "2026"
+    content: "Paper <em>DGCNet: An Efficient 3D-DenseNet based on Dynamic Group Convolution for Hyperspectral Remote Sensing Image Classification</em> accepted to <b>Spectroscopy Letters</b>."
+  - date: "2025"
+    content: "Paper <em>EditID: Training-Free Editable ID Customization for Text-to-Image Generation</em> accepted to <b>Findings of EMNLP 2025</b>."
+  - date: "2025"
+    content: "Paper <em>Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification</em> accepted to <b>Arabian Journal for Science and Engineering</b>."
 
 research_interests:
   - AIGC
@@ -72,6 +80,6 @@ social_links:
     icon: fas fa-envelope
 ---
 
-I am currently an Algorithm Engineer at iFlytek, responsible for core algorithm research on projects including [Typemovie](https://typemovie.art), AI Photo Frame, and Super Drawing. Prior to iFlytek, I was a key member of the computer vision algorithm group at Suning, contributing to cutting-edge projects in AIGC and computer vision.
+I lead core algorithm research on [Typemovie](https://typemovie.art), AI Photo Frame, and Super Drawing — large-model-native applications for intelligent marketing. Previously at Suning, I worked on AIGC and computer vision for e-commerce, covering e-commerce LLMs, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and diffusion-based image synthesis, along with OCR and tamper detection systems.
 
-I hold a Master's degree in Surveying and Mapping Engineering from Hefei University of Technology, where my research focused on deep learning for remote sensing image processing, with my [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. My professional expertise spans AIGC, large language models, diffusion models, video editing, digital humans, OCR, and tamper detection.
+My academic background is in deep learning for remote sensing — M.S. from Hefei University of Technology, with one [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. Current research spans AIGC, LLMs, LVMs, diffusion models, video editing, and digital humans.

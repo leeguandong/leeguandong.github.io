@@ -16,8 +16,17 @@ layout: default
         <h1 class="about-name">
           {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
         </h1>
-        <p class="about-title">Deep Learning Algorithm Engineer</p>
-        <p class="about-affiliation">iFlytek &middot; Hefei, China</p>
+        <p class="about-tagline">Deep Learning Algorithm Engineer</p>
+        <div class="about-chips">
+          <span class="about-chip about-chip--role">
+            <i class="fas fa-briefcase"></i>
+            iFlytek &middot; AI Marketing
+          </span>
+          <span class="about-chip about-chip--loc">
+            <i class="fas fa-map-marker-alt"></i>
+            Hefei, China
+          </span>
+        </div>
         {% if page.social_links %}
         <div class="about-social">
           {% for link in page.social_links %}
