@@ -954,17 +954,14 @@ img.medium-zoom-image--opened {
   }
 }
 
-// List (Awards)
+// Generic list (fallback)
 .svc-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 0.35rem 1.2rem;
   li {
-    font-size: 0.88rem;
-    padding: 0.5rem 0 0.5rem 1.2rem;
+    font-size: 0.9rem;
+    padding: 0.4rem 0 0.4rem 1.1rem;
     color: var(--global-text-color);
     position: relative;
     line-height: 1.5;
@@ -972,13 +969,158 @@ img.medium-zoom-image--opened {
       content: '';
       position: absolute;
       left: 0;
-      top: 0.95rem;
+      top: 0.85rem;
       width: 6px;
       height: 6px;
       background: var(--global-theme-color);
       border-radius: 50%;
     }
   }
+}
+
+// Timeline (Awards)
+.svc-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 3.5rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 1px;
+    background: var(--global-divider-color);
+  }
+}
+
+.svc-timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 0.65rem 0;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    left: calc(3.5rem - 4px);
+    top: 1.1rem;
+    width: 9px;
+    height: 9px;
+    background: var(--global-bg-color);
+    border: 2px solid var(--global-theme-color);
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
+
+.svc-timeline-year {
+  flex: 0 0 2.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.1rem;
+}
+
+.svc-timeline-body {
+  flex: 1;
+  padding-left: 1rem;
+  min-width: 0;
+}
+
+.svc-timeline-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  line-height: 1.45;
+}
+
+.svc-timeline-org {
+  font-size: 0.8rem;
+  color: var(--global-text-color);
+  opacity: 0.65;
+  margin-top: 0.15rem;
+}
+
+// Stat cards (Open Source & Community)
+.svc-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.85rem;
+}
+
+.svc-stat-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background: var(--global-bg-color);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--global-theme-color);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+    text-decoration: none;
+    &::before { opacity: 1; }
+  }
+}
+
+.svc-stat-meta {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  opacity: 0.85;
+  margin-bottom: 0.4rem;
+}
+
+.svc-stat-value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--global-text-color);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.svc-stat-unit {
+  font-size: 0.78rem;
+  color: var(--global-text-color);
+  opacity: 0.55;
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+.svc-stat-label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-top: 0.8rem;
+}
+
+.svc-stat-desc {
+  font-size: 0.78rem;
+  color: var(--global-text-color);
+  opacity: 0.7;
+  line-height: 1.45;
+  margin-top: 0.3rem;
 }
 
 // Links (Open Source, Classes)
@@ -1037,7 +1179,17 @@ img.medium-zoom-image--opened {
 @media (max-width: 600px) {
   .svc-page-title { font-size: 1.75rem; margin: 1.5rem 0 1.25rem; }
   .svc-card { padding: 1.1rem 1.2rem; }
-  .svc-list, .svc-links { grid-template-columns: 1fr; }
+  .svc-links, .svc-stats { grid-template-columns: 1fr; }
+  .svc-timeline {
+    &::before { left: 2.5rem; }
+  }
+  .svc-timeline-item {
+    &::before { left: calc(2.5rem - 4px); }
+    gap: 0.8rem;
+  }
+  .svc-timeline-year { flex-basis: 1.8rem; font-size: 0.85rem; }
+  .svc-timeline-body { padding-left: 0.7rem; }
+  .svc-stat-value { font-size: 1.5rem; }
 }
 
 // Rouge Color Customization
