@@ -6,13 +6,45 @@ layout: default
   <h1 class="svc-page-title">{{ page.title }}</h1>
 
   {% for section in page.sections %}
-  <div class="svc-card">
+  <div class="svc-card svc-card--{{ section.type }}">
     <h2 class="svc-card-title">{{ section.title }}</h2>
 
     {% if section.type == "tags" %}
     <div class="svc-tags">
       {% for item in section.items %}
       <span class="svc-tag">{{ item }}</span>
+      {% endfor %}
+    </div>
+
+    {% elsif section.type == "timeline" %}
+    <ol class="svc-timeline">
+      {% for item in section.items %}
+      <li class="svc-timeline-item">
+        <span class="svc-timeline-year">{{ item.year }}</span>
+        <div class="svc-timeline-body">
+          <div class="svc-timeline-name">{{ item.name }}</div>
+          <div class="svc-timeline-org">{{ item.org }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+
+    {% elsif section.type == "stats" %}
+    <div class="svc-stats">
+      {% for item in section.items %}
+      <a href="{{ item.url }}" class="svc-stat-card" target="_blank" rel="noopener noreferrer">
+        {% if item.meta %}
+        <span class="svc-stat-meta">{{ item.meta }}</span>
+        {% endif %}
+        <span class="svc-stat-value">{{ item.stat }}</span>
+        {% if item.stat_unit %}
+        <span class="svc-stat-unit">{{ item.stat_unit }}</span>
+        {% endif %}
+        <span class="svc-stat-label">{{ item.label }}</span>
+        {% if item.desc %}
+        <span class="svc-stat-desc">{{ item.desc }}</span>
+        {% endif %}
+      </a>
       {% endfor %}
     </div>
 

@@ -26,27 +26,47 @@ sections:
       - "Indoor and Built Environment"
 
   - title: "Awards"
-    type: list
+    type: timeline
     items:
-      - "Outstanding Personal Award for Large Model Efficiency (iFlytek Group, 2025)"
-      - "CSDN Blog Expert (CSDN, 2023)"
-      - "Suning Outstanding Employee (Suning Holdings, 2020)"
-      - "Outstanding Graduate (Hefei University of Technology, 2018)"
-      - "Excellent Academic Paper Award, 3rd Prize (Anhui Surveying and Mapping Society, 2018)"
-      - "Silver Award, 3rd Anhui Internet+ Innovation and Entrepreneurship Contest (Anhui Provincial Dept. of Education, 2017)"
+      - year: 2025
+        name: "Outstanding Personal Award for Large Model Efficiency"
+        org: "iFlytek Group"
+      - year: 2023
+        name: "CSDN Blog Expert"
+        org: "CSDN"
+      - year: 2020
+        name: "Suning Outstanding Employee"
+        org: "Suning Holdings"
+      - year: 2018
+        name: "Outstanding Graduate"
+        org: "Hefei University of Technology"
+      - year: 2018
+        name: "Excellent Academic Paper Award, 3rd Prize"
+        org: "Anhui Surveying and Mapping Society"
+      - year: 2017
+        name: "Silver Award, 3rd Anhui Internet+ Innovation and Entrepreneurship Contest"
+        org: "Anhui Provincial Dept. of Education"
 
   - title: "Open Source & Community"
-    type: links
+    type: stats
     items:
       - label: "CSDN Blog"
         url: "https://liguandong.blog.csdn.net/"
-        desc: "12k+ followers · CSDN Blog Expert · long-form tutorials on AIGC and deep learning"
+        stat: "12k+"
+        stat_unit: "followers"
+        meta: "CSDN Blog Expert"
+        desc: "Long-form tutorials on AIGC and deep learning"
       - label: "OpenArt Workflows"
         url: "https://openart.ai/workflows/profile/leeguandong"
-        desc: "124k+ downloads · Top Creators · ComfyUI workflows for image and video generation"
+        stat: "124k+"
+        stat_unit: "downloads"
+        meta: "Top Creators"
+        desc: "ComfyUI workflows for image and video generation"
       - label: "GitHub"
         url: "https://github.com/leeguandong"
-        desc: "Reference implementations for hyperspectral classification, diffusion model editing, and AIGC training"
+        stat: "@leeguandong"
+        meta: "Open Source"
+        desc: "Reference impls for HSI classification, diffusion editing, AIGC"
 
   - title: "Classes"
     type: links
