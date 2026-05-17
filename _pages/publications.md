@@ -32,13 +32,6 @@ papers:
     year: 2020
     doi: "https://ieeexplore.ieee.org/document/9184224"
     citations: 43
-  - title: "Faster Hyperspectral Image Classification Based on Selective Kernel Mechanism Using Deep Convolutional Networks"
-    authors: "<u>Guandong Li</u>, Chunju Zhang"
-    venue: "arXiv preprint"
-    year: 2022
-    arxiv: "https://arxiv.org/abs/2202.06458"
-    code: "https://github.com/leeguandong/FSKNet-for-HSI"
-    citations: 26
   - title: "双卷积池化结构的 3D-CNN 高光谱遥感影像分类方法"
     authors: "<u>李冠东</u>, 张春菊, 高飞, 张雪英"
     venue: "中国图象图形学报"
@@ -94,13 +87,6 @@ papers:
     year: 2026
     arxiv: "https://arxiv.org/abs/2509.05659"
     citations: 6
-  - title: "3D Wavelet Convolutions with Extended Receptive Fields for Hyperspectral Image Classification"
-    authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "arXiv preprint"
-    year: 2025
-    arxiv: "https://arxiv.org/abs/2504.10795"
-    code: "https://github.com/leeguandong/WCNet-for-HSI"
-    citations: 6
   - title: "Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "International Journal of Image and Data Fusion"
@@ -108,17 +94,38 @@ papers:
     arxiv: "https://arxiv.org/abs/2506.08324"
     code: "https://github.com/leeguandong/STNet-for-HSI"
     citations: 5
-  - title: "Layout Control and Semantic Guidance with Attention Loss Backward for T2I Diffusion Model"
-    authors: "<u>Guandong Li</u>"
-    venue: "arXiv preprint"
-    year: 2024
-    arxiv: "https://arxiv.org/abs/2411.06692"
-    citations: 5
   - title: "Two-stage dynamic creative optimization under sparse ambiguous samples for e-commerce advertising"
     authors: "<u>Guandong Li</u>, Xian Yang"
     venue: "SN Computer Science"
     year: 2024
     doi: "https://doi.org/10.1007/s42979-024-02426-0"
+    citations: 5
+  - title: "Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification"
+    authors: "<u>Guandong Li</u>, Mengxia Ye"
+    venue: "Arabian Journal for Science and Engineering"
+    year: 2025
+    arxiv: "https://arxiv.org/abs/2504.15155"
+    code: "https://github.com/leeguandong/KANet-for-HSI"
+    citations: 3
+  - title: "Faster Hyperspectral Image Classification Based on Selective Kernel Mechanism Using Deep Convolutional Networks"
+    authors: "<u>Guandong Li</u>, Chunju Zhang"
+    venue: "arXiv preprint"
+    year: 2022
+    arxiv: "https://arxiv.org/abs/2202.06458"
+    code: "https://github.com/leeguandong/FSKNet-for-HSI"
+    citations: 26
+  - title: "3D Wavelet Convolutions with Extended Receptive Fields for Hyperspectral Image Classification"
+    authors: "<u>Guandong Li</u>, Mengxia Ye"
+    venue: "arXiv preprint"
+    year: 2025
+    arxiv: "https://arxiv.org/abs/2504.10795"
+    code: "https://github.com/leeguandong/WCNet-for-HSI"
+    citations: 6
+  - title: "Layout Control and Semantic Guidance with Attention Loss Backward for T2I Diffusion Model"
+    authors: "<u>Guandong Li</u>"
+    venue: "arXiv preprint"
+    year: 2024
+    arxiv: "https://arxiv.org/abs/2411.06692"
     citations: 5
   - title: "Efficient Dynamic Attention 3D Convolution for Hyperspectral Image Classification"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
@@ -151,13 +158,6 @@ papers:
     year: 2025
     arxiv: "https://arxiv.org/abs/2507.04409"
     code: "https://github.com/leeguandong/MVNet-for-HSI"
-    citations: 3
-  - title: "Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification"
-    authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "Arabian Journal for Science and Engineering"
-    year: 2025
-    arxiv: "https://arxiv.org/abs/2504.15155"
-    code: "https://github.com/leeguandong/KANet-for-HSI"
     citations: 3
   - title: "Frequency-Aware Error-Bounded Caching for Accelerating Diffusion Transformers"
     authors: "<u>Guandong Li</u>"
