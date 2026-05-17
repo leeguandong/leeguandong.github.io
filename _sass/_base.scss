@@ -470,11 +470,11 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   a {
     color: var(--global-footer-link-color);
@@ -487,9 +487,49 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 0.85rem;
+  color: var(--global-footer-text-color);
+  a {
+    color: var(--global-footer-link-color);
+    &:hover { color: var(--global-theme-color); text-decoration: none; }
+  }
+}
+
+.footer-content {
+  text-align: center;
+  line-height: 1.7;
+}
+
+.footer-main {
+  font-size: 0.85rem;
+  letter-spacing: 0.01em;
+  strong {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+.footer-meta {
+  font-size: 0.72rem;
+  opacity: 0.65;
+  margin-top: 2px;
+}
+
+.footer-sep {
+  opacity: 0.4;
+  margin: 0 0.35em;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .footer-main {
+    font-size: 0.78rem;
+  }
+  .footer-sep {
+    margin: 0 0.25em;
+  }
 }
 
 
