@@ -43,6 +43,9 @@ sections:
       - year: 2020
         name: "Suning Outstanding Employee"
         org: "Suning Holdings"
+      - year: 2018
+        name: "Outstanding Graduate"
+        org: "Hefei University of Technology"
 
   - title: "Open Source & Community"
     type: stats
