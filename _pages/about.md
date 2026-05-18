@@ -50,18 +50,23 @@ experience:
     location: Hefei, China
     period: 2024.11 - Present
     description:
-      - Key member of the iFlytek Typemovie project, a native application powered by large-scale AI models, enabling innovative solutions for intelligent marketing.
-      - Responsible for core algorithm research on <a href="https://typemovie.art" target="_blank">Typemovie</a>, AI Photo Frame, and Super Drawing.
+      - Core algorithm research on <a href="https://typemovie.art" target="_blank">讯飞绘镜 (Typemovie)</a>, <b>homture</b> (AI photo frame), and <b>超级制图</b> — native large-model AIGC applications for intelligent marketing.
+      - Authored the <b>EditID v1/v2</b> series (Findings of EMNLP 2025 / Multimedia Systems): training-free identity-feature decoupling for Flux-based text-to-image generation, resolving the zero-sum trade-off between identity fidelity and prompt editability.
+      - Built <b>TypemovieInfer</b>, a high-performance inference framework combining Para-Attention parallelism, KV cache, and FP8 quantization — pushed Wan2.1-14b-720p video generation onto consumer GPUs with ~4× speed-up.
+      - Drove identity-consistent video generation in <b>homture</b> via end-to-end data loops, LoRA training, and continual SFT/DPO iteration on motion and identity quality.
+      - Designed <b>超级制图</b> layer parsing pipeline (Grounding-SAM + SAM 2.1, text-layer separation, image restoration) and inpainting-based watermark / object removal for production scenes.
 
-  - title: Algorithm Engineer
+  - title: Algorithm Engineer (Tech Lead)
     company: Suning
     department: Computer Vision Algorithm Group
     location: Nanjing, China
     period: 2019.7 - 2024.11
     description:
-      - Core member of the algorithm team, focusing on AIGC and computer vision applications for e-commerce.
-      - Developed solutions for e-commerce LLMs, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and image synthesis using diffusion models.
-      - Contributed to OCR and tamper detection systems.
+      - Led <b>木牛流马 (Mu Niu Liu Ma)</b> — one of China's earliest intelligent creative production platforms (benchmarked against Alibaba 鹿班 / JD 羚珑) — covering Smartbanner intelligent layout, hero-image / social-share image generation, and intelligent layer parsing.
+      - Owned the Suning AIGC platform: ControlNet / Inpainting / IP-Adapter / InstanceID at production scale; e-commerce reference-image style transfer, virtual try-on, and ID-controlled portrait generation.
+      - Trained the Suning e-commerce foundation model <b>灵思 (LingSi)</b> (LLM) and the multimodal e-commerce LLM (built EcommerceOCRBench for evaluation); shipped the platform through national 网信办 备案 in 2024.12.
+      - Built OCR (general + finance-document specialised, TPS 7→18), PS-tamper detection (dual-path RGB+ELA, Accuracy 0.804), 2D lip-sync digital humans, intelligent creative ranking (autoco + AllRank, +10% CTR online), and video remix engines.
+      - Saved RMB 3M+/year through the PS-tamper detection project; project awarded <i>Suning Outstanding Employee</i>.
 
 education:
   - degree: M.S. in Surveying and Mapping Engineering
@@ -91,6 +96,8 @@ social_links:
     icon: fas fa-envelope
 ---
 
-I lead core algorithm research on [Typemovie](https://typemovie.art), AI Photo Frame, and Super Drawing — large-model-native applications for intelligent marketing. Previously at Suning, I worked on AIGC and computer vision for e-commerce, covering e-commerce LLMs, multimodal LLMs, video editing, lip-sync-driven 2D digital humans, and diffusion-based image synthesis, along with OCR and tamper detection systems.
+I am an Algorithm Engineer at iFlytek (Consumer Business Group · AI Marketing), driving native large-model AIGC research for production-grade products. My current portfolio includes [**讯飞绘镜 (Typemovie)**](https://typemovie.art) — a Flux-based long-prompt text-to-image and image-to-video application for complex narrative scenes; **homture** — identity-consistent AI photo-frame video generation; **超级制图** — SAM 2.1-driven layer decomposition and inpainting-based image restoration; and **讯飞绘文** — LoRA illustration with transparent-layer generation. On the algorithm side I authored the [**EditID v1/v2**](https://arxiv.org/abs/2503.12526) series (Findings of EMNLP 2025 / Multimedia Systems) for training-free identity-feature decoupling on Flux, and built **TypemovieInfer**, an inference framework combining Para-Attention parallelism, KV cache, and FP8 quantization that pushed Wan2.1-14b-720p generation onto consumer GPUs.
 
-My academic background is in deep learning for remote sensing — M.S. from Hefei University of Technology, with one [paper](https://ieeexplore.ieee.org/abstract/document/8784389/) selected for the ESI top 1%. Current research spans AIGC, LLMs, LVMs, diffusion models, video editing, and digital humans.
+From 2019 to 2024 I was tech lead in Suning's CV algorithm group, where I owned **木牛流马 (Mu Niu Liu Ma)** — one of China's earliest intelligent creative production platforms, benchmarked against Alibaba 鹿班 and JD 羚珑 — alongside the Suning AIGC platform (production-grade ControlNet / Inpainting / IP-Adapter / InstanceID), the Suning e-commerce foundation model **灵思 (LingSi)** and its multimodal extension, OCR, PS-tamper detection (saving RMB 3M+/year), and 2D lip-sync digital humans.
+
+Academically, my Master's at Hefei University of Technology focused on deep learning for hyperspectral remote sensing — work that produced an [ESI top-1% paper](https://ieeexplore.ieee.org/abstract/document/8784389/) and multiple publications in IEEE TGRS / J-STARS / Remote Sensing Letters. I hold 10+ Chinese invention patents, maintain ComfyUI workflows on [OpenArt](https://openart.ai/workflows/profile/leeguandong) with 124k+ downloads, write long-form AIGC tutorials on [CSDN](https://liguandong.blog.csdn.net/) (12k+ followers), and have accumulated ~493 Google Scholar citations across both academic and industrial research.
