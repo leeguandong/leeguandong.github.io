@@ -105,9 +105,20 @@ layout: default
   {% if page.research_interests %}
   <div class="about-card">
     <h2 class="about-section-title">Research Interests</h2>
-    <div class="research-tags">
-      {% for interest in page.research_interests %}
-      <span class="research-tag">{{ interest }}</span>
+    <div class="research-groups">
+      {% for group in page.research_interests %}
+        {% if group.items %}
+        <div class="research-group">
+          <div class="research-group-label">{{ group.group }}</div>
+          <div class="research-tags">
+            {% for interest in group.items %}
+            <span class="research-tag">{{ interest }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% else %}
+        <span class="research-tag">{{ group }}</span>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

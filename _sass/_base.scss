@@ -145,8 +145,8 @@ blockquote {
 }
 
 .about-chip--role {
-  background: rgba(0, 118, 223, 0.06);
-  border-color: rgba(0, 118, 223, 0.18);
+  background: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
+  border-color: color-mix(in srgb, var(--global-theme-color) 28%, var(--global-divider-color));
 }
 
 .about-social {
@@ -200,24 +200,67 @@ blockquote {
   font-size: 0.95rem;
 }
 
-// Research Tags
+// Research Interests — grouped clusters with theme-aware tags
+.research-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem 2rem;
+}
+
+.research-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding-left: 0.7rem;
+  border-left: 2px solid color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+}
+
+.research-group-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  opacity: 0.95;
+}
+
 .research-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .research-tag {
-  display: inline-block;
-  background: rgba(0, 118, 223, 0.1);
-  color: var(--global-theme-color);
-  padding: 0.35rem 1rem;
-  border-radius: 20px;
-  font-size: 0.875rem;
+  display: inline-flex;
+  align-items: center;
+  background: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+  color: var(--global-text-color);
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 22%, var(--global-divider-color));
+  padding: 0.3rem 0.85rem;
+  border-radius: 16px;
+  font-size: 0.84rem;
   font-weight: 500;
-  transition: all 0.2s;
+  line-height: 1.3;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  &::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+    opacity: 0.55;
+    margin-right: 0.5rem;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
   &:hover {
-    background: rgba(0, 118, 223, 0.2);
+    background: color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    transform: translateY(-1px);
+    &::before {
+      opacity: 1;
+      transform: scale(1.15);
+    }
   }
 }
 

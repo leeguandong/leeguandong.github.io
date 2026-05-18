@@ -21,16 +21,22 @@ news:
     content: "Paper <em>Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification</em> accepted to <b>Arabian Journal for Science and Engineering</b>."
 
 research_interests:
-  - AIGC
-  - LLMs
-  - LVMs
-  - Diffusion Models
-  - Video Editing
-  - Digital Humans
-  - Deep Learning
-  - OCR
-  - Detection
-  - Remote Sensing
+  - group: "Generative AI"
+    items:
+      - AIGC
+      - LLMs
+      - LVMs
+      - Diffusion Models
+  - group: "Vision & Video"
+    items:
+      - Video Editing
+      - Digital Humans
+      - OCR
+      - Detection
+  - group: "Foundations"
+    items:
+      - Deep Learning
+      - Remote Sensing
 
 experience:
   - title: Algorithm Engineer
