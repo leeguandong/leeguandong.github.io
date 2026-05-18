@@ -11,14 +11,19 @@ profile:
 news:
   - date: "2026"
     content: "Paper <em>EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation</em> accepted to <b>Multimedia Systems</b>."
+    tier: "JCR Q2"
   - date: "2026"
     content: "Paper <em>Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating</em> accepted to <b>International Journal of Image and Data Fusion</b>."
+    tier: "JCR Q4"
   - date: "2026"
     content: "Paper <em>DGCNet: An Efficient 3D-DenseNet based on Dynamic Group Convolution for Hyperspectral Remote Sensing Image Classification</em> accepted to <b>Spectroscopy Letters</b>."
+    tier: "JCR Q4"
   - date: "2025"
     content: "Paper <em>EditID: Training-Free Editable ID Customization for Text-to-Image Generation</em> accepted to <b>Findings of EMNLP 2025</b>."
+    tier: "CCF-B"
   - date: "2025"
     content: "Paper <em>Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification</em> accepted to <b>Arabian Journal for Science and Engineering</b>."
+    tier: "JCR Q2"
 
 research_interests:
   - group: "Generative AI"

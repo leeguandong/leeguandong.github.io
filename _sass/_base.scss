@@ -200,6 +200,30 @@ blockquote {
   font-size: 0.95rem;
 }
 
+// Tier badges (JCR quartile / CCF rank) — shared by News and Publications
+.tier-badge {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.08rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  border-radius: 4px;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+  color: var(--tier-q4);
+  border: 1px solid currentColor;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+.tier-badge--jcr-q1 { color: var(--tier-q1); }
+.tier-badge--jcr-q2 { color: var(--tier-q2); }
+.tier-badge--jcr-q3 { color: var(--tier-q3); }
+.tier-badge--jcr-q4 { color: var(--tier-q4); }
+.tier-badge--ccf-a  { color: var(--tier-ccf-a); }
+.tier-badge--ccf-b  { color: var(--tier-ccf-b); }
+.tier-badge--ccf-c  { color: var(--tier-ccf-c); }
+
 // Research Interests — grouped clusters with theme-aware tags
 .research-groups {
   display: grid;

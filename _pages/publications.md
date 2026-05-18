@@ -9,6 +9,7 @@ papers:
   - title: "Multi-scale dense networks for hyperspectral remote sensing image classification"
     authors: "Chunju Zhang, <u>Guandong Li</u>, Shihong Du"
     venue: "IEEE Transactions on Geoscience and Remote Sensing"
+    tier: "JCR Q1"
     year: 2019
     doi: "https://ieeexplore.ieee.org/document/8784389"
     code: "https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification"
@@ -16,6 +17,7 @@ papers:
   - title: "Three-dimensional densely connected convolutional network for hyperspectral remote sensing image classification"
     authors: "Chunju Zhang, <u>Guandong Li</u>, Shihong Du, Wuzhou Tan"
     venue: "Journal of Applied Remote Sensing"
+    tier: "JCR Q3"
     year: 2019
     doi: "https://doi.org/10.1117/1.JRS.13.016519"
     code: "https://github.com/leeguandong/3D-DenseNet-for-HSI"
@@ -23,12 +25,14 @@ papers:
   - title: "Hyperspectral remote sensing image classification using 3D-SE-DenseNet"
     authors: "<u>Guandong Li</u>, Chunju Zhang, Runmin Lei, Xueying Zhang, Zhourun Ye, Xiaoli Li"
     venue: "Remote Sensing Letters"
+    tier: "JCR Q3"
     year: 2020
     doi: "https://ieeexplore.ieee.org/document/9514617"
     citations: 51
   - title: "Deep feature aggregation network for hyperspectral remote sensing image classification"
     authors: "Chunju Zhang, <u>Guandong Li</u>, Runmin Lei, Shihong Du, Xueying Zhang, Hui Zheng, Zhaofu Wu"
     venue: "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    tier: "JCR Q2"
     year: 2020
     doi: "https://ieeexplore.ieee.org/document/9184224"
     citations: 43
@@ -41,6 +45,7 @@ papers:
   - title: "Dgcnet: An efficient 3d-densenet based on dynamic group convolution for hyperspectral remote sensing image classification"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "Spectroscopy Letters"
+    tier: "JCR Q4"
     year: 2026
     doi: "https://doi.org/10.1080/00387010.2025.2520290"
     code: "https://github.com/leeguandong/DGCNet-for-HSI"
@@ -48,6 +53,7 @@ papers:
   - title: "Spatial-spectral hyperspectral classification based on learnable 3D group convolution"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "Spectroscopy Letters"
+    tier: "JCR Q4"
     year: 2025
     doi: "https://doi.org/10.1080/00387010.2025.2459256"
     citations: 12
@@ -66,6 +72,7 @@ papers:
   - title: "Smartbanner: intelligent banner design framework that strikes a balance between creative freedom and design rules"
     authors: "<u>Guandong Li</u>, Xian Yang"
     venue: "Multimedia Tools and Applications"
+    tier: "JCR Q2"
     year: 2023
     doi: "https://rdcu.be/c0iMt"
     citations: 9
@@ -78,18 +85,21 @@ papers:
   - title: "EditID: Training-Free Editable ID Customization for Text-to-Image Generation"
     authors: "<u>Guandong Li</u>, Zhaobin Chu"
     venue: "Findings of EMNLP 2025"
+    tier: "CCF-B"
     year: 2025
     arxiv: "https://arxiv.org/abs/2503.12526"
     citations: 7
   - title: "EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation"
     authors: "<u>Guandong Li</u>, Zhaobin Chu"
     venue: "Multimedia Systems"
+    tier: "JCR Q2"
     year: 2026
     arxiv: "https://arxiv.org/abs/2509.05659"
     citations: 6
   - title: "Hyperspectral Image Classification via Transformer-based Spectral-Spatial Attention Decoupling and Adaptive Gating"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "International Journal of Image and Data Fusion"
+    tier: "JCR Q4"
     year: 2026
     arxiv: "https://arxiv.org/abs/2506.08324"
     code: "https://github.com/leeguandong/STNet-for-HSI"
@@ -103,6 +113,7 @@ papers:
   - title: "Dynamic 3D KAN Convolution with Adaptive Grid Optimization for Hyperspectral Image Classification"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
     venue: "Arabian Journal for Science and Engineering"
+    tier: "JCR Q2"
     year: 2025
     arxiv: "https://arxiv.org/abs/2504.15155"
     code: "https://github.com/leeguandong/KANet-for-HSI"
