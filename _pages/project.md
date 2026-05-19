@@ -5,69 +5,209 @@ title: Project
 nav: true
 
 sections:
-  - title: "Generative AI Research"
+  - title: "Identity Customization"
     projects:
-      - title: "EditID v1/v2 — Training-Free Editable Identity Customization"
-        desc: "Two-stage framework for personalized text-to-image generation on Flux. v1 introduces a training-free identity-feature decoupling scheme that severs the zero-sum trade-off between identity fidelity and prompt editability. v2 adds a data-lubrication mechanism that pushes data efficiency further. Self-built IBench evaluation system shows SOTA on identity preservation and editability simultaneously."
+      - title: "EditID: Training-Free Editable ID Customization for Text-to-Image Generation"
+        images:
+          - "assets/img/papers/editid.png"
+        desc: "EditID introduces a training-free, feature-decoupling framework for editable identity customization on Flux text-to-image generation. By splitting the reference image into identity features and bias features and re-injecting them at controlled positions in the DiT backbone, EditID severs the long-standing zero-sum trade-off between identity fidelity and prompt editability without any per-subject fine-tuning. Achieves SOTA on the self-built IBench benchmark and was accepted to Findings of EMNLP 2025."
         links:
-          - label: "EditID arXiv"
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2503.12526"
-          - label: "EditIDv2 arXiv"
-            url: "https://arxiv.org/abs/2509.05659"
           - label: "EMNLP 2025 Findings"
             url: "https://arxiv.org/abs/2503.12526"
 
-      - title: "Training-Free Identity Injection for Personalized Generation"
-        desc: "Family of training-free methods that inject reference identity into text-to-image diffusion without per-subject fine-tuning. DVI disentangles semantic and visual identity components; FlexID modulates injection intent across spatial regions; Inject Where It Matters adapts injection to spatially-relevant tokens; Dual-Channel Attention Guidance refines control under multi-condition prompts."
+      - title: "EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration"
+        images:
+          - "assets/img/papers/editidv2.png"
+        desc: "EditIDv2 extends the EditID framework with a data-lubrication mechanism for ID feature integration. Beyond v1's training-free decoupling, v2 introduces data-lubricated injection that significantly improves data efficiency and reduces drift on long prompts, generalising EditID to high-complexity narrative scenes. Accepted to Multimedia Systems (2026)."
         links:
-          - label: "DVI arXiv"
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2509.05659"
+          - label: "Multimedia Systems"
+            url: "https://arxiv.org/abs/2509.05659"
+
+      - title: "DVI: Disentangling Semantic and Visual Identity for Training-Free Personalized Generation"
+        images:
+          - "assets/img/papers/dvi.png"
+        desc: "DVI separates semantic identity (who the person is) from visual identity (how they look) in the reference image, then routes the two streams through different attention pathways during inference. This decomposition gives fine-grained control over how much semantic vs visual content is transferred, and works as a drop-in training-free module for text-to-image personalisation."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2512.18964"
-          - label: "FlexID arXiv"
+
+      - title: "FlexID: Training-Free Flexible Identity Injection via Intent-Aware Modulation"
+        images:
+          - "assets/img/papers/flexid.png"
+        desc: "FlexID introduces an intent-aware modulation gate that dynamically routes identity-injection signals across spatial regions of the text-to-image diffusion latent. The gate is conditioned on the prompt and reference image to decide where in the canvas identity features should dominate, enabling flexible identity placement for single- and multi-subject prompts without any training."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2602.07554"
-          - label: "Inject arXiv"
+
+      - title: "Inject Where It Matters: Spatially-Adaptive Identity Preservation"
+        images:
+          - "assets/img/papers/inject.png"
+        desc: "Identifies the prompt-aligned tokens during cross-attention and restricts identity-feature injection to those tokens only, preventing identity leakage into the background. The result is sharper identity preservation in the subject region without contaminating scene context, all training-free."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2602.13994"
-          - label: "Dual-Channel arXiv"
+
+  - title: "Image Editing on Diffusion Transformers"
+    projects:
+      - title: "Dual-Channel Attention Guidance for Training-Free Editing Control on DiT"
+        images:
+          - "assets/img/papers/dual_channel.png"
+        desc: "Training-free image editing control for Diffusion Transformers via dual-channel attention guidance. Splits the editing signal across a content-preserving channel and an edit-driving channel and injects them through separate attention pathways in the MMDiT backbone, giving precise control over edit strength without any retraining."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2602.18022"
 
-      - title: "Image Editing on Flow-based Diffusion Transformers"
-        desc: "A series of training-free editing methods over MMDiT / Flux architectures, exploring how attention routing, temporal-channel modulation, and semantics-aware region isolation give precise edit control without retraining. Includes AdaEdit (flow-based image editing), Edit Spillover (a probe for whether editing models understand world relations), AttnRouter (per-category attention routing on MMDiT), Edit Fidelity Field (region isolation for scene text editing), and PhysEdit (physically-consistent region-aware edits)."
+      - title: "AdaEdit: Adaptive Temporal and Channel Modulation for Flow-Based Image Editing"
+        images:
+          - "assets/img/papers/adaedit.png"
+        desc: "AdaEdit performs flow-based image editing by adaptively modulating the temporal trajectory and per-channel scaling of the flow-matching ODE. Without any fine-tuning, users can dial in edit strength and edit type while keeping unedited content intact."
         links:
-          - label: "AdaEdit"
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2603.21615"
-          - label: "Edit Spillover"
+
+      - title: "Edit Spillover as a Probe: Do Image Editing Models Implicitly Understand World Relations?"
+        images:
+          - "assets/img/papers/edit_spillover.png"
+        desc: "Treats image-editing models as probes for visual world knowledge. By systematically perturbing edits that should propagate to related objects, the work measures whether MMDiT / Flux editing models implicitly understand object relations, physics, and counterfactual scene structure — a diagnostic complement to standard fidelity metrics."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2603.17876"
-          - label: "AttnRouter"
+
+      - title: "AttnRouter: Per-Category Attention Routing for Training-Free Editing on MMDiT"
+        images:
+          - "assets/img/papers/attnrouter.png"
+        desc: "Per-category attention routing for training-free image editing on MMDiT. Routes attention computation through different paths for object vs background vs text regions, allowing category-aware edit control with no additional training and minimal compute overhead."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2605.01480"
-          - label: "Edit Fidelity Field"
+
+      - title: "Edit Fidelity Field: Semantics-Aware Region Isolation for Scene Text Editing"
+        images:
+          - "assets/img/papers/edit_fidelity.png"
+        desc: "Training-free scene text editing via a semantics-aware Edit Fidelity Field. Locally constrains edits to text regions and preserves stylistic consistency with surrounding image content, drastically reducing the spillover artefacts that plague baseline DiT editors on dense scene text."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2604.17500"
-          - label: "PhysEdit"
+
+      - title: "PhysEdit: Physically-Consistent Region-Aware Image Editing"
+        images:
+          - "assets/img/papers/physedit.png"
+        desc: "Physically-consistent region-aware image editing via adaptive spatio-temporal reasoning. PhysEdit reasons about physical plausibility (shadows, reflections, occlusions) when applying edits, ensuring that the edited region remains consistent with scene physics rather than producing locally-correct but globally-implausible outputs."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2605.00707"
 
-      - title: "Diffusion Transformer Inference Acceleration"
-        desc: "Inference framework and per-method accelerations for production diffusion / video models. TypemovieInfer is a unified consumer-GPU runtime combining Para-Attention parallelism, KV cache, and FP8 quantization, delivering ~4x speed-up on Wan2.1-14B-720p. LayerCache exploits layer-wise velocity heterogeneity in flow matching. Frequency-Aware Caching gives error-bounded caching for DiT generation. FastUSP is a multi-level collaborative acceleration framework for distributed inference."
+  - title: "Diffusion Inference Acceleration"
+    projects:
+      - title: "LayerCache: Layer-wise Velocity Heterogeneity for Efficient Flow Matching Inference"
+        images:
+          - "assets/img/papers/layercache.png"
+        desc: "Exploits layer-wise velocity heterogeneity in flow-matching inference: different transformer layers exhibit different rates of feature change across timesteps, so the slow-changing layers can be cached and reused across multiple timesteps. Cuts inference cost on flow-based image and video generation with no measurable quality loss."
         links:
-          - label: "LayerCache"
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2604.16492"
-          - label: "Frequency-Aware Caching"
+
+      - title: "Frequency-Aware Error-Bounded Caching for Accelerating Diffusion Transformers"
+        images:
+          - "assets/img/papers/freq_caching.png"
+        desc: "Frequency-aware caching for DiT inference. Decomposes feature changes by frequency band and only refreshes the high-frequency components per step, with provable per-step error bounds. Drops FLOPs on DiT inference while keeping output quality within a guaranteed envelope."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2603.05315"
-          - label: "FastUSP"
+
+      - title: "FastUSP: Multi-Level Collaborative Acceleration for Distributed Diffusion Inference"
+        images:
+          - "assets/img/papers/fastusp.png"
+        desc: "Multi-level collaborative acceleration framework for distributed diffusion model inference. Combines sequence parallelism, parameter sharding, and dynamic load balancing to scale Flux / DiT inference across multiple GPUs with near-linear speedup."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2602.10940"
 
   - title: "Hyperspectral Image Classification"
     projects:
-      - title: "Hyperspectral Image Classification — 8-year Research Line"
-        desc: "Long-running research line on deep architectures for hyperspectral remote sensing imagery, covering 3D-CNN, dense connections, dynamic group convolution, selective kernels, KAN, Mamba-Transformer, dynamic snake, and wavelet receptive fields. The lead paper alone (Multi-scale Dense Networks, IEEE TGRS 2019) has 200+ Google Scholar citations; the series spans IEEE TGRS, JSTARS, JARS, Remote Sensing Letters, Spectroscopy Letters, Arabian J. Sci. & Eng., International J. of Image and Data Fusion, and 中国图象图形学报."
+      - title: "MVNet: Hybrid Mamba-Transformer Vision Backbone for HSI Classification"
+        images:
+          - "assets/img/papers/mvnet.png"
+        desc: "Combines Mamba's linear-time long-range modelling with local Transformer attention to handle the high spectral dimensionality of hyperspectral cubes efficiently. The hybrid backbone outperforms pure Transformer and pure 3D-CNN baselines on Indian Pines, Pavia U., and Salinas under small-sample regimes."
         links:
-          - label: "TGRS (Multi-scale Dense)"
-            url: "https://ieeexplore.ieee.org/document/8784389"
-          - label: "JSTARS (Deep Feature Aggregation)"
-            url: "https://ieeexplore.ieee.org/document/9184224"
-          - label: "MVNet (Mamba-Transformer)"
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2507.04409"
-          - label: "STNet (Transformer)"
+          - label: "Code"
+            url: "https://github.com/leeguandong/MVNet-for-HSI"
+
+      - title: "STNet: Transformer-based Spectral-Spatial Attention Decoupling with Adaptive Gating"
+        images:
+          - "assets/img/papers/stnet.png"
+        desc: "Separates the spectral and spatial reasoning paths into two independent attention streams and gates their fusion adaptively per-token, improving classification on small-sample HSI scenes. Published in International Journal of Image and Data Fusion."
+        links:
+          - label: "arXiv"
             url: "https://arxiv.org/abs/2506.08324"
-          - label: "GitHub series"
-            url: "https://github.com/leeguandong?tab=repositories&q=HSI"
+          - label: "Code"
+            url: "https://github.com/leeguandong/STNet-for-HSI"
+
+      - title: "KANet: Dynamic 3D KAN Convolution with Adaptive Grid Optimization"
+        images:
+          - "assets/img/papers/kanet.png"
+        desc: "Replaces standard 3D convolution kernels with Kolmogorov-Arnold Network units whose grid points adapt to local spectral-spatial statistics. Boosts both accuracy and parameter efficiency on HSI classification. Published in Arabian Journal for Science and Engineering."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2504.15155"
+          - label: "Code"
+            url: "https://github.com/leeguandong/KANet-for-HSI"
+
+      - title: "WCNet: 3D Wavelet Convolutions with Extended Receptive Fields"
+        images:
+          - "assets/img/papers/wcnet.png"
+        desc: "Embeds discrete wavelet decomposition inside the convolutional layers, giving multi-scale spectral-spatial receptive fields at low parameter cost. Especially effective on small-sample HSI where deep networks tend to overfit."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2504.10795"
+          - label: "Code"
+            url: "https://github.com/leeguandong/WCNet-for-HSI"
+
+      - title: "EKGNet: Expert Kernel Generation Network Driven by Contextual Mapping"
+        images:
+          - "assets/img/papers/ekgnet.png"
+        desc: "Generates classification kernels conditioned on local context features rather than relying on a fixed kernel bank. Improves small-sample generalisation by adapting the receptive field to the local hyperspectral signature."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2504.13045"
+          - label: "Code"
+            url: "https://github.com/leeguandong/EKGNet-for-HSI"
+
+      - title: "SGDSCNet: Spatial-Geometry Enhanced 3D Dynamic Snake Convolution"
+        images:
+          - "assets/img/papers/sgdscnet.png"
+        desc: "Adapts Dynamic Snake Convolution (originally proposed for tubular structures) to hyperspectral cubes, letting the kernel deform along elongated spectral signatures. Geometric prior gives better discrimination on linear class boundaries."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2504.04463"
+          - label: "Code"
+            url: "https://github.com/leeguandong/SGDSCNet-for-HSI"
+
+      - title: "DACNet: Efficient Dynamic Attention 3D Convolution for HSI Classification"
+        images:
+          - "assets/img/papers/dacnet.png"
+        desc: "Uses dynamic attention to gate 3D convolution outputs, reducing the parameter cost of full 3D-CNN while preserving spectral-spatial feature quality. Trades off depth against attention bandwidth in a principled way."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2503.23472"
+          - label: "Code"
+            url: "https://github.com/leeguandong/DACNet-for-HSI"
+
+      - title: "FSKNet: Faster HSI Classification with Selective Kernel Mechanism"
+        images:
+          - "assets/img/papers/fsknet.png"
+        desc: "SKNet-style multi-branch convolutions that adaptively select receptive-field sizes for each hyperspectral pixel. Stronger performance with smaller depth than 3D-DenseNet baselines, and faster inference."
+        links:
+          - label: "arXiv"
+            url: "https://arxiv.org/abs/2202.06458"
+          - label: "Code"
+            url: "https://github.com/leeguandong/FSKNet-for-HSI"
 
   - title: "Suning AIGC Platform"
     projects:
@@ -81,7 +221,7 @@ sections:
       - title: "E-Commerce Inpainting with Mask Guidance in ControlNet"
         images:
           - "assets/img/ecommerceinpainting.png"
-        desc: "E-commerce image generation has long been a core demand, with the goal of restoring the missing background while preserving the foreground product. This work addresses overcompletion — the difficulty in maintaining product features under diffusion-model inpainting — via two solutions: (1) an instance-mask fine-tuned inpainting model and (2) a train-free mask-guidance approach that introduces refined product masks as constraints when combining ControlNet with UNet, preventing the model from over-rebuilding the main product."
+        desc: "E-commerce image generation has long been a core demand, with the goal of restoring the missing background while preserving the foreground product. This work addresses overcompletion &mdash; the difficulty in maintaining product features under diffusion-model inpainting &mdash; via two solutions: (1) an instance-mask fine-tuned inpainting model and (2) a train-free mask-guidance approach that introduces refined product masks as constraints when combining ControlNet with UNet, preventing the model from over-rebuilding the main product."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2409.09681"
@@ -105,7 +245,7 @@ sections:
         images:
           - "assets/img/intelligent_parsing_1.png"
           - "assets/img/intelligent_parsing_2.png"
-        desc: "Automated framework for parsing creative materials (banners, posters, designer manuscripts) into structured design semantics. Comprises material recognition, preprocess, smartname, and label layers — using detection (Cascade RCNN, GFL), layer-level filtering, intelligent naming, and multi-level tagging. Significantly boosts downstream intelligent creation and creative optimization in Suning's production scenarios, lifting creative material exposure, circulation, and click-through rates."
+        desc: "Automated framework for parsing creative materials (banners, posters, designer manuscripts) into structured design semantics. Comprises material recognition, preprocess, smartname, and label layers &mdash; using detection (Cascade RCNN, GFL), layer-level filtering, intelligent naming, and multi-level tagging. Significantly boosts downstream intelligent creation and creative optimization in Suning's production scenarios, lifting creative material exposure, circulation, and click-through rates."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2312.17283"
