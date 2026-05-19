@@ -51,7 +51,7 @@ experience:
     period: 2024.11 - Present
     description:
       - Core algorithm research on <a href="https://typemovie.art" target="_blank">讯飞绘镜 (Typemovie)</a>, <b>homture</b> (AI photo frame), and <b>超级制图</b> — native large-model AIGC applications for intelligent marketing.
-      - Designed the <b>EditID v1/v2</b> framework (Findings of EMNLP 2025 / Multimedia Systems): a training-free <em>feature-decoupling</em> + <em>data-lubrication</em> approach that breaks the identity-vs-editability trade-off in Flux-based text-to-image generation.
+      - Designed the <b>EditID v1/v2</b> framework (Findings of EMNLP 2025 / Multimedia Systems) &mdash; a training-free <em>feature-decoupling</em> + <em>data-lubrication</em> approach that breaks the identity-vs-editability trade-off in Flux-based text-to-image generation.
       - Built <b>TypemovieInfer</b>, a high-performance inference framework combining Para-Attention parallelism, KV cache, and FP8 quantization — pushed Wan2.1-14b-720p video generation onto consumer GPUs with ~4× speed-up.
       - Drove identity-consistent video generation in <b>homture</b> via end-to-end data loops, LoRA training, and continual SFT/DPO iteration on motion and identity quality.
       - Led <b>超级制图</b>, an AI design tool centered on <b>watermark-free text editing (无痕改字)</b>; built the Grounding-SAM + SAM 2.1 layer parsing pipeline (text/object separation, image restoration) and inpainting-based watermark / object removal for production scenes.
@@ -63,8 +63,8 @@ experience:
     period: 2019.7 - 2024.11
     description:
       - Led <b>木牛流马 (Iwogh)</b> — one of China's earliest intelligent creative production platforms (benchmarked against Alibaba 鹿班 / JD 羚珑) — covering Smartbanner intelligent layout, hero-image / social-share image generation, and intelligent layer parsing.
-      - Built the Suning AIGC platform from the ground up: ControlNet / Inpainting / IP-Adapter / InstanceID at production scale; e-commerce reference-image style transfer, virtual try-on, and ID-controlled portrait generation.
-      - Trained the Suning e-commerce foundation model <b>灵思 (LingSi)</b> (LLM) and the multimodal e-commerce LLM (built EcommerceOCRBench for evaluation); shipped the platform through national 网信办 备案 in 2024.12.
+      - Built the Suning AIGC platform from the ground up &mdash; ControlNet / Inpainting / IP-Adapter / InstanceID at production scale; e-commerce reference-image style transfer, virtual try-on, and ID-controlled portrait generation.
+      - Trained the Suning e-commerce foundation model <b>灵思 (LingSi)</b> (LLM) and the multimodal e-commerce LLM (built EcommerceOCRBench for evaluation); cleared China's national CAC (Cyberspace Administration) algorithm filing for generative AI in 2024.12.
       - Built OCR (general + finance-document specialised, TPS 7→18), PS-tamper detection (dual-path RGB+ELA, Accuracy 0.804), 2D lip-sync digital humans, intelligent creative ranking (autoco + AllRank, +10% CTR online), and video remix engines.
       - Saved RMB 3M+/year through the PS-tamper detection project; project awarded <i>Suning Outstanding Employee</i>.
 
