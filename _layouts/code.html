@@ -6,7 +6,7 @@ layout: default
   <h1 class="code-page-title">{{ page.title }}</h1>
 
   {% for section in page.sections %}
-  <div class="code-section">
+  <div class="code-section{% if section.featured %} code-section--featured{% endif %}">
     <h2 class="code-section-title">{{ section.title }}</h2>
 
     {% if section.collapsible %}
@@ -26,9 +26,9 @@ layout: default
     </div>
 
     {% else %}
-    <div class="code-grid">
+    <div class="code-grid{% if section.featured %} code-grid--featured{% endif %}">
       {% for repo in section.repos %}
-      <a href="{{ repo.url }}" class="code-card" target="_blank" rel="noopener noreferrer">
+      <a href="{{ repo.url }}" class="code-card{% if section.featured %} code-card--featured{% endif %}" target="_blank" rel="noopener noreferrer">
         <div class="code-card-header">
           <span class="code-card-name">{{ repo.name }}</span>
           {% if repo.stars and repo.stars > 0 %}

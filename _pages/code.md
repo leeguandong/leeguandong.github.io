@@ -5,6 +5,34 @@ title: Code
 nav: true
 
 sections:
+  - title: "Featured"
+    featured: true
+    repos:
+      - name: Interview-code-practice-python
+        url: https://github.com/leeguandong/Interview-code-practice-python
+        desc: Python coding interview practice problems.
+        stars: 1577
+      - name: Awesome-Chinese-Stable-Diffusion
+        url: https://github.com/leeguandong/Awesome-Chinese-Stable-Diffusion
+        desc: Curated collection of Chinese stable diffusion base models.
+        stars: 403
+      - name: learn_python
+        url: https://github.com/leeguandong/learn_python
+        desc: Python learning notes, recipes, and cheatsheets.
+        stars: 297
+      - name: How-to-make-high-resolution-remote-sensing-image-dataset
+        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
+        desc: Practical guide for building high-resolution remote sensing image datasets.
+        stars: 55
+      - name: 3D-DenseNet-for-HSI
+        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
+        desc: 3D densely connected CNN for hyperspectral image classification — paper-backed (JARS 2019).
+        stars: 47
+      - name: EditIDv2
+        url: https://github.com/typemovie/EditIDv2
+        desc: Training-free editable ID customization for Flux text-to-image — paper-backed (Multimedia Systems 2026).
+        stars: 5
+
   - title: "AIGC - Large Language Models"
     repos:
       - name: EcommerceLLMQwen3
@@ -95,7 +123,7 @@ sections:
         stars: 7
       - name: ChatAce
         url: https://github.com/leeguandong/ChatAce
-        desc: Image editing based on Flux ACP++ for character consistency editing.
+        desc: Image editing based on Flux ACE++ for character consistency editing.
         stars: 0
       - name: ChatFlux
         url: https://github.com/leeguandong/ChatFlux
@@ -179,6 +207,162 @@ sections:
         url: https://github.com/leeguandong/FastUSP
         desc: Multi-level collaborative acceleration framework for distributed diffusion inference.
         stars: 0
+
+  - title: "Hyperspectral Classification"
+    repos:
+      - name: How-to-make-high-resolution-remote-sensing-image-dataset
+        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
+        desc: Guide for creating high-resolution remote sensing image datasets.
+        stars: 55
+      - name: 3D-DenseNet-for-HSI
+        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
+        desc: 3D densely connected convolutional network for HSI classification.
+        stars: 47
+      - name: FSKNet-for-HSI
+        url: https://github.com/leeguandong/FSKNet-for-HSI
+        desc: Faster HSI classification based on selective kernel mechanism.
+        stars: 33
+      - name: Multi-Scale-Dense-Networks-for-HSI
+        url: https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification
+        desc: Multi-scale dense networks for hyperspectral image classification.
+        stars: 32
+      - name: DGCNet-for-HSI
+        url: https://github.com/leeguandong/DGCNet-for-HSI
+        desc: Dynamic group convolution network for HSI classification.
+        stars: 7
+      - name: MVNet-for-HSI
+        url: https://github.com/leeguandong/MVNet-for-HSI
+        desc: Hybrid Mamba-Transformer vision backbone for HSI classification.
+        stars: 4
+      - name: mmhyperspectral
+        url: https://github.com/leeguandong/mmhyperspectral
+        desc: Hyperspectral classification models in mm framework.
+        stars: 2
+      - name: SGDSCNet-for-HSI
+        url: https://github.com/leeguandong/SGDSCNet-for-HSI
+        desc: Spatial-geometry enhanced 3D dynamic snake CNN for HSI classification.
+        stars: 2
+      - name: DACNet-for-HSI
+        url: https://github.com/leeguandong/DACNet-for-HSI
+        desc: Efficient dynamic attention 3D convolution for HSI classification.
+        stars: 2
+      - name: WCNet-for-HSI
+        url: https://github.com/leeguandong/WCNet-for-HSI
+        desc: 3D wavelet convolutions with extended receptive fields for HSI.
+        stars: 2
+      - name: KANet-for-HSI
+        url: https://github.com/leeguandong/KANet-for-HSI
+        desc: Dynamic 3D KAN convolution with adaptive grid for HSI classification.
+        stars: 1
+      - name: EKGNet-for-HSI
+        url: https://github.com/leeguandong/EKGNet-for-HSI
+        desc: Expert kernel generation network for HSI classification.
+        stars: 1
+      - name: STNet-for-HSI
+        url: https://github.com/leeguandong/STNet-for-HSI
+        desc: Transformer-based spectral-spatial attention decoupling for HSI.
+        stars: 1
+
+  - title: "Computer Vision"
+    repos:
+      - name: TextErasing
+        url: https://github.com/leeguandong/TextErasing
+        desc: Self-supervised text erasing with controllable image synthesis.
+        stars: 2
+      - name: AllRank
+        url: https://github.com/leeguandong/AllRank
+        desc: Learn-to-rank framework for dynamic creative optimization.
+        stars: 3
+      - name: mmdetection_add
+        url: https://github.com/leeguandong/mmdetection_add
+        desc: Additional detection algorithms (EfficientDet, YOLOv4/v5) for mmdetection.
+        stars: 5
+      - name: mmclassification_add
+        url: https://github.com/leeguandong/mmclassification_add
+        desc: Additional classification algorithms (GhostNet, etc.) for mmcls.
+        stars: 3
+      - name: mmocr_add
+        url: https://github.com/leeguandong/mmocr_add
+        desc: OCR algorithms organized in mm framework.
+        stars: 1
+      - name: mmgeneration_add
+        url: https://github.com/leeguandong/mmgeneration_add
+        desc: GAN and traditional image generation algorithms.
+        stars: 1
+      - name: mmsynth
+        url: https://github.com/leeguandong/mmsynth
+        desc: Text rendering reorganized in mm format.
+        stars: 1
+      - name: Camera_blur_detection
+        url: https://github.com/leeguandong/Camera_blur_detection
+        desc: Camera photo blur detection with FastDeploy multi-platform deployment.
+        stars: 5
+      - name: Answer_card_identification
+        url: https://github.com/leeguandong/Answer_card_identification
+        desc: Answer sheet intelligent grading system.
+        stars: 21
+      - name: Dataaug
+        url: https://github.com/leeguandong/Dataaug
+        desc: Data augmentation for object detection and segmentation.
+        stars: 1
+      - name: FormatConversion
+        url: https://github.com/leeguandong/FormatConversion
+        desc: RGB to CMYK conversion for offline print materials.
+        stars: 1
+      - name: Qianbian
+        url: https://github.com/leeguandong/Qianbian
+        desc: Curated visual AI projects on HuggingFace, ModelScope, and PaddleHub.
+        stars: 4
+
+  - title: "Deployment & Acceleration"
+    repos:
+      - name: KuaiZai
+        url: https://github.com/leeguandong/KuaiZai
+        desc: Multi-platform deployment project codes.
+        stars: 1
+      - name: PlateRec
+        url: https://github.com/leeguandong/PlateRec
+        desc: License plate recognition based on PaddleOCR, ONNX Runtime, C++.
+        stars: 4
+      - name: Yolov5_rknnlite2
+        url: https://github.com/leeguandong/Yolov5_rknnlite2
+        desc: YOLOv5 pedestrian detection deployed on RK3588 with RKNNLite2.
+        stars: 12
+
+  - title: "Learning & Tools"
+    repos:
+      - name: Interview-code-practice-python
+        url: https://github.com/leeguandong/Interview-code-practice-python
+        desc: Python coding interview practice problems.
+        stars: 1577
+      - name: learn_python
+        url: https://github.com/leeguandong/learn_python
+        desc: Python learning notes.
+        stars: 297
+      - name: Leetcode-hot100-python
+        url: https://github.com/leeguandong/Leetcode-hot100-python
+        desc: LeetCode Hot 100 problems in Python.
+        stars: 35
+      - name: DL-data-processing-methods
+        url: https://github.com/leeguandong/DL-data-processing-methods
+        desc: Common data processing methods for deep learning.
+        stars: 34
+      - name: Paper-Learning
+        url: https://github.com/leeguandong/Paper-Learning
+        desc: Paper reading notes on deep learning, remote sensing, OCR, and generation.
+        stars: 27
+      - name: SimilarWork
+        url: https://github.com/leeguandong/SimilarWork
+        desc: Deep learning framework implemented with NumPy (TF static graph + PyTorch dynamic).
+        stars: 7
+      - name: TPCV
+        url: https://github.com/leeguandong/TPCV
+        desc: Simple example to understand mmcv internals.
+        stars: 1
+      - name: Parking
+        url: https://github.com/leeguandong/Parking
+        desc: Parking spot finder mobile application.
+        stars: 23
 
   - title: "ComfyUI Extensions"
     collapsible: true
@@ -271,160 +455,4 @@ sections:
         url: https://github.com/leeguandong/sd_webui_tokenize_anything
       - name: sd_webui_prompt_translator_architecture
         url: https://github.com/leeguandong/sd_webui_prompt_translator_architecture
-
-  - title: "Computer Vision"
-    repos:
-      - name: TextErasing
-        url: https://github.com/leeguandong/TextErasing
-        desc: Self-supervised text erasing with controllable image synthesis.
-        stars: 2
-      - name: AllRank
-        url: https://github.com/leeguandong/AllRank
-        desc: Learn-to-rank framework for dynamic creative optimization.
-        stars: 3
-      - name: mmdetection_add
-        url: https://github.com/leeguandong/mmdetection_add
-        desc: Additional detection algorithms (EfficientDet, YOLOv4/v5) for mmdetection.
-        stars: 5
-      - name: mmclassification_add
-        url: https://github.com/leeguandong/mmclassification_add
-        desc: Additional classification algorithms (GhostNet, etc.) for mmcls.
-        stars: 3
-      - name: mmocr_add
-        url: https://github.com/leeguandong/mmocr_add
-        desc: OCR algorithms organized in mm framework.
-        stars: 1
-      - name: mmgeneration_add
-        url: https://github.com/leeguandong/mmgeneration_add
-        desc: GAN and traditional image generation algorithms.
-        stars: 1
-      - name: mmsynth
-        url: https://github.com/leeguandong/mmsynth
-        desc: Text rendering reorganized in mm format.
-        stars: 1
-      - name: Camera_blur_detection
-        url: https://github.com/leeguandong/Camera_blur_detection
-        desc: Camera photo blur detection with FastDeploy multi-platform deployment.
-        stars: 5
-      - name: Answer_card_identification
-        url: https://github.com/leeguandong/Answer_card_identification
-        desc: Answer sheet intelligent grading system.
-        stars: 21
-      - name: Dataaug
-        url: https://github.com/leeguandong/Dataaug
-        desc: Data augmentation for object detection and segmentation.
-        stars: 1
-      - name: FormatConversion
-        url: https://github.com/leeguandong/FormatConversion
-        desc: RGB to CMYK conversion for offline print materials.
-        stars: 1
-      - name: Qianbian
-        url: https://github.com/leeguandong/Qianbian
-        desc: Curated visual AI projects on HuggingFace, ModelScope, and PaddleHub.
-        stars: 4
-
-  - title: "Deployment & Acceleration"
-    repos:
-      - name: KuaiZai
-        url: https://github.com/leeguandong/KuaiZai
-        desc: Multi-platform deployment project codes.
-        stars: 1
-      - name: PlateRec
-        url: https://github.com/leeguandong/PlateRec
-        desc: License plate recognition based on PaddleOCR, ONNX Runtime, C++.
-        stars: 4
-      - name: Yolov5_rknnlite2
-        url: https://github.com/leeguandong/Yolov5_rknnlite2
-        desc: YOLOv5 pedestrian detection deployed on RK3588 with RKNNLite2.
-        stars: 12
-
-  - title: "Hyperspectral Classification"
-    repos:
-      - name: How-to-make-high-resolution-remote-sensing-image-dataset
-        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
-        desc: Guide for creating high-resolution remote sensing image datasets.
-        stars: 55
-      - name: 3D-DenseNet-for-HSI
-        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
-        desc: 3D densely connected convolutional network for HSI classification.
-        stars: 47
-      - name: FSKNet-for-HSI
-        url: https://github.com/leeguandong/FSKNet-for-HSI
-        desc: Faster HSI classification based on selective kernel mechanism.
-        stars: 33
-      - name: Multi-Scale-Dense-Networks-for-HSI
-        url: https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification
-        desc: Multi-scale dense networks for hyperspectral image classification.
-        stars: 32
-      - name: DGCNet-for-HSI
-        url: https://github.com/leeguandong/DGCNet-for-HSI
-        desc: Dynamic group convolution network for HSI classification.
-        stars: 7
-      - name: MVNet-for-HSI
-        url: https://github.com/leeguandong/MVNet-for-HSI
-        desc: Hybrid Mamba-Transformer vision backbone for HSI classification.
-        stars: 4
-      - name: mmhyperspectral
-        url: https://github.com/leeguandong/mmhyperspectral
-        desc: Hyperspectral classification models in mm framework.
-        stars: 2
-      - name: SGDSCNet-for-HSI
-        url: https://github.com/leeguandong/SGDSCNet-for-HSI
-        desc: Spatial-geometry enhanced 3D dynamic snake CNN for HSI classification.
-        stars: 2
-      - name: DACNet-for-HSI
-        url: https://github.com/leeguandong/DACNet-for-HSI
-        desc: Efficient dynamic attention 3D convolution for HSI classification.
-        stars: 2
-      - name: WCNet-for-HSI
-        url: https://github.com/leeguandong/WCNet-for-HSI
-        desc: 3D wavelet convolutions with extended receptive fields for HSI.
-        stars: 2
-      - name: KANet-for-HSI
-        url: https://github.com/leeguandong/KANet-for-HSI
-        desc: Dynamic 3D KAN convolution with adaptive grid for HSI classification.
-        stars: 1
-      - name: EKGNet-for-HSI
-        url: https://github.com/leeguandong/EKGNet-for-HSI
-        desc: Expert kernel generation network for HSI classification.
-        stars: 1
-      - name: STNet-for-HSI
-        url: https://github.com/leeguandong/STNet-for-HSI
-        desc: Transformer-based spectral-spatial attention decoupling for HSI.
-        stars: 1
-
-  - title: "Learning & Tools"
-    repos:
-      - name: Interview-code-practice-python
-        url: https://github.com/leeguandong/Interview-code-practice-python
-        desc: Python coding interview practice problems.
-        stars: 1577
-      - name: learn_python
-        url: https://github.com/leeguandong/learn_python
-        desc: Python learning notes.
-        stars: 297
-      - name: Leetcode-hot100-python
-        url: https://github.com/leeguandong/Leetcode-hot100-python
-        desc: LeetCode Hot 100 problems in Python.
-        stars: 35
-      - name: DL-data-processing-methods
-        url: https://github.com/leeguandong/DL-data-processing-methods
-        desc: Common data processing methods for deep learning.
-        stars: 34
-      - name: Paper-Learning
-        url: https://github.com/leeguandong/Paper-Learning
-        desc: Paper reading notes on deep learning, remote sensing, OCR, and generation.
-        stars: 27
-      - name: SimilarWork
-        url: https://github.com/leeguandong/SimilarWork
-        desc: Deep learning framework implemented with NumPy (TF static graph + PyTorch dynamic).
-        stars: 7
-      - name: TPCV
-        url: https://github.com/leeguandong/TPCV
-        desc: Simple example to understand mmcv internals.
-        stars: 1
-      - name: Parking
-        url: https://github.com/leeguandong/Parking
-        desc: Parking spot finder mobile application.
-        stars: 23
 ---
