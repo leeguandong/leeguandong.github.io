@@ -287,93 +287,117 @@ sections:
 
   - title: "ComfyUI Extensions"
     collapsible: true
-    repos:
-      - name: ComfyUI_FluxLayerDiffuse
-        url: https://github.com/leeguandong/ComfyUI_FluxLayerDiffuse
-      - name: ComfyUI_InternVL2
-        url: https://github.com/leeguandong/ComfyUI_InternVL2
-      - name: ComfyUI_M3Net
-        url: https://github.com/leeguandong/ComfyUI_M3Net
-      - name: ComfyUI_Gemma3
-        url: https://github.com/leeguandong/ComfyUI_Gemma3
-      - name: ComfyUI_VisualAttentionMap
-        url: https://github.com/leeguandong/ComfyUI_VisualAttentionMap
-      - name: ComfyUI_FluxCustomId
-        url: https://github.com/leeguandong/ComfyUI_FluxCustomId
-      - name: ComfyUI_1Prompt1Story
-        url: https://github.com/leeguandong/ComfyUI_1Prompt1Story
-      - name: ComfyUI_LLaSM
-        url: https://github.com/leeguandong/ComfyUI_LLaSM
-      - name: ComfyUI_Style_Aligned
-        url: https://github.com/leeguandong/ComfyUI_Style_Aligned
-      - name: ComfyUI_VideoEditing
-        url: https://github.com/leeguandong/ComfyUI_VideoEditing
-      - name: ComfyUI_FluxAttentionMask
-        url: https://github.com/leeguandong/ComfyUI_FluxAttentionMask
-      - name: ComfyUI_FluxClipWeight
-        url: https://github.com/leeguandong/ComfyUI_FluxClipWeight
-      - name: ComfyUI_CrossImageAttention
-        url: https://github.com/leeguandong/ComfyUI_CrossImageAttention
-      - name: ComfyUI_AliControlnetInpainting
-        url: https://github.com/leeguandong/ComfyUI_AliControlnetInpainting
-      - name: ComfyUI_CompareModelWeights
-        url: https://github.com/leeguandong/ComfyUI_CompareModelWeights
-      - name: ComfyUI_MasaCtrl
-        url: https://github.com/leeguandong/ComfyUI_MasaCtrl
-      - name: ComfyUI_Cogview4
-        url: https://github.com/leeguandong/ComfyUI_Cogview4
-      - name: ComfyUI_Diffusers
-        url: https://github.com/leeguandong/ComfyUI_Diffusers
-      - name: ComfyUI_BatchPrompt
-        url: https://github.com/leeguandong/ComfyUI_BatchPrompt
-      - name: ComfyUI_ChatGen
-        url: https://github.com/leeguandong/ComfyUI_ChatGen
-      - name: ComfyUI_QWQ32B
-        url: https://github.com/leeguandong/ComfyUI_QWQ32B
-      - name: ComfyUI_SelfGuidance
-        url: https://github.com/leeguandong/ComfyUI_SelfGuidance
-      - name: ComfyUI_Qwen3Omni
-        url: https://github.com/leeguandong/ComfyUI_Qwen3Omni
-      - name: ComfyUI_KimiVL
-        url: https://github.com/leeguandong/ComfyUI_KimiVL
-      - name: ComfyUI_Moonlight
-        url: https://github.com/leeguandong/ComfyUI_Moonlight
-      - name: ComfyUI_DeepSeekVL2
-        url: https://github.com/leeguandong/ComfyUI_DeepSeekVL2
-      - name: ComfyUI_NanoBanana
-        url: https://github.com/leeguandong/ComfyUI_NanoBanana
-      - name: ComfyUI_OneReward
-        url: https://github.com/leeguandong/ComfyUI_OneReward
+    groups:
+      - name: "Flux Series"
+        repos:
+          - name: FluxLayerDiffuse
+            url: https://github.com/leeguandong/ComfyUI_FluxLayerDiffuse
+          - name: FluxCustomId
+            url: https://github.com/leeguandong/ComfyUI_FluxCustomId
+          - name: FluxAttentionMask
+            url: https://github.com/leeguandong/ComfyUI_FluxAttentionMask
+          - name: FluxClipWeight
+            url: https://github.com/leeguandong/ComfyUI_FluxClipWeight
+      - name: "Multimodal & Vision LLMs"
+        repos:
+          - name: InternVL2
+            url: https://github.com/leeguandong/ComfyUI_InternVL2
+          - name: Gemma3
+            url: https://github.com/leeguandong/ComfyUI_Gemma3
+          - name: LLaSM
+            url: https://github.com/leeguandong/ComfyUI_LLaSM
+          - name: DeepSeekVL2
+            url: https://github.com/leeguandong/ComfyUI_DeepSeekVL2
+          - name: Qwen3Omni
+            url: https://github.com/leeguandong/ComfyUI_Qwen3Omni
+          - name: KimiVL
+            url: https://github.com/leeguandong/ComfyUI_KimiVL
+          - name: Moonlight
+            url: https://github.com/leeguandong/ComfyUI_Moonlight
+          - name: NanoBanana
+            url: https://github.com/leeguandong/ComfyUI_NanoBanana
+          - name: QWQ32B
+            url: https://github.com/leeguandong/ComfyUI_QWQ32B
+      - name: "Attention / Routing"
+        repos:
+          - name: VisualAttentionMap
+            url: https://github.com/leeguandong/ComfyUI_VisualAttentionMap
+          - name: CrossImageAttention
+            url: https://github.com/leeguandong/ComfyUI_CrossImageAttention
+          - name: SelfGuidance
+            url: https://github.com/leeguandong/ComfyUI_SelfGuidance
+          - name: MasaCtrl
+            url: https://github.com/leeguandong/ComfyUI_MasaCtrl
+          - name: Style_Aligned
+            url: https://github.com/leeguandong/ComfyUI_Style_Aligned
+      - name: "Generation Backbones"
+        repos:
+          - name: Cogview4
+            url: https://github.com/leeguandong/ComfyUI_Cogview4
+          - name: Diffusers
+            url: https://github.com/leeguandong/ComfyUI_Diffusers
+          - name: 1Prompt1Story
+            url: https://github.com/leeguandong/ComfyUI_1Prompt1Story
+          - name: ChatGen
+            url: https://github.com/leeguandong/ComfyUI_ChatGen
+      - name: "Video / Editing"
+        repos:
+          - name: VideoEditing
+            url: https://github.com/leeguandong/ComfyUI_VideoEditing
+          - name: AliControlnetInpainting
+            url: https://github.com/leeguandong/ComfyUI_AliControlnetInpainting
+      - name: "Tools & Utilities"
+        repos:
+          - name: M3Net
+            url: https://github.com/leeguandong/ComfyUI_M3Net
+          - name: BatchPrompt
+            url: https://github.com/leeguandong/ComfyUI_BatchPrompt
+          - name: CompareModelWeights
+            url: https://github.com/leeguandong/ComfyUI_CompareModelWeights
+          - name: OneReward
+            url: https://github.com/leeguandong/ComfyUI_OneReward
 
   - title: "SD WebUI Extensions"
     collapsible: true
-    repos:
-      - name: sd_webui_ootdiffusion
-        url: https://github.com/leeguandong/sd_webui_ootdiffusion
-      - name: sd_webui_beautifulprompt
-        url: https://github.com/leeguandong/sd_webui_beautifulprompt
-      - name: sd_webui_outpainting
-        url: https://github.com/leeguandong/sd_webui_outpainting
-      - name: sd_webui_musetalk
-        url: https://github.com/leeguandong/sd_webui_musetalk
-      - name: sd_webui_realtime_lcm_canvas
-        url: https://github.com/leeguandong/sd_webui_realtime_lcm_canvas
-      - name: sd_webui_instantid
-        url: https://github.com/leeguandong/sd_webui_instantid
-      - name: sd_webui_lama
-        url: https://github.com/leeguandong/sd_webui_lama
-      - name: sd_webui_sghm
-        url: https://github.com/leeguandong/sd_webui_sghm
-      - name: sd_webui_animate_anything
-        url: https://github.com/leeguandong/sd_webui_animate_anything
-      - name: sd_webui_powerpaint
-        url: https://github.com/leeguandong/sd_webui_powerpaint
-      - name: sd_webui_matting
-        url: https://github.com/leeguandong/sd_webui_matting
-      - name: sd_webui_ZeST
-        url: https://github.com/leeguandong/sd_webui_ZeST
-      - name: sd_webui_tokenize_anything
-        url: https://github.com/leeguandong/sd_webui_tokenize_anything
-      - name: sd_webui_prompt_translator_architecture
-        url: https://github.com/leeguandong/sd_webui_prompt_translator_architecture
+    groups:
+      - name: "Virtual Try-on & ID"
+        repos:
+          - name: ootdiffusion
+            url: https://github.com/leeguandong/sd_webui_ootdiffusion
+          - name: instantid
+            url: https://github.com/leeguandong/sd_webui_instantid
+      - name: "Inpainting & Editing"
+        repos:
+          - name: outpainting
+            url: https://github.com/leeguandong/sd_webui_outpainting
+          - name: lama
+            url: https://github.com/leeguandong/sd_webui_lama
+          - name: powerpaint
+            url: https://github.com/leeguandong/sd_webui_powerpaint
+      - name: "Talking Face / Animation"
+        repos:
+          - name: musetalk
+            url: https://github.com/leeguandong/sd_webui_musetalk
+          - name: animate_anything
+            url: https://github.com/leeguandong/sd_webui_animate_anything
+      - name: "Matting / Segmentation"
+        repos:
+          - name: sghm
+            url: https://github.com/leeguandong/sd_webui_sghm
+          - name: matting
+            url: https://github.com/leeguandong/sd_webui_matting
+          - name: tokenize_anything
+            url: https://github.com/leeguandong/sd_webui_tokenize_anything
+      - name: "Real-time / Acceleration"
+        repos:
+          - name: realtime_lcm_canvas
+            url: https://github.com/leeguandong/sd_webui_realtime_lcm_canvas
+      - name: "Prompt & Color"
+        repos:
+          - name: beautifulprompt
+            url: https://github.com/leeguandong/sd_webui_beautifulprompt
+          - name: ZeST
+            url: https://github.com/leeguandong/sd_webui_ZeST
+          - name: prompt_translator_architecture
+            url: https://github.com/leeguandong/sd_webui_prompt_translator_architecture
 ---

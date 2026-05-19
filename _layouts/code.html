@@ -10,11 +10,31 @@ layout: default
     <h2 class="code-section-title">{{ section.title }}</h2>
 
     {% if section.collapsible %}
+    {% assign total = 0 %}
+    {% if section.groups %}
+      {% for g in section.groups %}{% assign total = total | plus: g.repos.size %}{% endfor %}
+    {% else %}
+      {% assign total = section.repos.size %}
+    {% endif %}
     <div class="code-collapse">
       <button class="code-collapse-btn" onclick="this.parentElement.classList.toggle('open')">
-        <span class="collapse-icon">+</span> Show {{ section.repos | size }} projects
+        <span class="collapse-icon">+</span> Show {{ total }} projects
       </button>
       <div class="code-collapse-content">
+        {% if section.groups %}
+        {% for group in section.groups %}
+        <div class="code-group">
+          <div class="code-group-title">{{ group.name }}</div>
+          <div class="code-compact-list">
+            {% for repo in group.repos %}
+            <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">
+              {{ repo.name }}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+        {% else %}
         <div class="code-compact-list">
           {% for repo in section.repos %}
           <a href="{{ repo.url }}" class="code-compact-item" target="_blank" rel="noopener noreferrer">
@@ -22,6 +42,7 @@ layout: default
           </a>
           {% endfor %}
         </div>
+        {% endif %}
       </div>
     </div>
 
