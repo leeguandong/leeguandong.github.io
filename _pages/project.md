@@ -5,63 +5,133 @@ title: Project
 nav: true
 
 sections:
-  - title: "AIGC Platform"
+  - title: "Generative AI Research"
     projects:
-      - title: "SN AI Platform"
+      - title: "EditID v1/v2 — Training-Free Editable Identity Customization"
+        desc: "Two-stage framework for personalized text-to-image generation on Flux. v1 introduces a training-free identity-feature decoupling scheme that severs the zero-sum trade-off between identity fidelity and prompt editability. v2 adds a data-lubrication mechanism that pushes data efficiency further. Self-built IBench evaluation system shows SOTA on identity preservation and editability simultaneously."
+        links:
+          - label: "EditID arXiv"
+            url: "https://arxiv.org/abs/2503.12526"
+          - label: "EditIDv2 arXiv"
+            url: "https://arxiv.org/abs/2509.05659"
+          - label: "EMNLP 2025 Findings"
+            url: "https://arxiv.org/abs/2503.12526"
+
+      - title: "Training-Free Identity Injection for Personalized Generation"
+        desc: "Family of training-free methods that inject reference identity into text-to-image diffusion without per-subject fine-tuning. DVI disentangles semantic and visual identity components; FlexID modulates injection intent across spatial regions; Inject Where It Matters adapts injection to spatially-relevant tokens; Dual-Channel Attention Guidance refines control under multi-condition prompts."
+        links:
+          - label: "DVI arXiv"
+            url: "https://arxiv.org/abs/2512.18964"
+          - label: "FlexID arXiv"
+            url: "https://arxiv.org/abs/2602.07554"
+          - label: "Inject arXiv"
+            url: "https://arxiv.org/abs/2602.13994"
+          - label: "Dual-Channel arXiv"
+            url: "https://arxiv.org/abs/2602.18022"
+
+      - title: "Image Editing on Flow-based Diffusion Transformers"
+        desc: "A series of training-free editing methods over MMDiT / Flux architectures, exploring how attention routing, temporal-channel modulation, and semantics-aware region isolation give precise edit control without retraining. Includes AdaEdit (flow-based image editing), Edit Spillover (a probe for whether editing models understand world relations), AttnRouter (per-category attention routing on MMDiT), Edit Fidelity Field (region isolation for scene text editing), and PhysEdit (physically-consistent region-aware edits)."
+        links:
+          - label: "AdaEdit"
+            url: "https://arxiv.org/abs/2603.21615"
+          - label: "Edit Spillover"
+            url: "https://arxiv.org/abs/2603.17876"
+          - label: "AttnRouter"
+            url: "https://arxiv.org/abs/2605.01480"
+          - label: "Edit Fidelity Field"
+            url: "https://arxiv.org/abs/2604.17500"
+          - label: "PhysEdit"
+            url: "https://arxiv.org/abs/2605.00707"
+
+      - title: "Diffusion Transformer Inference Acceleration"
+        desc: "Inference framework and per-method accelerations for production diffusion / video models. TypemovieInfer is a unified consumer-GPU runtime combining Para-Attention parallelism, KV cache, and FP8 quantization, delivering ~4x speed-up on Wan2.1-14B-720p. LayerCache exploits layer-wise velocity heterogeneity in flow matching. Frequency-Aware Caching gives error-bounded caching for DiT generation. FastUSP is a multi-level collaborative acceleration framework for distributed inference."
+        links:
+          - label: "LayerCache"
+            url: "https://arxiv.org/abs/2604.16492"
+          - label: "Frequency-Aware Caching"
+            url: "https://arxiv.org/abs/2603.05315"
+          - label: "FastUSP"
+            url: "https://arxiv.org/abs/2602.10940"
+
+  - title: "Hyperspectral Image Classification"
+    projects:
+      - title: "Hyperspectral Image Classification — 8-year Research Line"
+        desc: "Long-running research line on deep architectures for hyperspectral remote sensing imagery, covering 3D-CNN, dense connections, dynamic group convolution, selective kernels, KAN, Mamba-Transformer, dynamic snake, and wavelet receptive fields. The lead paper alone (Multi-scale Dense Networks, IEEE TGRS 2019) has 200+ Google Scholar citations; the series spans IEEE TGRS, JSTARS, JARS, Remote Sensing Letters, Spectroscopy Letters, Arabian J. Sci. & Eng., International J. of Image and Data Fusion, and 中国图象图形学报."
+        links:
+          - label: "TGRS (Multi-scale Dense)"
+            url: "https://ieeexplore.ieee.org/document/8784389"
+          - label: "JSTARS (Deep Feature Aggregation)"
+            url: "https://ieeexplore.ieee.org/document/9184224"
+          - label: "MVNet (Mamba-Transformer)"
+            url: "https://arxiv.org/abs/2507.04409"
+          - label: "STNet (Transformer)"
+            url: "https://arxiv.org/abs/2506.08324"
+          - label: "GitHub series"
+            url: "https://github.com/leeguandong?tab=repositories&q=HSI"
+
+  - title: "Suning AIGC Platform"
+    projects:
+      - title: "Suning AIGC Platform"
         images:
           - "assets/img/sn_ai.png"
           - "assets/img/sd_eval.png"
           - "assets/img/update.png"
-        desc: "Provide AIGC services including image/video generation based on diffusion models, LLM, etc., covering model photo/product photo/poster image/anime avatar generation, control ID type generation, marketing short video generation for combination fission, lip shape-driven virtual e-commerce live streaming digital humans, face swapping, and script generation for voice-over marketing."
-      - title: "E-Commerce Inpainting with Mask Guidance in Controlnet for Reducing Overcompletion"
+        desc: "Provides AIGC services including image/video generation based on diffusion models and LLMs, covering model photo / product photo / poster image / anime avatar generation, controlled-ID type generation, marketing short-video generation for combination fission, lip-sync digital humans for e-commerce live streaming, face swapping, and script generation for voice-over marketing."
+
+      - title: "E-Commerce Inpainting with Mask Guidance in ControlNet"
         images:
           - "assets/img/ecommerceinpainting.png"
-        desc: "E-commerce image generation has always been one of the core demands in the e-commerce field. The goal is to restore the missing background that matches the main product given. In the post-AIGC era, diffusion models are primarily used to generate product images, achieving impressive results. This paper systematically analyzes and addresses a core pain point in diffusion model generation: overcompletion, which refers to the difficulty in maintaining product features. We propose two solutions: 1. Using an instance mask fine-tuned inpainting model to mitigate this phenomenon; 2. Adopting a train-free mask guidance approach, which incorporates refined product masks as constraints when combining ControlNet and UNet to generate the main product, thereby avoiding overcompletion of the product. Our method has achieved promising results in practical applications and we hope it can serve as an inspiring technical report in this field."
+        desc: "E-commerce image generation has long been a core demand, with the goal of restoring the missing background while preserving the foreground product. This work addresses overcompletion — the difficulty in maintaining product features under diffusion-model inpainting — via two solutions: (1) an instance-mask fine-tuned inpainting model and (2) a train-free mask-guidance approach that introduces refined product masks as constraints when combining ControlNet with UNet, preventing the model from over-rebuilding the main product."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2409.09681"
-      - title: "Training-Free Style Consistent Image Synthesis with Condition and Mask Guidance in E-Commerce"
+
+      - title: "Training-Free Style-Consistent Image Synthesis with Condition & Mask Guidance"
         images:
           - "assets/img/train-free-mask-guidance.png"
-        desc: "Generating style-consistent images is a common task in the e-commerce field, and current methods are largely based on diffusion models, which have achieved excellent results. This paper introduces the concept of the QKV (query/key/value) level, referring to modifications in the attention maps (self-attention and cross-attention) when integrating UNet with image conditions. Without disrupting the product's main composition in e-commerce images, we aim to use a train-free method guided by pre-set conditions. This involves using shared KV to enhance similarity in cross-attention and generating mask guidance from the attention map to cleverly direct the generation of style-consistent images. Our method has shown promising results in practical applications."
+        desc: "Train-free framework for style-consistent e-commerce image generation. Operates at the QKV level inside attention (self- and cross-attention), using shared KV to amplify similarity in cross-attention and using attention maps to generate mask guidance that steers style-consistent generation while preserving the product's main composition."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2409.04750"
 
   - title: "Intelligent Creative Platform"
     projects:
-      - title: "Iwogh Platform"
+      - title: "Iwogh Platform (木牛流马)"
         images:
           - "assets/img/platform.png"
-        desc: "Iwogh is an internal creative design platform at Suning, which includes three main modules: intelligent parsing, intelligent creation, and intelligent optimization. It also encompasses a series of real-time creative tools, providing comprehensive support for Suning's creative business."
+        desc: "Iwogh is Suning's internal creative design platform with three core modules: intelligent parsing, intelligent creation, and intelligent optimization, plus a set of real-time creative tools. One of China's earliest intelligent creative production platforms, benchmarked against Alibaba 鹿班 and JD 羚珑."
+
       - title: "Intelligent Parsing"
         images:
           - "assets/img/intelligent_parsing_1.png"
           - "assets/img/intelligent_parsing_2.png"
-        desc: "In the industrial e-commerce landscape, creative designs such as banners and posters are ubiquitous. Extracting structured semantic information from creative e-commerce design materials (manuscripts crafted by designers) to obtain design semantics represents a core challenge in the realm of intelligent design. In this paper, we propose a comprehensive automated framework for intelligently parsing creative materials. This framework comprises material recognition, preprocess, smartname, and label layers. The material recognition layer consolidates various detection and recognition interfaces, covering business aspects including detection of auxiliary areas within creative materials and layer-level detection, alongside label identification. Algorithmically, it encompasses a variety of coarse-to-fine methods such as Cascade RCNN, GFL, and other models. The preprocess layer involves filtering creative layers and grading creative materials. The smartname layer achieves intelligent naming for creative materials, while the label layer covers multi-level tagging for creative materials, enabling tagging at different hierarchical levels. Intelligent parsing constitutes a complete parsing framework that significantly aids downstream processes such as intelligent creation, creative optimization, and material library construction. Within the practical business applications at Suning, it markedly enhances the exposure, circulation, and click-through rates of creative materials, expediting the closed-loop production of creative materials and yielding substantial benefits."
+        desc: "Automated framework for parsing creative materials (banners, posters, designer manuscripts) into structured design semantics. Comprises material recognition, preprocess, smartname, and label layers — using detection (Cascade RCNN, GFL), layer-level filtering, intelligent naming, and multi-level tagging. Significantly boosts downstream intelligent creation and creative optimization in Suning's production scenarios, lifting creative material exposure, circulation, and click-through rates."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2312.17283"
+
       - title: "Smartbanner"
         images:
           - "assets/img/smartbanner.png"
-        desc: "Companies use banners extensively to promote their products, and the intelligent automatic synthesis of banners is a challenging event. Under the premise of inputting only a small amount of information such as product, text and size, it can synthesize styles with high freedom and richness, but at the same time, it must satisfy the design specifications of advertisers for advertising and scenes. We propose an intelligent banner design framework that strikes a balance between creative freedom and design rules, called smartbanner. Smartbanner consists of planner, actuator, adjuster and generator. The banner is synthesized through the combined framework, which fully liberates the designer and reduces the threshold and cost of design. It increases the click-through rate by 30%, improves the human efficiency of designers by 500% under the condition of ensuring the quality of creation, and synthesizes hundreds of millions of pictures in batches throughout the year."
+        desc: "Intelligent banner design framework that balances creative freedom against design rules. With only product, copy and size as inputs, Smartbanner's planner / actuator / adjuster / generator pipeline synthesizes high-freedom, design-compliant banners. Deployed at production scale, lifting CTR by 30%, designer efficiency by 500%, and synthesizing hundreds of millions of images annually."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2303.10325"
-      - title: "ADCT"
+
+      - title: "ADCT — Dynamic Creative Optimization under Sparse/Ambiguous Samples"
         images:
           - "assets/img/adct1.png"
           - "assets/img/adct2.png"
-        desc: "Ad creative is one of the main mediums for e-commerce advertising. Ad creative with good visuals may increase a product's click-through rate(ctr). In recent years, unlike artificially produced ad creatives, advertising platforms can automatically synthesize ad creatives, and each type of element can be arbitrarily specified. Advertisers only need to provide basic materials to synthesize a large number of potential ad creatives in batches. But with limited real-time feedback, it is difficult to accurately estimate the ctr of creatives. In our scenario, in addition to a large number of sparse samples, we also face the problem of ambiguous samples. In our approach we decouple this dynamic creative optimization into two stages, a cascaded structure that can trade off between effectiveness and efficiency. In the first stage, we train an automatic creative optimization architecture based on autoco to simulate complex interactions between creative elements. Although we obtained the ranking of different creatives under a sku, because we bucketed and merged historical data according to periods, this confuses the ctr diversity of the same ad creatives on different days and weakens the ability to separate ambiguous samples. Therefore, we propose a transformer-based rerank model. With the help of the rank model, we propose a distillation method to learn the relative order of ideas and extract the ranking knowledge to guide the rerank learning. The creative order soft labels under each sku are generated by the rank model to alleviate the dilemma that a large number of under-represented creatives cannot obtain real labels. Through the knowledge diffusion of rerank, the ambiguous samples are associated with the positive and negative samples. Cascade rerank and autoco to output the estimated value of the synthetic ad image. In the second stage, we designed a bandit model, and the bandit selected one of the output ad of the first stage for timely delivery. Experimental results show that our method can outperform competing baselines in terms of sctr. Online A/B testing shows that our method improves ctr by 10% compared to the baseline."
+        desc: "Two-stage cascade for ad-creative CTR estimation under sparse and ambiguous samples. Stage 1: autoco-based ranking + a transformer-based rerank trained with rank-distillation soft labels to extract creative order knowledge and link ambiguous samples to positive/negative pairs. Stage 2: a bandit selects from Stage 1's top-N for live serving. Online A/B testing shows +10% CTR vs baseline."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2312.01295"
-      - title: "Tamper Detection"
+
+      - title: "PS Tamper Detection"
         images:
           - "assets/img/tamper1.png"
           - "assets/img/tamper2.png"
-        desc: "Document tamper detection has always been an important aspect of tamper detection. Before the advent of deep learning, document tamper detection was difficult. We have made some explorations in the field of text tamper detection based on deep learning. Our Ps tamper detection method includes three steps: feature assistance, audit point positioning, and tamper recognition. It involves hierarchical filtering and graded output (tampered/suspected tampered/untampered). By combining artificial tamper data features, we simulate and augment data samples in various scenarios (cropping with noise addition/replacement, single character/space replacement, smearing/splicing, brightness/contrast adjustment, etc.). The auxiliary features include exif/binary stream keyword retrieval/noise, which are used for branch detection based on the results. Audit point positioning uses detection frameworks and controls thresholds for high and low density detection. Tamper recognition employs a dual-path dual-stream recognition network, with RGB and ELA stream feature extraction. After dimensionality reduction through self-correlation percentile pooling, the fused output is processed through vlad, yielding an accuracy of 0.604, recall of 0.659, and precision of 0.913."
+        desc: "Three-step pipeline (feature-assist, audit-point localization, tamper recognition) for document Photoshop-tamper detection with graded output (tampered / suspected / untampered). Uses EXIF + binary-stream + noise feature assistance, detection frameworks for localization, and a dual-path dual-stream (RGB + ELA) recognition network with self-correlation percentile pooling and NetVLAD fusion. Accuracy 0.804 on internal benchmarks; saved Suning RMB 3M+/year."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2402.13545"
