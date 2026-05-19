@@ -24,14 +24,14 @@ sections:
         url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
         desc: Practical guide for building high-resolution remote sensing image datasets.
         stars: 55
-      - name: 3D-DenseNet-for-HSI
-        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
-        desc: 3D densely connected CNN for hyperspectral image classification — paper-backed (JARS 2019).
-        stars: 47
-      - name: EditIDv2
-        url: https://github.com/typemovie/EditIDv2
-        desc: Training-free editable ID customization for Flux text-to-image — paper-backed (Multimedia Systems 2026).
-        stars: 5
+      - name: Wav2lipAll
+        url: https://github.com/leeguandong/Wav2lipAll
+        desc: Wav2lip-based digital human training with lip-sync driving (96-288px).
+        stars: 22
+      - name: EcommerceLLM
+        url: https://github.com/leeguandong/EcommerceLLM
+        desc: E-commerce LLM fine-tuned based on Qwen1.5 and LLaMA3.
+        stars: 22
 
   - title: "AIGC - Large Language Models"
     repos:
@@ -129,14 +129,6 @@ sections:
         url: https://github.com/leeguandong/ChatFlux
         desc: WebUI-based ChatDiT, supports generating images through conversations.
         stars: 1
-      - name: DVI
-        url: https://github.com/leeguandong/DVI
-        desc: "DVI: Training-free personalized generation via disentangling semantic and visual identity."
-        stars: 1
-      - name: FlexID
-        url: https://github.com/leeguandong/FlexID
-        desc: Training-free flexible identity injection for text-to-image generation.
-        stars: 0
       - name: EcommerceSD
         url: https://github.com/leeguandong/EcommerceSD
         desc: Stable diffusion models for e-commerce image generation and inpainting.
@@ -152,10 +144,6 @@ sections:
       - name: controlnet_aux_add
         url: https://github.com/leeguandong/controlnet_aux_add
         desc: Additional preprocessors for ControlNet auxiliary library.
-        stars: 1
-      - name: Smartbanner
-        url: https://github.com/leeguandong/Smartbanner
-        desc: Intelligent banner design framework balancing creative freedom and design rules.
         stars: 1
 
   - title: "AIGC - Video & Digital Human"
@@ -185,16 +173,8 @@ sections:
         desc: Unified training framework for image and video generation models.
         stars: 1
 
-  - title: "Typemovie"
+  - title: "Typemovie Infra"
     repos:
-      - name: EditIDv2
-        url: https://github.com/typemovie/EditIDv2
-        desc: Character identity consistency in text-to-image with minimal data.
-        stars: 5
-      - name: IBench
-        url: https://github.com/typemovie/IBench
-        desc: Image evaluation system for EditID.
-        stars: 1
       - name: Typemovie-ParaAttention
         url: https://github.com/typemovie/Typemovie-ParaAttention
         desc: Enhanced ParaAttention for DiT inference with context parallelism.
@@ -203,76 +183,9 @@ sections:
         url: https://github.com/typemovie/TypemovieInfer
         desc: Unified consumer-GPU multi-GPU inference framework for image and video generation.
         stars: 2
-      - name: FastUSP
-        url: https://github.com/leeguandong/FastUSP
-        desc: Multi-level collaborative acceleration framework for distributed diffusion inference.
-        stars: 0
-
-  - title: "Hyperspectral Classification"
-    repos:
-      - name: How-to-make-high-resolution-remote-sensing-image-dataset
-        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
-        desc: Guide for creating high-resolution remote sensing image datasets.
-        stars: 55
-      - name: 3D-DenseNet-for-HSI
-        url: https://github.com/leeguandong/3D-DenseNet-for-HSI
-        desc: 3D densely connected convolutional network for HSI classification.
-        stars: 47
-      - name: FSKNet-for-HSI
-        url: https://github.com/leeguandong/FSKNet-for-HSI
-        desc: Faster HSI classification based on selective kernel mechanism.
-        stars: 33
-      - name: Multi-Scale-Dense-Networks-for-HSI
-        url: https://github.com/leeguandong/Multi-Scale-Dense-Networks-for-Hyperspectral-Remote-Sensing-Image-Classification
-        desc: Multi-scale dense networks for hyperspectral image classification.
-        stars: 32
-      - name: DGCNet-for-HSI
-        url: https://github.com/leeguandong/DGCNet-for-HSI
-        desc: Dynamic group convolution network for HSI classification.
-        stars: 7
-      - name: MVNet-for-HSI
-        url: https://github.com/leeguandong/MVNet-for-HSI
-        desc: Hybrid Mamba-Transformer vision backbone for HSI classification.
-        stars: 4
-      - name: mmhyperspectral
-        url: https://github.com/leeguandong/mmhyperspectral
-        desc: Hyperspectral classification models in mm framework.
-        stars: 2
-      - name: SGDSCNet-for-HSI
-        url: https://github.com/leeguandong/SGDSCNet-for-HSI
-        desc: Spatial-geometry enhanced 3D dynamic snake CNN for HSI classification.
-        stars: 2
-      - name: DACNet-for-HSI
-        url: https://github.com/leeguandong/DACNet-for-HSI
-        desc: Efficient dynamic attention 3D convolution for HSI classification.
-        stars: 2
-      - name: WCNet-for-HSI
-        url: https://github.com/leeguandong/WCNet-for-HSI
-        desc: 3D wavelet convolutions with extended receptive fields for HSI.
-        stars: 2
-      - name: KANet-for-HSI
-        url: https://github.com/leeguandong/KANet-for-HSI
-        desc: Dynamic 3D KAN convolution with adaptive grid for HSI classification.
-        stars: 1
-      - name: EKGNet-for-HSI
-        url: https://github.com/leeguandong/EKGNet-for-HSI
-        desc: Expert kernel generation network for HSI classification.
-        stars: 1
-      - name: STNet-for-HSI
-        url: https://github.com/leeguandong/STNet-for-HSI
-        desc: Transformer-based spectral-spatial attention decoupling for HSI.
-        stars: 1
 
   - title: "Computer Vision"
     repos:
-      - name: TextErasing
-        url: https://github.com/leeguandong/TextErasing
-        desc: Self-supervised text erasing with controllable image synthesis.
-        stars: 2
-      - name: AllRank
-        url: https://github.com/leeguandong/AllRank
-        desc: Learn-to-rank framework for dynamic creative optimization.
-        stars: 3
       - name: mmdetection_add
         url: https://github.com/leeguandong/mmdetection_add
         desc: Additional detection algorithms (EfficientDet, YOLOv4/v5) for mmdetection.
@@ -339,6 +252,10 @@ sections:
         url: https://github.com/leeguandong/learn_python
         desc: Python learning notes.
         stars: 297
+      - name: How-to-make-high-resolution-remote-sensing-image-dataset
+        url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
+        desc: Guide for creating high-resolution remote sensing image datasets.
+        stars: 55
       - name: Leetcode-hot100-python
         url: https://github.com/leeguandong/Leetcode-hot100-python
         desc: LeetCode Hot 100 problems in Python.
@@ -351,18 +268,22 @@ sections:
         url: https://github.com/leeguandong/Paper-Learning
         desc: Paper reading notes on deep learning, remote sensing, OCR, and generation.
         stars: 27
-      - name: SimilarWork
-        url: https://github.com/leeguandong/SimilarWork
-        desc: Deep learning framework implemented with NumPy (TF static graph + PyTorch dynamic).
-        stars: 7
-      - name: TPCV
-        url: https://github.com/leeguandong/TPCV
-        desc: Simple example to understand mmcv internals.
-        stars: 1
       - name: Parking
         url: https://github.com/leeguandong/Parking
         desc: Parking spot finder mobile application.
         stars: 23
+      - name: SimilarWork
+        url: https://github.com/leeguandong/SimilarWork
+        desc: Deep learning framework implemented with NumPy (TF static graph + PyTorch dynamic).
+        stars: 7
+      - name: mmhyperspectral
+        url: https://github.com/leeguandong/mmhyperspectral
+        desc: Hyperspectral classification models in mm framework.
+        stars: 2
+      - name: TPCV
+        url: https://github.com/leeguandong/TPCV
+        desc: Simple example to understand mmcv internals.
+        stars: 1
 
   - title: "ComfyUI Extensions"
     collapsible: true
