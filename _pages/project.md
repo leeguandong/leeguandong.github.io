@@ -96,10 +96,12 @@ sections:
       - title: "PhysEdit: Physically-Consistent Region-Aware Image Editing"
         images:
           - "assets/img/papers/physedit.png"
-        desc: "Physically-consistent region-aware image editing via adaptive spatio-temporal reasoning. PhysEdit reasons about physical plausibility (shadows, reflections, occlusions) when applying edits, ensuring that the edited region remains consistent with scene physics rather than producing locally-correct but globally-implausible outputs."
+        desc: "Physically-consistent region-aware image editing via adaptive spatio-temporal reasoning. PhysEdit reasons about physical plausibility (shadows, reflections, occlusions) when applying edits, ensuring that the edited region remains consistent with scene physics rather than producing locally-correct but globally-implausible outputs. Published in Multimedia Systems (2026)."
         links:
           - label: "arXiv"
             url: "https://arxiv.org/abs/2605.00707"
+          - label: "Multimedia Systems"
+            url: "https://rdcu.be/fv7RZ"
 
   - title: "Diffusion Inference Acceleration"
     projects:

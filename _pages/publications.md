@@ -228,8 +228,10 @@ papers:
     citations: 0
   - title: "PhysEdit: Physically-Consistent Region-Aware Image Editing via Adaptive Spatio-Temporal Reasoning"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "arXiv preprint"
+    venue: "Multimedia Systems"
+    tier: "JCR Q2"
     year: 2026
+    doi: "https://rdcu.be/fv7RZ"
     arxiv: "https://arxiv.org/abs/2605.00707"
     citations: 0
   - title: "Edit Fidelity Field: Semantics-Aware Region Isolation for Training-Free Scene Text Editing"

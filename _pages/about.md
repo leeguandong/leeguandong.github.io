@@ -10,6 +10,9 @@ profile:
 
 news:
   - date: "2026"
+    content: "Paper <em>Adaptive Spatio-Temporal Reasoning for Physically-Consistent Region-Aware Image Editing</em> (PhysEdit) published online in <b>Multimedia Systems</b>."
+    tier: "JCR Q2"
+  - date: "2026"
     content: "Paper <em>EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation</em> accepted to <b>Multimedia Systems</b>."
     tier: "JCR Q2"
   - date: "2026"
