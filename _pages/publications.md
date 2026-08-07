@@ -118,6 +118,14 @@ papers:
     arxiv: "https://arxiv.org/abs/2504.15155"
     code: "https://github.com/leeguandong/KANet-for-HSI"
     citations: 3
+  - title: "PhysEdit: Physically-Consistent Region-Aware Image Editing via Adaptive Spatio-Temporal Reasoning"
+    authors: "<u>Guandong Li</u>, Mengxia Ye"
+    venue: "Multimedia Systems"
+    tier: "JCR Q2"
+    year: 2026
+    doi: "https://rdcu.be/fv7RZ"
+    arxiv: "https://arxiv.org/abs/2605.00707"
+    citations: 0
   - title: "Faster Hyperspectral Image Classification Based on Selective Kernel Mechanism Using Deep Convolutional Networks"
     authors: "<u>Guandong Li</u>, Chunju Zhang"
     venue: "arXiv preprint"
@@ -225,14 +233,6 @@ papers:
     venue: "arXiv preprint"
     year: 2026
     arxiv: "https://arxiv.org/abs/2605.01480"
-    citations: 0
-  - title: "PhysEdit: Physically-Consistent Region-Aware Image Editing via Adaptive Spatio-Temporal Reasoning"
-    authors: "<u>Guandong Li</u>, Mengxia Ye"
-    venue: "Multimedia Systems"
-    tier: "JCR Q2"
-    year: 2026
-    doi: "https://rdcu.be/fv7RZ"
-    arxiv: "https://arxiv.org/abs/2605.00707"
     citations: 0
   - title: "Edit Fidelity Field: Semantics-Aware Region Isolation for Training-Free Scene Text Editing"
     authors: "<u>Guandong Li</u>, Mengxia Ye"
