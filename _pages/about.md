@@ -9,6 +9,10 @@ profile:
   image: li.jpg
 
 news:
+  - date: "2026 Q3"
+    content: "Deployed <b>2K seamless text editing</b> and <b>multi-region text editing</b> for 超级制图, supporting high-resolution design workflows and simultaneous edits across multiple text regions."
+  - date: "2026 Q3"
+    content: "Launched <b>transparent layer decomposition</b> for 超级制图, separating a flattened design into background, subject, and text layers."
   - date: "2026"
     content: "Paper <em>Adaptive Spatio-Temporal Reasoning for Physically-Consistent Region-Aware Image Editing</em> (PhysEdit) published online in <b>Multimedia Systems</b>."
     tier: "JCR Q2"
@@ -35,6 +39,8 @@ research_interests:
       - LLMs
       - LVMs
       - Diffusion Models
+      - Scene Text Editing
+      - Layered Image Generation
   - group: "Vision & Video"
     items:
       - Video Editing
@@ -57,7 +63,9 @@ experience:
       - Designed the <b>EditID v1/v2</b> framework (Findings of EMNLP 2025 / Multimedia Systems) &mdash; a training-free <em>feature-decoupling</em> + <em>data-lubrication</em> approach that breaks the identity-vs-editability trade-off in Flux-based text-to-image generation.
       - Built <b>TypemovieInfer</b>, a high-performance inference framework combining Para-Attention parallelism, KV cache, and FP8 quantization — pushed Wan2.1-14b-720p video generation onto consumer GPUs with ~4× speed-up.
       - Drove identity-consistent video generation in <b>homture</b> via end-to-end data loops, LoRA training, and continual SFT/DPO iteration on motion and identity quality.
-      - Led <b>超级制图</b>, an AI design tool centered on <b>watermark-free text editing (无痕改字)</b>; built the Grounding-SAM + SAM 2.1 layer parsing pipeline (text/object separation, image restoration) and inpainting-based watermark / object removal for production scenes.
+      - Led <b>超级制图</b> research on <b>seamless text editing (无痕改字)</b>, from data synthesis and full-parameter SFT to preference optimization and evaluation; deployed single-region 2K and multi-region editing, focusing on text accuracy, typography, and preservation of unedited content.
+      - Trained and deployed <b>transparent layer decomposition</b> models that separate background, subject, and text into editable RGBA layers; current research explores variable layer counts and region-conditioned extraction.
+      - Optimized production image-editing inference with <b>FP8, few-step sampling, and multi-GPU parallelism</b>; built reusable workflows for data preparation, distributed training, evaluation, and deployment, and resolved latency growth in long-running services.
 
   - title: Algorithm Engineer (Tech Lead)
     company: Suning
@@ -100,6 +108,8 @@ social_links:
 ---
 
 I am an Algorithm Engineer at iFlytek (Consumer Business Group · AI Marketing), driving native large-model AIGC research for production-grade products including [**讯飞绘镜 (Typemovie)**](https://typemovie.art), **homture**, **超级制图**, and **讯飞绘文**.
+
+My recent work focuses on **seamless scene text editing** and **transparent layer decomposition** for AI-assisted design. I develop models and training workflows for high-resolution and multi-region text replacement, and for separating flattened images into editable background, subject, and text layers. See [recent design projects](/project/#ai-assisted-design).
 
 From 2019 to 2024 I led algorithm work in Suning's CV group, covering the **木牛流马 (Iwogh)** intelligent creative production platform, the Suning AIGC platform, the e-commerce foundation model **灵思 (LingSi)**, OCR, PS-tamper detection, and 2D lip-sync digital humans.
 

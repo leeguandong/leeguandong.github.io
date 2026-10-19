@@ -52,7 +52,7 @@ sections:
     items:
       - label: "CSDN Blog"
         url: "https://liguandong.blog.csdn.net/"
-        stat: "12k+"
+        stat: "12.7k"
         stat_unit: "followers"
         meta: "CSDN Blog Expert"
         desc: "Long-form tutorials on AIGC and deep learning"

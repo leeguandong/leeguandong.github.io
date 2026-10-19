@@ -5,6 +5,18 @@ title: Project
 nav: true
 
 sections:
+  - title: "AI-Assisted Design · 超级制图"
+    id: "ai-assisted-design"
+    projects:
+      - title: "Seamless Text Editing · 无痕改字"
+        desc: "Developed and deployed single-region text editing with a 2K Pro model for posters and marketing creatives. The work covers training-data synthesis and curation, full-parameter supervised fine-tuning, and evaluation of text accuracy, typography, and preservation of unedited content. Production inference uses FP8, few-step sampling, and multi-GPU parallelism."
+
+      - title: "Multi-Region Text Editing · 多区域改字"
+        desc: "Trained, evaluated, and deployed a model that replaces text in multiple regions within one request. The workflow combines distilled training data with evaluation of the requested text, local visual consistency, and background preservation, supporting coordinated copy changes across a design."
+
+      - title: "Transparent Layer Decomposition · 透明图层拆分"
+        desc: "Trained and deployed a Qwen-Image-Layered model that separates a flattened image into background, subject, and text RGBA layers for further editing. The workflow covers layered-data preparation, full-parameter training, and evaluation of object completeness, transparency, and recomposition quality. Ongoing Qwen-Image-2.1 research explores variable layer counts and region-conditioned transparent-layer extraction."
+
   - title: "Identity Customization"
     projects:
       - title: "EditID: Training-Free Editable ID Customization for Text-to-Image Generation"
