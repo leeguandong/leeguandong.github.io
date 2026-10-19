@@ -8,7 +8,7 @@ middle_name:
 last_name: Li
 email: leeguandon@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Guandong Li's personal website. Deep Learning Algorithm Engineer at iFlytek.
+  Guandong Li's personal website. Deep Learning Algorithm Engineer at iFLYTEK.
 footer_text:
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

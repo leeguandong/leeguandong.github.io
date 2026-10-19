@@ -30,13 +30,13 @@ sections:
     items:
       - year: 2025
         name: "CBG Outstanding Individual of the Year"
-        org: "iFlytek CBG"
+        org: "iFLYTEK CBG"
       - year: 2025
         name: "CBG Technology Pioneer"
-        org: "iFlytek CBG"
+        org: "iFLYTEK CBG"
       - year: 2025
         name: "Outstanding Personal Award for Large Model Efficiency"
-        org: "iFlytek Group"
+        org: "iFLYTEK Group"
       - year: 2023
         name: "CSDN Blog Expert"
         org: "CSDN"
@@ -52,14 +52,14 @@ sections:
     items:
       - label: "CSDN Blog"
         url: "https://liguandong.blog.csdn.net/"
-        stat: "12.7k"
+        stat: "12,757"
         stat_unit: "followers"
         meta: "CSDN Blog Expert"
-        desc: "Long-form tutorials on AIGC and deep learning"
+        desc: "1,017 original articles on AIGC and deep learning"
       - label: "OpenArt Workflows"
         url: "https://openart.ai/workflows/profile/leeguandong"
-        stat: "124k+"
-        stat_unit: "downloads"
+        stat: "ComfyUI"
+        stat_unit: "workflows"
         meta: "Top Creators"
         desc: "ComfyUI workflows for image and video generation"
       - label: "GitHub"

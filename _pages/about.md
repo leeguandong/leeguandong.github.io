@@ -50,7 +50,7 @@ research_interests:
 
 experience:
   - title: Algorithm Engineer
-    company: iFlytek
+    company: iFLYTEK
     department: Consumer Business Group, AI Marketing Business Line
     location: Hefei, China
     period: 2024.11 - Present
@@ -103,10 +103,12 @@ social_links:
     icon: fas fa-envelope
 ---
 
-I am an Algorithm Engineer at iFlytek (Consumer Business Group · AI Marketing), driving native large-model AIGC research for production-grade products including [**讯飞绘镜 (Typemovie)**](https://typemovie.art), **homture**, **超级制图**, and **讯飞绘文**.
+I am an Algorithm Engineer at iFLYTEK (CBG), driving native large-model AIGC research for production-grade products including [**讯飞绘镜 (Typemovie)**](https://typemovie.art), **homture**, **超级制图**, and **讯飞绘文**.
 
 My recent work focuses on **seamless scene text editing** and **transparent layer decomposition** for AI-assisted design. I develop models and training workflows for high-resolution and multi-region text replacement, and for separating flattened images into editable background, subject, and text layers.
 
 From 2019 to 2024 I led algorithm work in Suning's CV group, covering the **木牛流马 (Iwogh)** intelligent creative production platform, the Suning AIGC platform, the e-commerce foundation model **灵思 (LingSi)**, OCR, PS-tamper detection, and 2D lip-sync digital humans.
 
-Academically, my Master's at Hefei University of Technology focused on deep learning for hyperspectral remote sensing — work that produced an [ESI top-1% paper](https://ieeexplore.ieee.org/abstract/document/8784389/) and multiple publications in IEEE TGRS / J-STARS / Remote Sensing Letters. I hold 10 Chinese invention patents, maintain ComfyUI workflows on [OpenArt](https://openart.ai/workflows/profile/leeguandong) with 124k+ downloads, write long-form AIGC tutorials on [CSDN](https://liguandong.blog.csdn.net/) (12.7k followers), and have accumulated 570+ Google Scholar citations across both academic and industrial research.
+I received my Master's degree from Hefei University of Technology, where I studied deep learning for hyperspectral remote sensing. My research now spans identity-preserving generation, scene text editing, layered image generation, and diffusion inference acceleration, with publications in **IEEE TGRS**, **IEEE J-STARS**, **Remote Sensing Letters**, **Findings of EMNLP**, and **Multimedia Systems**, including an [ESI top-1% paper](https://ieeexplore.ieee.org/abstract/document/8784389/). I am a named inventor on 10 Chinese invention patent filings. See my [publications and patents](/publications/) and [Google Scholar profile](https://scholar.google.com/citations?user=on_b6MMAAAAJ).
+
+I share AIGC tutorials and research notes on [CSDN](https://liguandong.blog.csdn.net/), with **1,017 original articles** and **12,757 followers**, and maintain ComfyUI workflows on [OpenArt](https://openart.ai/workflows/profile/leeguandong). My [GitHub projects](/code/) cover model fine-tuning, multimodal learning, diffusion inference, and research resources.
