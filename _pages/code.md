@@ -11,15 +11,15 @@ sections:
       - name: Interview-code-practice-python
         url: https://github.com/leeguandong/Interview-code-practice-python
         desc: Python coding interview practice problems.
-        stars: 1577
+        stars: 1576
       - name: Awesome-Chinese-Stable-Diffusion
         url: https://github.com/leeguandong/Awesome-Chinese-Stable-Diffusion
         desc: Curated collection of Chinese stable diffusion base models.
-        stars: 403
+        stars: 454
       - name: learn_python
         url: https://github.com/leeguandong/learn_python
         desc: Python learning notes, recipes, and cheatsheets.
-        stars: 297
+        stars: 322
       - name: How-to-make-high-resolution-remote-sensing-image-dataset
         url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
         desc: Practical guide for building high-resolution remote sensing image datasets.
@@ -31,22 +31,26 @@ sections:
       - name: EcommerceLLM
         url: https://github.com/leeguandong/EcommerceLLM
         desc: E-commerce LLM fine-tuned based on Qwen1.5 and LLaMA3.
-        stars: 22
+        stars: 26
 
   - title: "AIGC - Large Language Models"
     repos:
+      - name: EcommerceLLMSpark
+        url: https://github.com/leeguandong/EcommerceLLMSpark
+        desc: Spark-X2.5-4B LoRA fine-tuning for e-commerce text tasks, with training, inference, and evaluation scripts.
+        stars: 1
       - name: EcommerceLLMQwen3
         url: https://github.com/leeguandong/EcommerceLLMQwen3
         desc: Qwen3 series e-commerce LLM fine-tuned with e-commerce data.
-        stars: 10
+        stars: 12
       - name: EcommerceLLMQwen2.5
         url: https://github.com/leeguandong/EcommerceLLMQwen2.5
         desc: Qwen2.5 series e-commerce LLM fine-tuned with e-commerce data.
-        stars: 13
+        stars: 14
       - name: EcommerceLLM
         url: https://github.com/leeguandong/EcommerceLLM
         desc: E-commerce LLM fine-tuned based on Qwen1.5 and LLaMA3.
-        stars: 22
+        stars: 26
       - name: MiniLLaMA3
         url: https://github.com/leeguandong/MiniLLaMA3
         desc: Mini LLaMA3 covering full pipeline from data, tokenizer, PT, SFT to RLHF.
@@ -70,6 +74,10 @@ sections:
 
   - title: "AIGC - Multimodal Models"
     repos:
+      - name: XrayQwen3VL
+        url: https://github.com/leeguandong/XrayQwen3VL
+        desc: Qwen3-VL-8B LoRA fine-tuning for chest X-ray report generation, with Instruct and Thinking variants.
+        stars: 5
       - name: XrayLLaVA
         url: https://github.com/leeguandong/XrayLLaVA
         desc: X-ray multimodal model fine-tuned on LLaVA 1.6 with 4 V100 GPUs.
@@ -77,7 +85,7 @@ sections:
       - name: XrayQwenVL
         url: https://github.com/leeguandong/XrayQwenVL
         desc: X-ray multimodal model fine-tuned on QwenVL-Chat.
-        stars: 21
+        stars: 24
       - name: XrayQwen2VL
         url: https://github.com/leeguandong/XrayQwen2VL
         desc: X-ray multimodal model fine-tuned on Qwen2-VL-7B-Instruct.
@@ -101,14 +109,18 @@ sections:
       - name: EcommerceOCRBench
         url: https://github.com/leeguandong/EcommerceOCRBench
         desc: Large-scale OCR benchmark for multimodal LLMs in e-commerce.
-        stars: 6
+        stars: 7
 
   - title: "AIGC - Image Generation"
     repos:
+      - name: Awesome-Text-Editing
+        url: https://github.com/leeguandong/Awesome-Text-Editing
+        desc: Curated scene text editing and rendering papers, datasets, benchmarks, and open-source tools.
+        stars: 1
       - name: Awesome-Chinese-Stable-Diffusion
         url: https://github.com/leeguandong/Awesome-Chinese-Stable-Diffusion
         desc: Collection of Chinese stable diffusion base models.
-        stars: 403
+        stars: 454
       - name: Awesome-ID-Customization
         url: https://github.com/leeguandong/Awesome-ID-Customization
         desc: ID-Customization for character consistency generation on Flux and SD.
@@ -116,7 +128,7 @@ sections:
       - name: RealtimeFlux
         url: https://github.com/leeguandong/RealtimeFlux
         desc: First real-time Flux-based sketch-to-image generation model.
-        stars: 2
+        stars: 5
       - name: MaskControlnet
         url: https://github.com/leeguandong/MaskControlnet
         desc: ControlNet conditioned on masks, trained on e-commerce cutout data.
@@ -128,7 +140,7 @@ sections:
       - name: ChatFlux
         url: https://github.com/leeguandong/ChatFlux
         desc: WebUI-based ChatDiT, supports generating images through conversations.
-        stars: 1
+        stars: 2
       - name: EcommerceSD
         url: https://github.com/leeguandong/EcommerceSD
         desc: Stable diffusion models for e-commerce image generation and inpainting.
@@ -136,7 +148,7 @@ sections:
       - name: HOME-CLIP
         url: https://github.com/leeguandong/HOME-CLIP
         desc: ChineseCLIP fine-tuned on home decoration and furniture data.
-        stars: 5
+        stars: 6
       - name: HOME-DALLE1
         url: https://github.com/leeguandong/HOME-DALLE1
         desc: DALL-E 1 model for Chinese home decoration scenes.
@@ -171,7 +183,7 @@ sections:
       - name: Musubi-Studio
         url: https://github.com/leeguandong/Musubi-Studio
         desc: Unified training framework for image and video generation models.
-        stars: 1
+        stars: 2
 
   - title: "Typemovie Infra"
     repos:
@@ -213,7 +225,7 @@ sections:
       - name: Answer_card_identification
         url: https://github.com/leeguandong/Answer_card_identification
         desc: Answer sheet intelligent grading system.
-        stars: 21
+        stars: 26
       - name: Dataaug
         url: https://github.com/leeguandong/Dataaug
         desc: Data augmentation for object detection and segmentation.
@@ -229,6 +241,10 @@ sections:
 
   - title: "Deployment & Acceleration"
     repos:
+      - name: Awesome-DIT-Cache
+        url: https://github.com/leeguandong/Awesome-DIT-Cache
+        desc: Curated feature caching and reuse methods for accelerating image, video, and audio diffusion models.
+        stars: 8
       - name: KuaiZai
         url: https://github.com/leeguandong/KuaiZai
         desc: Multi-platform deployment project codes.
@@ -247,11 +263,11 @@ sections:
       - name: Interview-code-practice-python
         url: https://github.com/leeguandong/Interview-code-practice-python
         desc: Python coding interview practice problems.
-        stars: 1577
+        stars: 1576
       - name: learn_python
         url: https://github.com/leeguandong/learn_python
         desc: Python learning notes.
-        stars: 297
+        stars: 322
       - name: How-to-make-high-resolution-remote-sensing-image-dataset
         url: https://github.com/leeguandong/How-to-make-high-resolution-remote-sensing-image-dataset
         desc: Guide for creating high-resolution remote sensing image datasets.
@@ -259,7 +275,7 @@ sections:
       - name: Leetcode-hot100-python
         url: https://github.com/leeguandong/Leetcode-hot100-python
         desc: LeetCode Hot 100 problems in Python.
-        stars: 35
+        stars: 60
       - name: DL-data-processing-methods
         url: https://github.com/leeguandong/DL-data-processing-methods
         desc: Common data processing methods for deep learning.
@@ -267,7 +283,7 @@ sections:
       - name: Paper-Learning
         url: https://github.com/leeguandong/Paper-Learning
         desc: Paper reading notes on deep learning, remote sensing, OCR, and generation.
-        stars: 27
+        stars: 28
       - name: Parking
         url: https://github.com/leeguandong/Parking
         desc: Parking spot finder mobile application.
