@@ -9,10 +9,6 @@ profile:
   image: li.jpg
 
 news:
-  - date: "2026 Q3"
-    content: "Deployed <b>2K seamless text editing</b> and <b>multi-region text editing</b> for 超级制图, supporting high-resolution design workflows and simultaneous edits across multiple text regions."
-  - date: "2026 Q3"
-    content: "Launched <b>transparent layer decomposition</b> for 超级制图, separating a flattened design into background, subject, and text layers."
   - date: "2026"
     content: "Paper <em>Adaptive Spatio-Temporal Reasoning for Physically-Consistent Region-Aware Image Editing</em> (PhysEdit) published online in <b>Multimedia Systems</b>."
     tier: "JCR Q2"
@@ -109,7 +105,7 @@ social_links:
 
 I am an Algorithm Engineer at iFlytek (Consumer Business Group · AI Marketing), driving native large-model AIGC research for production-grade products including [**讯飞绘镜 (Typemovie)**](https://typemovie.art), **homture**, **超级制图**, and **讯飞绘文**.
 
-My recent work focuses on **seamless scene text editing** and **transparent layer decomposition** for AI-assisted design. I develop models and training workflows for high-resolution and multi-region text replacement, and for separating flattened images into editable background, subject, and text layers. See [recent design projects](/project/#ai-assisted-design).
+My recent work focuses on **seamless scene text editing** and **transparent layer decomposition** for AI-assisted design. I develop models and training workflows for high-resolution and multi-region text replacement, and for separating flattened images into editable background, subject, and text layers.
 
 From 2019 to 2024 I led algorithm work in Suning's CV group, covering the **木牛流马 (Iwogh)** intelligent creative production platform, the Suning AIGC platform, the e-commerce foundation model **灵思 (LingSi)**, OCR, PS-tamper detection, and 2D lip-sync digital humans.
 

@@ -6,7 +6,7 @@ layout: default
   <h1 class="proj-page-title">{{ page.title }}</h1>
 
   {% for section in page.sections %}
-  <div class="proj-section"{% if section.id %} id="{{ section.id | escape }}" style="scroll-margin-top: 6rem;"{% endif %}>
+  <div class="proj-section">
     <h2 class="proj-section-title">{{ section.title }}</h2>
 
     {% for project in section.projects %}
